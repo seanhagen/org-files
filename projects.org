@@ -129,6 +129,14 @@ electronics stuff: [0/4]
 * Project Ideas
 ** LoRa On A Mountain
 - get a good antenna, see what kind of reception I get from Alouette Mountain
+** pocket to org sync
+- use the [[https://getpocket.com/developer/docs/overview][Pocket API]] to pull articles into an Org mode file
+- pocket tags -> org tags
+- use todo state for unread/read/archived
+- store pocket id as properties
+- can probably crib a lot of the trello<->org mode code
+
+[[https://github.com/alphapapa/org-pocket/blob/master/org-pocket.el][here's a mode]] -- might do exactly what i want!  
 ** stuff to spark project ideas
 - [[https://shop.pimoroni.com/products/1-3-spi-colour-round-lcd-240x240-breakout][round spi lcd]] - watch? it's a neat small round display
 - [[https://shop.pimoroni.com/products/gpi-raspberry-pi-zero-case][gpi case]] - retro looking gameboy case for rpi zero
