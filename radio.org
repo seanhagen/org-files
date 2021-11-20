@@ -1,0 +1,42 @@
+* Nets
+** Local Nets
+*** New Westminster
+**** NWARC
+[[http://www.nwarc.org/cms/?q=node/330][site]]
+*** Delta
+*** Burnaby
+**** BARC
+[[http://ve7bar.org/][site]]
+*** Coquitlam
+*** Surrey
+*** Richmond
+*** Vancouver
+*** VECTOR
+[[https://vectorradio.ca/][site]]
+*** Maple Ridge
+*** Pitt Meadows
+** Somewhat Nearby Nets
+*** Whistler
+*** Squamish
+*** Abottsford
+*** Chilliwack
+*** Mission
+** Island Nets
+*** Victoria
+**** Westcoast Amateur Radio Association
+[[https://www.ve7vic.ca/][site]]
+*** Other Cities
+** Interior Nets
+*** Kelowna
+*** Vernon
+*** Christina Lake
+*** Merritt
+* Gear
+- [[https://burnabyradio.com/][Burnaby Radio]]
+- [[https://www.gpscentral.ca/][GPS Central]]
+- [[https://www.gpscity.ca/][GPS City]]
+* Other Stuff
+[[https://www.canada.ca/en/environment-climate-change/services/weatheradio/find-your-network/british-columbia.html][Weather Radio Canada]]
+
+* Scheduled Nets
+** 

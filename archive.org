@@ -3322,3 +3322,115 @@ CLOSED: [2021-05-16 Sun 20:45]
 - [X] set up network gear in under stairs closet
 - [X] get dimensions of circular patio set from jysk to see if it'll fit on the patio
 
+  
+
+* From shopping.org
+
+** Stuff That's Been Bought ( And I'm Waiting For It To Arrive ) [19/19]
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-11-20 Sat 13:44
+:ARCHIVE_FILE: ~/Documents/Org/shopping.org
+:ARCHIVE_CATEGORY: shopping
+:END:
+- [X] rackmount chasis for zoneminder (26 may - 3 june)
+- [X] 1u power supply for rackmount chasis (8 june - 30 june -- fun!)
+- [X] z-wave smart thermostat ( tuesday )
+- [X] dewalt saftey glasses
+- [X] over head, over ear noise protection earmuffs ( tuesday )
+- [X] reolink bullet security camera ( wednesday )
+- [X] monitor wall mount ( wednesday )
+- [X] office chair mat ( tuesday )
+- [X] ac infinity fans for aarup ( 7 june - 29 june )
+- [X] z-wave plus usb stick ( 25 may - 2 june )
+- [X] wall mount server rack ( 8 june )
+- [X] conditioner ( saturday )
+- [X] headphone audio cable ( june 4 - june 16 )
+- [X] zwave dimmer switch ( may 26 )
+- [X] bluetooth transmitter ( may 26 )
+- [X] usb hub ( may 26 )
+- [X] headphone splitter ( may 27 )
+- [X] bar keepers friend ( may 31 - june 2 )
+- [X] scotchgard ( june 3 - june 15 )
+
+** more project materials [6/8]
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-11-20 Sat 13:44
+:ARCHIVE_FILE: ~/Documents/Org/shopping.org
+:ARCHIVE_CATEGORY: shopping
+:END:
+- [X] 23.5" long, 1/2" x2 wood
+- [X] velcro strips for power bar mounting in arrup
+- [X] outlet for server closet
+- [X] cable for server closet
+- [X] outlet box for server closet
+- [X] fastener things to keep cable on wall for server closet
+- [ ] box attachment things for wire in server closet ( x2 ? )
+- [ ]
+
+** Cars/SUVs
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-11-20 Sat 13:44
+:ARCHIVE_FILE: ~/Documents/Org/shopping.org
+:ARCHIVE_CATEGORY: shopping
+:END:
+Full Electric:
+- Ford 2021 Mustang Mach-E -- $53,995
+- Hyndai 2021 Kona Electric -- $48,757
+- Kia 2020 Niro EV EX -- $46,890
+- VW 2021 AWD Pro ID.4 -- $58,000
+- Volvo XC90 Recharge -- $98,000
+- Audi 2021 e-tron -- $95,545
+- (compact, not suv) Nissan Leaf -- $47,003
+- BMW 2021 iX -- $89,900
+
+Hybrid:
+- Toyota 2021 RAV4 Hybrid LE AWD -- $32,950
+- Subaru 2021 Crosstrek -- $28,515
+- Mitsubishi 2021 Outlander PHEV SE S-AWC -- $44,198
+- Ford 2021 Escape -- $32,549
+- Jeep 2021 Wrangler 4xe Unlimited Rubicon -- $63,185
+
+Not electric:
+- Nissan Rogue -- $28,800
+- Jeep 2021 Renegade -- $38,125
+
+** Network Gear [3/3]
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-11-20 Sat 13:44
+:ARCHIVE_FILE: ~/Documents/Org/shopping.org
+:ARCHIVE_CATEGORY: shopping
+:END:
+- [X] punch-down ethernet keystone
+- [X] cat6 ethernet cable
+- [X] punch-down tool
+
+** ordered and waiting on
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-11-20 Sat 13:45
+:ARCHIVE_FILE: ~/Documents/Org/shopping.org
+:ARCHIVE_CATEGORY: shopping
+:END:
+- ordered second power supply because i keep
+  forgetting about the one from aliexpress ( that's
+  apparently been returned to the sender???? )
+
+*** office & desk
+- [ ] usb kvm/switch
+- [ ] wall mount bracket for microphone
+- [ ] managed 5 port switch ( poe )
+  
+*** server room
+- [ ] usb to rs232 adapter cable
+  
+*** Gigabyte GA-P55-USB3
+- [ ] power supply ( amazon, apevia )
+- [ ] pcie riser cable
+    
+*** R310
+- [ ] new control board ( ebay, ordered )
+  
+*** R720XD & R810
+- [ ] hard drive screws ( assorted box of 660pcs )
+- [ ] hard drive screws ( assorted box of 500pcs )
+- [ ] hard drive screws ( m3x4.8mm 200pcs )
+

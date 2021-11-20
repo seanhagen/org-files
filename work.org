@@ -36,6 +36,20 @@ CLOCK: [2021-07-02 Fri 09:00]--[2021-07-02 Fri 17:00] =>  8:00
 
 * Code TODOs
 * Work TODOs
+** DONE generate list of burke playgrounds generating reports [#A] :@work:task:biba:
+CLOSED: [2021-08-23 Mon 11:22] SCHEDULED: <2021-08-23 Mon 10:39>
+:LOGBOOK:
+CLOCK: [2021-08-23 Mon 10:40]--[2021-08-23 Mon 11:24] =>  0:44
+:END:
+
+Added: [2021-08-23 Mon 10:39]
+** DONE import burke playgrounds into nutshell & backend [#A] :@work:task:import:
+CLOSED: [2021-08-23 Mon 10:38] SCHEDULED: <2021-08-23 Mon 10:22>
+:LOGBOOK:
+CLOCK: [2021-08-23 Mon 10:22]--[2021-08-23 Mon 10:38] =>  0:16
+:END:
+
+Added: [2021-08-23 Mon 10:22]
 ** TODO figure out what's going on with the purchase price in the events [#B] :@work:task:events:
 SCHEDULED: <2021-08-09 Mon 16:40>
 
@@ -64,8 +78,8 @@ to merge:
 SCHEDULED: <2021-09-01 Wed 10:04>
 
 Added: [2021-07-15 Thu 10:04]
-** TODO burke import process [#B]                        :@work:task:import:
-SCHEDULED: <2021-07-06 Tue 13:22>
+** DONE burke import process [#B]                        :@work:task:import:
+CLOSED: [2021-08-23 Mon 10:51] SCHEDULED: <2021-07-06 Tue 13:22>
 
 Added: [2021-07-05 Mon 13:21]
 
@@ -89,8 +103,8 @@ see: [[file:work-taskdiary.org::*burke data meeting][burke data meeting]]
 - idea is to have something on the site that shows how our games work, but is
   also a "real" biba game ( ie, gameplay + exercise )
   
-** TODO add Carr McNatt playground [#B]              :@work:task:playground:
-SCHEDULED: <2021-07-14 Wed>
+** DONE add Carr McNatt playground [#B]              :@work:task:playground:
+CLOSED: [2021-08-23 Mon 11:25] SCHEDULED: <2021-07-14 Wed>
 :LOGBOOK:
 CLOCK: [2021-05-18 Tue 16:53]--[2021-05-18 Tue 16:54] =>  0:01
 :END:
@@ -109,8 +123,8 @@ Added: [2021-05-18 Tue 16:53]
 CLOSED: [2021-07-14 Wed 10:52] SCHEDULED: <2021-07-10 Sat>
 
 Added: [2021-05-06 Thu 14:07]
-** TODO merge or rename playgrounds [#D]                 :@work:task:update:
-SCHEDULED: <2021-07-26 Mon>
+** DONE merge or rename playgrounds [#D]                 :@work:task:update:
+CLOSED: [2021-08-23 Mon 11:26] SCHEDULED: <2021-07-26 Mon>
 :LOGBOOK:
 CLOCK: [2021-04-08 Thu 10:22]--[2021-04-08 Thu 10:23] =>  0:01
 :END:
@@ -155,14 +169,14 @@ SCHEDULED: <2021-08-01 Sun>
 Added: <2020-05-07 Thu 17:24>
 https://cloud.google.com/blog/products/gcp/scheduling-dataflow-pipelines-using-app-engine-cron-service-or-cloud-functions
 ** TODO location detection
-DEADLINE: <2021-08-31 Tue> SCHEDULED: <2021-08-02 Mon>
+SCHEDULED: <2021-10-18 Mon> DEADLINE: <2021-10-29 Fri>
 Added: <2020-05-22 Fri 11:14>
 - [X] use vpn to test https://mylocationtest.appspot.com/ from multiple locations
 - [ ] see if grpc service can get the information from headers and forward to
   appengine to do location detection
 - [ ] find out if there's another way to do location detection without appengine
 ** TODO re-write gdpr data/forget handler [0/4]
-SCHEDULED: <2021-07-19 Mon> DEADLINE: <2021-07-31 Sat>
+DEADLINE: <2021-10-29 Fri> SCHEDULED: <2021-10-01 Fri>
 Added: <2020-06-02 Tue 15:17>
 - no longer using zendesk, have to store requests elsewhere
 - probably easier to just fully automate so i don't have to keep on top of these
@@ -172,7 +186,7 @@ Added: <2020-06-02 Tue 15:17>
 - [ ] handle requests to be forgotten
 - [ ] create audit log of requests
 ** TODO things to shut down in google cloud  [0/4]
-SCHEDULED: <2021-08-01 Sun>
+SCHEDULED: <2021-10-04 Mon>
 Added: <2020-06-05 Fri 14:20>
 - [-] biba-backend [0/6]
   - [ ] app engine [0/5]

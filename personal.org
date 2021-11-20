@@ -7,7 +7,11 @@
 
 Added: [2021-04-06 Tue 11:46]
 confirmation number: R - M 7 6 Y M 8 Q N
-** TODOs
+** ideas for numenera game                         :@personal:reminder:game:
+Added: [2021-09-22 Wed 11:01]
+
+- race of intelligent beavers named "timberborn"
+* TODOs
 ** TODO write post                                     :@personal:task:blog:
 SCHEDULED: <2021-07-17 Sat>
 https://hackernoon.com/open-source-effect-on-build-vs-buy-az1l35xl
@@ -15,8 +19,8 @@ https://hackernoon.com/open-source-effect-on-build-vs-buy-az1l35xl
 open source doesn't change anything, build yourself has more than a person-cost,
 there's infrastructure cost as well
 Added: [2021-06-24 Thu 12:51]
-** TODO weekend plan                              :@personal:task:townhouse:
-SCHEDULED: <2021-07-17 Sat>
+** DONE weekend plan                              :@personal:task:townhouse:
+CLOSED: [2021-09-11 Sat 12:13] SCHEDULED: <2021-07-17 Sat>
 Added: [2021-05-27 Thu 18:17]
 
 stuff to get done this weekend [28/31]:
@@ -62,7 +66,8 @@ house stuff:
 - [X] scotchgard couch & blue cushions
 - [X] mount power bar in entertainment unit
   
-** TODO buy and install protective cover for wall behind bins in garage
+** DONE buy and install protective cover for wall behind bins in garage
+CLOSED: [2021-09-11 Sat 12:13]
 need to get some vinyl or something from home depot/lowes to put up behind the
 bins so the wall doesn't get dinged up, and to also protect the wall from
 backspray from the hose
@@ -95,6 +100,11 @@ options:
 Added: [2021-04-27 Tue 23:15]
 
 * Meetings
+** Zoom Interview with Jane CTO           :@personal:meeting:jane:interview:
+Added: [2021-11-15 Mon 10:30]
+
+- no ego => how i want to run code reviews (story on github stuff)
+- 
 ** DONE phone call to setup meeting            :@personal:meeting:townhouse:
 CLOSED: [2021-05-18 Tue 14:13]
 :LOGBOOK:
@@ -102,3 +112,9 @@ CLOCK: [2021-04-28 Wed 16:00]--[2021-04-28 Wed 16:25] =>  0:25
 :END:
 Added: [2021-04-28 Wed 16:59]
 
+
+* TTRPG
+** Numenera Session Zero                                   :@ttrpg:numenera:
+Added: [2021-09-25 Sat 12:01]
+- Use the 'Atlas' game to build the map? ( bought it on DriveThruRPG at some
+  point )

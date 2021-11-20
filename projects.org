@@ -20,8 +20,115 @@ good bet it's a good piece to use when i need a portable pi zero
 not something that's the seed of a project on it's own, but could be useful in
 various projects
 - [[https://elmwoodelectronics.ca/collections/adafruit/products/adafruit-i2c-non-volatile-fram-breakout-256kbit-32kbyte][fram breakout]] -- 256Kbits of storage over i2c
+  
+* Projects I'm Working On
+** weather station [0/8]
+- almost done, stuff left to do
+- [ ] fix code so wind direction & speed is reported
+- [ ] fix code so rainfall is reported
+- [ ] do a bit more testing to see how much power it needs
+- [ ] figure out what sized battery & solar panel to get
+- [ ] figure out enclosure
+- [ ] figure out if going with external uva/uvb sensor ( over qwicc connector,
+  probably )
+- [ ] figure out how everything gets mounted on long pole
+- [ ] install!
 
-* Project Idea
+** halloween display [0/2]
+- [ ] design ship
+- [ ] determine what electronics are needed
+  
+*** list of parts needed
+electronics stuff: [0/4]
+- [ ] rgb led strip
+- [ ] way to make sounds
+- [ ] way to control fan
+- [ ] way to control fog machine
+
+** wedding photo booth for erin
+- bought the thermal printer, need to play around with that to learn how it works
+- using thermal printer for qr code/website for photos? or for printing out
+  low-res versions of the photos taken?
+- plan out how the project will work
+  - photos just on device, or uploaded to cloud? ( probably uploaded )
+  - interface -- screen, or just a lcd character display? countdown to photos?
+
+** LoRa
+- have some lora boards, should do something with them
+  
+*** lora gps tracker
+- build small LoRa transmitter that can transmit GPS coordinates so I can see
+  what kind of reception I get from LoRa
+  
+*** mountain top test
+- just wanna see if i can get a connection from up on a mountain to a lora
+  transceiver running at home
+  
+** MagTag
+- build a small display for the fridge
+  - what to display?
+    - events from our calendars in the next few days
+    - bin pickup & which bins need to be put out
+    - weather & temperature?
+      
+** Slack display
+- use rpi screen to make something for setting status easier in slack
+  
+** macro keyboards
+- have 3 ( adafruit, kickstarter, and one yet to be built )
+- need to figure out what to do with them
+*** adafruit rp2040 macro pad
+- 12 keys + rotary encoder w/button + small oled display
+*** 6-key macro pad
+- just 6 keys
+*** promico macro keyboard
+- has to be assembled
+- not sure i've got all the parts yet
+- has 13 keys ( or 12 + 1 rotary encoder or 11 + 2 rotary encoder )
+- can potentially have lcd display
+  
+** pycam
+- have little camera board with wifi shield
+- could make little camera for... something?
+  
+** micro-bit & adafruit clue
+- right now planning to use them as little sub-controllers for cyberdeck
+
+  
+** circuit playground express
+- have two now, came with orders for free
+- look ideal for cosplay with conductive thread, maybe?
+
+** adafruit neo trinkey
+- little programmable usb key with 4 neo-pixel, 2 touch buttons
+
+** espruino pico
+- another usb form-factor, by default can be programmed with javascript ( neat? )
+
+** fomu
+- little fpga usb key, could be used for something neat
+
+** 8bitcade xl
+- should make a game for it
+
+** raspberry pi 1B
+- could potentially do something neat with the composite video and an old tv
+
+** raspberry pi 4B
+- set up as steam link to play games downstairs on couch
+
+** raspberry pi zero - smart speakers
+- have the pimoroni hat for speakers, just need to set up
+
+** raspberry pi zero - mobile audio
+- have pimoroni hat for headphones, just need to set up
+
+** home automation smart speaker
+- so that we can control stuff with our voice again
+
+* Project Ideas
+** LoRa On A Mountain
+- get a good antenna, see what kind of reception I get from Alouette Mountain
 ** stuff to spark project ideas
 - [[https://shop.pimoroni.com/products/1-3-spi-colour-round-lcd-240x240-breakout][round spi lcd]] - watch? it's a neat small round display
 - [[https://shop.pimoroni.com/products/gpi-raspberry-pi-zero-case][gpi case]] - retro looking gameboy case for rpi zero
@@ -166,6 +273,10 @@ helpful:
 [[https://medium.com/@farissyariati/go-raspberry-pi-hello-world-tutorial-7e830d08b3ae][gpio in raspberry pi from go]]
 [[https://github.com/warthog618/gpiod][go library for gpio]]
 [[https://github.com/stianeikeland/go-rpio][another gpio library for go]]
+
+** magtag fridge display
+figure out what would be good to display on the magtag eink that would only need
+updating like once every hour or something
 
 **  pi zero portable audio player
 - [[https://abra-electronics.com/robotics-embedded-electronics/raspberry-pi-zero/wave-19739-ups-hat-for-raspberry-pi-zero-stable-5v-power-output.html][battery ups hat]]
@@ -386,9 +497,11 @@ i want to have cartridges for different functions, because cartridges
 **** [[https://www.crystalfontz.com/product/cfaf800480e1050sna2-800x480-5-inch-eve-tft][5" 800x480 tft]]
 **** [[https://www.crystalfontz.com/product/cfaf800480e1050sca2-800x480-cap-touch-eve-tft-module][5" 800x480 capacitive touchscreen tft]]
 *** keyboard
+need 61 keys for 60% keyboard
+**** [[https://www.aliexpress.com/item/4001204818828.html?spm=a2g0o.productlist.0.0.54072644vxDc84&algo_pvid=e199ad20-42ba-45e1-9ae3-61ba53168db0&algo_exp_id=e199ad20-42ba-45e1-9ae3-61ba53168db0-1&pdp_ext_f=%7B%22sku_id%22%3A%2210000015292923796%22%7D][kailh switch tester]]
 **** [[https://novelkeys.xyz/products/kailh-low-profile-switches?variant=3747939713064][low profile kailh choc switches]]
-**** [[https://www.adafruit.com/product/5113][Kailh CHOC low profile red, 10-pack]]
-**** [[https://www.adafruit.com/product/5111][Kailh CHOC slim key caps]]
+**** [[https://www.adafruit.com/product/5113][Kailh CHOC low profile red, 10-pack]] [[https://www.aliexpress.com/item/32959996455.html?spm=a2g0o.productlist.0.0.54072644vxDc84&algo_pvid=e199ad20-42ba-45e1-9ae3-61ba53168db0&algo_exp_id=e199ad20-42ba-45e1-9ae3-61ba53168db0-2&pdp_ext_f=%7B%22sku_id%22%3A%2266472614428%22%7D][aliexpress]]
+**** [[https://www.adafruit.com/product/5111][Kailh CHOC slim key caps]] [[https://www.aliexpress.com/item/32915900901.html?spm=a2g0o.detail.1000060.1.b3ff4cadSYXSrY&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.169870.0&scm_id=1007.13339.169870.0&scm-url=1007.13339.169870.0&pvid=ef064521-8684-447f-9035-115e3549a362&_t=gps-id:pcDetailBottomMoreThisSeller,scm-url:1007.13339.169870.0,pvid:ef064521-8684-447f-9035-115e3549a362,tpp_buckets:668%230%23131923%232_668%230%23131923%232_668%23888%233325%237_668%23888%233325%237_668%232846%238114%231999_668%235811%2327172%236_668%236421%2330821%2349_668%232717%237564%23632_668%231000022185%231000066058%230_668%236808%2332777%23830_668%233468%2315608%23124_668%232846%238114%231999_668%235811%2327172%236_668%236421%2330821%2349_668%232717%237564%23632_668%233164%239976%23105_668%236808%2332777%23830_668%233468%2315608%23124&&pdp_ext_f=%7B%22sceneId%22:%223339%22,%22sku_id%22:%2265927303419%22%7D][aliexpress]]
 *** battery/power
 **** [[https://www.crowdsupply.com/pi-supply/pijuice-zero][pijuice zero]]
 *** wifi
@@ -401,25 +514,30 @@ later lookup
 - use TensorFlow to train a model that can identify MTG cards ( maybe even Star
   Wars CCG ones, as a separate model? )
 
-** portable audio
-*** [[https://www.sparkfun.com/products/16326][pimoroni pirate audio headphone amp]]
+** nixie tube thermometer?
+could make a neat clock + thermometer display using nixie tubes
+[[https://www.tindie.com/products/marcinsaj/nixie-tube-driver-v1-k155id1-74141-replacement/][nixie tube driver breakout]]
 
-- rpi zero & pirate audio hat ordered
+** portable audio
+- [[https://www.sparkfun.com/products/16326][pimoroni pirate audio headphone amp]]
+ - rpi zero & pirate audio hat ordered
 
 to figure out:
 - portable power ( battery hat? just use usb battery pack? )
+ - [[https://abra-electronics.com/robotics-embedded-electronics/raspberry-pi-zero/wave-19739-ups-hat-for-raspberry-pi-zero-stable-5v-power-output.html][battery ups hat]]
+ - [[https://abra-electronics.com/robotics-embedded-electronics/raspberry-pi-zero/ups-hat-for-raspberry-pi-zero.html][another ups hat]]
 
 ** stereo thing
-*** [[https://www.sparkfun.com/products/16324][pimoroni pirate audio 3w stereo amp]]
-*** [[https://www.sparkfun.com/products/17738][raspberry pi iqaudio dac+]]
-
+- [[https://www.rickmakes.com/routing-audio-from-a-usb-turntable-to-hdmi-using-a-raspberry-pi/][get audio from turntable]]
+- [[https://dupontgu.medium.com/how-to-stream-your-record-player-throughout-your-home-for-cheap-fb044368a240][more instructions]]
+- [[https://www.youtube.com/watch?v=NSyDTF0fmCs][youtube vid]]
+- [[https://www.sparkfun.com/products/16324][pimoroni pirate audio 3w stereo amp]]
+- [[https://www.sparkfun.com/products/17738][raspberry pi iqaudio dac+]]
 - rpi zero & pirate audio hat ordered
-- usb otg cable ordered ( for usb audio capture device )
-**** need to get [0/2]
-- [ ] usb audio capture device
-- [ ] turntable
-
-
+- usb otg cable ordered ( for usb audio capture device
+- need to get [0/2]
+ - [ ] usb audio capture device
+ - [ ] turntable
 * House Projects
 ** Office
 - [[https://www.amazon.ca/PWAY-Extender-Single-Ethernet-Function/dp/B08LR2PM93/ref=sr_1_6?dchild=1&keywords=usb+hdmi+extender&qid=1622675119&sr=8-6][hdmi & usb extender]] -- maybe put computers in closet?

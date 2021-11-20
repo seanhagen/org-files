@@ -167,12 +167,34 @@ Added: <2021-08-18 Wed 10:05>
 
 - cmf stuff for mike & byron
 - talking to byron about climate
+  
+**** 2021-08-19 Thursday
+***** cmf application meeting                         :@work:meeting:cmf:
+:LOGBOOK:
+CLOCK: [2021-08-19 Thu 14:08]--[2021-08-19 Thu 15:12] =>  1:04
+:END:
+Added: <2021-08-19 Thu 14:07>
+
+needed from me:
+- a couple of paragraphs on our game tech stack
+  - what we use ( unity & google cloud )
+  - what we use for ar, any other unity plugins
+  - write as if talking to another tech person
+
+**** 2021-08-23 Monday
+***** morning standup                                :@work:meeting:biba:
+:LOGBOOK:
+CLOCK: [2021-08-23 Mon 10:05]--[2021-08-23 Mon 10:15] =>  0:10
+:END:
+Added: <2021-08-23 Mon 10:05>
+- [ ] get list of new burke playgrounds that have generated report for byron -> [[file:work.org::*generate list of burke playgrounds generating reports \[#A\]][task]]
+- [X] run import of burke playgrounds -> [[file:work.org::*import burke playgrounds into nutshell & backend \[#A\]][task]]
 * Tasks
 ** 2021
 *** 2021-06 June
 **** 2021-06-22 Tuesday
-***** TODO mailout errors & unsubs for sean [#A]    :@work:other:reports:
-SCHEDULED: <2021-07-09 Fri>
+***** DONE mailout errors & unsubs for sean [#A]    :@work:other:reports:
+CLOSED: [2021-08-23 Mon 11:25] SCHEDULED: <2021-07-09 Fri>
 :LOGBOOK:
 CLOCK: [2021-07-23 Fri 10:10]--[2021-07-23 Fri 10:20] =>  0:10
 :END:
@@ -180,7 +202,8 @@ Added: [2021-06-22 Tue 09:10]
 
 *** 2021-07 July
 **** 2021-07-12 Monday
-***** TODO generate list of active biba playgrounds near perryville, mo :@work:ask:playgrounds:
+***** DONE generate list of active biba playgrounds near perryville, mo :@work:ask:playgrounds:
+CLOSED: [2021-08-23 Mon 11:25]
 :LOGBOOK:
 CLOCK: [2021-07-12 Mon 09:44]--[2021-07-12 Mon 09:58] =>  0:14
 :END:
@@ -189,7 +212,8 @@ Added: [2021-07-12 Mon 09:43]
 generated: https://docs.google.com/spreadsheets/d/1YEg_NMnK3hp4YVzEsHbvYxcsh8V7ZDS85NBDFD3qzQc/edit?usp=sharing
 
 **** 2021-07-23 Friday
-***** TODO errors and bounces and unsubs                  :@work:ask:ask:
+***** DONE errors and bounces and unsubs                  :@work:ask:ask:
+CLOSED: [2021-08-23 Mon 11:25]
 :LOGBOOK:
 CLOCK: [2021-07-23 Fri 10:08]--[2021-07-23 Fri 10:18] =>  0:10
 :END:
@@ -199,9 +223,33 @@ https://docs.google.com/spreadsheets/d/17i-dRkQw9eKqIixjeKrLpkmz0NMQve6lb6PDthZn
 *** 2021-08 August
 
 **** 2021-08-04 Wednesday
-***** TODO find report for playground                 :@work:ask:reports:
+***** DONE find report for playground                 :@work:ask:reports:
+CLOSED: [2021-08-23 Mon 11:25]
 :LOGBOOK:
 CLOCK: [2021-08-04 Wed 13:06]--[2021-08-04 Wed 13:15] =>  0:09
 :END:
 Added: [2021-08-04 Wed 13:06]
 external id: MR00107876
+
+*** 2021-09 September
+
+**** 2021-09-12 Sunday
+***** TODO playground address update [#A]               :@work:other:ask:
+SCHEDULED: <2021-09-12 Sun 18:58>
+
+From Slack:
+
+"Just a quick note on our website 'where to find' section:
+
+For Brunton Park Playground - Barrie, Ontario, the address reads as: 24-6, Brunton Crescent, Barrie, ON L4N 7H2, Canada.
+
+This address needs to be updated to: Highland Park, 25 MacLaren Ave, Barrie, ON L4N 3Y1"
+
+
+Added: [2021-09-12 Sun 18:58]
+
+**** 2021-09-20 Monday
+***** TODO errors for sean f from most recent mail-out [#A] :@work:other:reports:
+SCHEDULED: <2021-09-20 Mon 17:44>
+
+Added: [2021-09-20 Mon 17:44]

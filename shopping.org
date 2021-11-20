@@ -28,7 +28,6 @@
 - [ ] [[https://www.homedepot.ca/product/ryobi-18v-one-airstrike-18-gauge-cordless-brad-nailer-tool-only-/1000681783?rrec=true][brad nailer]]
 - [ ] [[https://www.homedepot.ca/product/ryobi-18v-one-cordless-1-gal-portable-air-compressor-tool-only-/1001214064][portable air compressor]]
 * Garage Workshop Setup
-
 - [[https://www.powdercoatguide.com/2014/06/how-to-dry-compressed.html#.VX-3VlI72KU][need to remove water/vapor from compressed air]]
 ** Inspiration
 - [[https://www.shanty-2-chic.com/2018/02/diy-cabinets.html][ryobi and organized]]
@@ -82,12 +81,6 @@
 ** Neat Ideas
 -[[https://ibuildit.ca/projects/wooden-gantry-crane/][ wooden gantry crane]]
 - [[https://www.instructables.com/Dust-Free-Sanding-Using-a-Storage-Container/?linkId=76202755][dust free sanding setup]]
--
-* Network Gear [3/3]
-- [X] punch-down ethernet keystone
-- [X] cat6 ethernet cable
-- [X] punch-down tool
-  
 * Home Automation Stuff
 ** Notes
 [[https://www.youtube.com/watch?v=sVqyDtEjudk][home assistant.io setup guide video]]
@@ -301,6 +294,10 @@ Nameless?
 - [ ] https://www.menshealth.com/grooming/g21601437/best-face-scrubs-for-men/
 - [ ] https://www.tiege.com/products/mens-exfoliating-scrub
 
+*** Shampoo & Conditioner Combo
+- Frederick Benjamin [[https://shop.frederickbenjamin.com/collections/hair-care/products/shampoo-invigorating-cleanser][shampoo]] & [[https://shop.frederickbenjamin.com/products/conditioner-invigorating-moisturizer][conditioner]]
+- ULTA Beauty [[https://www.ulta.com/p/natural-balance-apple-cider-vinegar-sulfate-free-shampoo-xlsImpprod16371007][shampoo]] & [[https://www.ulta.com/p/natural-boost-apple-cider-vinegar-conditioner-xlsImpprod16371009][conditioner]]
+
 *** Hair Shampoo [0/9]
 - might be time to think about using not head & shoulders
 - [ ] [[https://www.aesop.com/us/p/hair/hair-cleanse/calming-shampoo/][Aesop Calming Shampoo]]
@@ -486,67 +483,50 @@ home depot for the table saw?
   - [ ] living room ( shelly h&t )
 - [ ] flood sensors (1, for server closet)
 - [ ] motion sensor (1, laundry closet)  
-** Server Closet [7/8]
-- [X] network equipment 6U rack
-- [X] patch panel ( no keystones installed )
-- [X] 6U vertical server rack
-- [X] poe switch
-- [X] managed switch ( bought: WS-C3560G-48PS-S )
-- [X] new chasis for freenas server
-- [X] new chassi for old plex -- becoming zoneminder/security server
-- [ ] power distribution 
+** Server Closet [0/4]
+- [ ] power distribution
+- [ ] stand-up rack ( server closet wishlist on amazon )
+- [ ] better venting, look for 1000CFM ( minimum ) fan -- see [[https://www.amazon.ca/hz/wishlist/genericItemsPage/1BAF3R116VC7N][server closet
+  wishlist on amazon]], also [[https://www.acinfinity.com/component-cooling/closet-fan-systems/airframe-t7-n-black-av-equipment-closet-and-room-fan-system-17-intake/][this]]
+- [ ] [[https://www.amazon.ca/dp/B083N35SCZ/][server rack rails]]
+*** server closet btu & cfm calculations
+cfm = BTU/hr / ( 1.1 * deltaT )
 
-* Stuff That's Been Bought ( And I'm Waiting For It To Arrive ) [19/19]
-- [X] rackmount chasis for zoneminder (26 may - 3 june)
-- [X] 1u power supply for rackmount chasis (8 june - 30 june -- fun!)
-- [X] z-wave smart thermostat ( tuesday )
-- [X] dewalt saftey glasses
-- [X] over head, over ear noise protection earmuffs ( tuesday )
-- [X] reolink bullet security camera ( wednesday )
-- [X] monitor wall mount ( wednesday )
-- [X] office chair mat ( tuesday )
-- [X] ac infinity fans for aarup ( 7 june - 29 june )
-- [X] z-wave plus usb stick ( 25 may - 2 june )
-- [X] wall mount server rack ( 8 june )
-- [X] conditioner ( saturday )
-- [X] headphone audio cable ( june 4 - june 16 )
-- [X] zwave dimmer switch ( may 26 )
-- [X] bluetooth transmitter ( may 26 )
-- [X] usb hub ( may 26 )
-- [X] headphone splitter ( may 27 )
-- [X] bar keepers friend ( may 31 - june 2 )
-- [X] scotchgard ( june 3 - june 15 )
-  
-* more project materials [6/8]
-- [X] 23.5" long, 1/2" x2 wood
-- [X] velcro strips for power bar mounting in arrup
-- [X] outlet for server closet
-- [X] cable for server closet
-- [X] outlet box for server closet
-- [X] fastener things to keep cable on wall for server closet
-- [ ] box attachment things for wire in server closet ( x2 ? )
-- [ ] 
-* Cars/SUVs
-Full Electric:
-- Ford 2021 Mustang Mach-E -- $53,995
-- Hyndai 2021 Kona Electric -- $48,757
-- Kia 2020 Niro EV EX -- $46,890
-- VW 2021 AWD Pro ID.4 -- $58,000
-- Volvo XC90 Recharge -- $98,000
-- Audi 2021 e-tron -- $95,545
-- (compact, not suv) Nissan Leaf -- $47,003
-- BMW 2021 iX -- $89,900
+2532 BTU/hr
 
-Hybrid:
-- Toyota 2021 RAV4 Hybrid LE AWD -- $32,950
-- Subaru 2021 Crosstrek -- $28,515
-- Mitsubishi 2021 Outlander PHEV SE S-AWC -- $44,198
-- Ford 2021 Escape -- $32,549
-- Jeep 2021 Wrangler 4xe Unlimited Rubicon -- $63,185
+deltaT = inside server closet - outside server closet
+deltaT = 40 - 35 => 5 ( warm day )
+deltaT = 40 - 33 => 7 ( most days? )
+deltaT = 40 - 25 => 15 ( colder day )
+deltaT = 40 - 10 => 30 ( somehow garage gets as cold as outside in winter )
+estimate BTU/hr per server
 
-Not electric:
-- Nissan Rogue -- $28,800
-- Jeep 2021 Renegade -- $38,125
+dell 720xd 3000 btu/hr
+dell 810   3000 btu/hr
+dell 410   3000 btu/hr
+
+micro1 800btu/hr
+micro2 800btu/hr
+
+small1 1200btu/hr
+small2 1200btu/hr
+small3 1200btu/hr
+
+cisco switch 600 btu/hr
+
+total btu/hr: 14800 BTU/hr
+
+garage is hot:
+CFM = 15000 / (1.1 * 5 ) = 3000 CFM
+
+garage average-ish:
+CFM = 15000 / (1.1 * 7 ) = 2000 CFM
+
+garage is cold:
+CFM = 15000 / (1.1 * 15) = 1000 CFM
+
+garage is super cold:
+CFM = 15000 / (1.1 * 30) = 500 CFM
 
 * Wood Supply Places
 places to get wood:
@@ -557,31 +537,6 @@ places to get wood:
  - Windsor Plywood [ 2280 Holdom Ave, Burnaby -- right near Holdom Skytrain ]
  - Dick's Lumber [ 2580 Gilmore Ave, Burnaby -- right near Home Depot & Gilmore Skytrain ]
   
-* ordered and waiting on
-- ordered second power supply because i keep
-  forgetting about the one from aliexpress ( that's
-  apparently been returned to the sender???? )
-
-** office & desk
-- [ ] usb kvm/switch
-- [ ] wall mount bracket for microphone
-- [ ] managed 5 port switch ( poe )
-  
-** server room
-- [ ] usb to rs232 adapter cable
-  
-** Gigabyte GA-P55-USB3
-- [ ] power supply ( amazon, apevia )
-- [ ] pcie riser cable
-    
-** R310
-- [ ] new control board ( ebay, ordered )
-  
-** R720XD & R810
-- [ ] hard drive screws ( assorted box of 660pcs )
-- [ ] hard drive screws ( assorted box of 500pcs )
-- [ ] hard drive screws ( m3x4.8mm 200pcs )
-
 * Horus Heresy Books [58/59]
 - [X] Horus Rising
 - [X] False Gods

@@ -4,6 +4,12 @@
 # eval: (auto-revert-mode)
 # End:
 * Radio
+** Research [0/4]
+Some radio modes to learn about
+- [ ] DMR
+- [ ] P-25
+- [ ] D-Star
+- [ ] System Fusion
 ** Wave Bubble
 Make one at some point: https://www.ladyada.net/make/wavebubble/index.html
 ** lora gateway
@@ -240,6 +246,12 @@ smoke that breaks reality
 - smoke from forest fires that causes strange things to happen
 - after it leaves the sky is wrong
 Added: [2020-09-14 Mon 21:13]
+** diy scanner
+build something with a usb sdr and a screen that scans ham & cb freqs and plays
+what it finds
+
+need a screen for waveform output, a few buttons for input
+
 ** shank drone
 make a drone that looks like a drone from destiny
 model: https://sketchfab.com/3d-models/destiny-fallen-shank-test-cfb74697d746421998a5517ab7f81ffe
@@ -253,7 +265,8 @@ Added: [2021-04-14 Wed 15:16]
 
 [[https://vancityliveedge.ca/product-category/inventory/][local live edge wood supply]]
 
-** TODO computer desk
+** DONE computer desk
+CLOSED: [2021-11-14 Sun 12:45]
 https://www.youtube.com/watch?v=Zrjp_F5FSjo
 
 [[https://www.youtube.com/watch?v=Zrjp_F5FSjo][cnc front design idea]] -- also a cool hidden drawer thing
