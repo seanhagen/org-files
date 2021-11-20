@@ -1,0 +1,428 @@
+#+FILETAGS: @personal
+#+CATEGORY: Hacking
+# Local Variables:
+# eval: (auto-revert-mode)
+# End:
+* Radio
+** Wave Bubble
+Make one at some point: https://www.ladyada.net/make/wavebubble/index.html
+** lora gateway
+https://www.sparkfun.com/products/15336
+** ubertooth one
+https://www.sparkfun.com/products/10573
+an open source 2.4 GHz device suitable for Bluetooth experimentation
+** ubertooth one
+https://shop.hak5.org/products/ubertooth-one
+** limesdr mini
+usb sdr
+https://www.sparkfun.com/products/15029
+** getting started with ubertooth one
+https://hackersgrid.com/2018/07/ubertooth-one-getting-started-kali-linux.html
+** limesdr made simple
+https://myriadrf.org/news/limesdr-made-simple-part-9-vna/
+** gqrx sdr
+https://gqrx.dk/
+linux sdr software
+** soapysdr
+https://github.com/pothosware/SoapySDR/wiki
+** sdrangel
+gui for signal analyzer
+https://github.com/f4exb/sdrangel#:~:text=SDRangel%20is%20an%20Open%20Source,be%20found%20in%20the%20Wiki.
+** hackaday on rtl-sdr
+https://hackaday.com/2019/07/31/rtl-sdr-seven-years-later/
+** nooelec nesdr mini -- rtl-sdr compatible
+https://www.amazon.ca/NooElec-NESDR-Mini-Compatible-Packages/dp/B009U7WZCA/ref=sr_1_7?dchild=1&keywords=rtl-sdr&qid=1597973238&sr=8-7
+** nooelect elecsdr smart hf bundle
+https://www.amazon.ca/NooElec-NESDR-Smart-HF-Bundle/dp/B0747PX3NZ/ref=sr_1_5?dchild=1&keywords=rtl-sdr&qid=1597973238&sr=8-5
+** sdr -- on-the-go bundle ( works with android phones )
+https://www.amazon.ca/NESDR-Nano-OTG-USB-C-Go/dp/B07XPZMDZV/ref=sr_1_6?dchild=1&keywords=rtl-sdr&qid=1597973238&sr=8-6
+** nooelect smartv4 sdr
+https://www.amazon.ca/Nooelec-NESDR-SMArt-SDR-R820T2-Based/dp/B01HA642SW/ref=sr_1_4?dchild=1&keywords=rtl-sdr&qid=1597973238&sr=8-4* Hacking
+** bluebugging
+https://null-byte.wonderhowto.com/how-to/bt-recon-snoop-bluetooth-devices-using-kali-linux-0165049/
+** little handheld game kit thing
+https://www.digikey.com/products/en?mpart=4277&v=1528
+** thermal printer -- could be fun?
+https://www.adafruit.com/product/2751#technical-details
+** rpi zero easy camera
+https://www.adafruit.com/product/3579
+** rpi pirate radio kit
+https://www.adafruit.com/product/3477
+** rpi headphone amp
+https://www.adafruit.com/product/4454
+** arcade cabinet controller board thing
+https://www.adafruit.com/product/4518
+** NeTV thing
+- allows the overlay of custom content into an hdmi video feed
+https://www.adafruit.com/product/609
+- could be used to have an overlay built into the input of a game before going
+  into a video capture device
+** using esp8266 with rpi
+https://www.i-programmer.info/programming/hardware/10037-raspberry-pi-wifi-with-the-esp8266-.html
+** esp8266 wifi attack stuff
+https://null-byte.wonderhowto.com/how-to/scan-fake-attack-wi-fi-networks-with-esp8266-based-wifi-deauther-0193837/
+** rtl-sdr store
+https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/
+** a bunch of linux sdr software in single rpi image
+https://hackaday.com/2019/12/20/all-your-sdr-software-in-a-handy-raspberry-pi-image/
+** dump1090 -- rtl-sdr software
+https://github.com/antirez/dump1090
+** pisdr -- image pre-loaded with sdr tools
+https://pisdr.luigi.ltd/
+** limenet micro
+sdr platform for pi compute module
+https://www.crowdsupply.com/lime-micro/limenet-micro
+** limesdr mini
+usb sdr
+https://limemicro.com/products/boards/limesdr-mini/
+** nooelec nesdr nano
+tiny usb sdr
+https://www.amazon.ca/NooElec-NESDR-Nano-Ultra-Low-Compatible/dp/B01B4L48QU/ref=pd_di_sccai_40?_encoding=UTF8&pd_rd_i=B01B4L48QU&pd_rd_r=4a37888b-8d49-459c-aa6d-549cda6e2af0&pd_rd_w=VVq2L&pd_rd_wg=WFi2O&pf_rd_p=a5f9e780-487d-4881-a2b8-b9a00c4b0707&pf_rd_r=YS1538SED3R0H5T9G4H0&psc=1&refRID=YS1538SED3R0H5T9G4H0
+** Xiegu G90 HF Amateur Radio Transceiver 20W SSB/CW/AM/FM 0.5-30MHz SDR Structure with Built-in Auto Antenna Tuner
+https://www.amazon.ca/Xiegu-Amateur-Transceiver-0-5-30MHz-Structure/dp/B07PQQVPDD/ref=pd_di_sccai_36
+** possibly best sdr?
+bladerf
+https://www.nuand.com/product/bladerf-xa4/
+costs $480 though, don't get until deep into sdr
+* Cyberdeck
+** ALFA Network AWUS036AC Long-Range Wide-Coverage Dual-Band AC1200 USB Wireless Wi-Fi Adapte
+https://www.amazon.com/gp/product/B01B33WU82
+** touch pad
+https://www.ergonomictouchpad.com/
+** pi zero battery hat
+https://www.tindie.com/products/pisugar/pisugar2-battery-for-raspberry-pi-zero/
+** noise generator to prevent listening in on conversation
+https://www.kjbsecurity.com/products/detail/rabbler-noise-generator/857/
+** battery bank for rpi
+https://www.buyapi.ca/product/compact-rechargeable-battery-for-raspberry-pi/
+** rpi ups board
+https://sixfab.com/product/raspberry-pi-power-management-ups-hat/
+** rpi lte cell board
+https://sixfab.com/product/raspberry-pi-4g-lte-modem-kit/
+** e-ink display
+https://elmwoodelectronics.ca/products/adafruit-1-54-tri-color-eink-epaper-display-with-sram-red-black-white?pr_prod_strat=copurchase&pr_rec_pid=1203750142004&pr_ref_pid=905318826036&pr_seq=uniform
+** trackball breakout
+https://elmwoodelectronics.ca/products/pim447?variant=28620994052148&currency=CAD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&utm_campaign=gs-2019-02-19&utm_source=google&utm_medium=smart_campaign
+** trackball with replaceable buttons
+https://shop.xgaming.com/products/x-arcade-trackball-assembly-usb
+** wifi module for older rpis
+https://www.amazon.com/gp/product/B01B33WU82/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=sl1&tag=ilumi03-20&linkId=a3499681456797b8c95856d1af279cd0&language=en_US
+* Hacking
+** shark jack
+https://shop.hak5.org/collections/sale/products/shark-jack
+"This portable network attack tool is a pentesters best friend
+optimized for social engineering engagements and opportunistic
+wired network auditing. Out-of-the-box it's armed with an ultra
+fast nmap payload, providing quick and easy network reconnaissance.
+The simple scripting language and attack/arming switch make loading
+payloads a breeze, and the RGB LED provides instant feedback on
+attack stages."
+** small ossiliscope for tablet/phone
+https://www.lab-nation.com/store
+** ardunio battery pack
+https://ns-electric.com/product/energyshield-2/
+** 3g/4g/lte hat for rpi
+https://sixfab.com/product/raspberry-pi-base-hat-3g-4g-lte-minipcie-cards/?utm_medium=ppc&utm_campaign=Shopping+%7C+CA+-+All+Products+%7C+All+User+%7C+All+Device&utm_term=&utm_source=adwords&hsa_src=g&hsa_net=adwords&hsa_kw=&hsa_tgt=pla-297816780383&hsa_ad=432145859728&hsa_grp=104085770841&hsa_mt=&hsa_acc=6308888758&hsa_ver=3&hsa_cam=9916163650
+** multiple radio hat for rpi
+gps, lowra
+https://sixfab.com/product/raspberry-pi-lte-m-nb-iot-egprs-cellular-hat/?attribute_hardware-version=North+America+-+Verizon+Certified(R1.2_TX3.0)&utm_medium=ppc&utm_campaign=Shopping+%7C+CA+-+All+Products+%7C+All+User+%7C+All+Device&utm_term=&utm_source=adwords&hsa_src=g&hsa_net=adwords&hsa_kw=&hsa_tgt=pla-298214617868&hsa_ad=432145859728&hsa_grp=104085770841&hsa_mt=&hsa_acc=6308888758&hsa_ver=3&hsa_cam=9916163650
+** wittypi power hat thing
+http://www.uugear.com/product/wittypi2/
+** cell & gps hat for pi
+https://www.linkwave.co.uk/pilot
+** do medical stuff with a pi!
+https://healthypi.protocentral.com/
+** fun square buttons from adafruit
+https://www.adafruit.com/product/1010
+** fun square buttons
+https://www.amazon.com/EG-STARTS-Illuminated-Machine-Consoles/dp/B06XBLH25X
+** Witty Pi 3 - RTC + Power Management for Raspberry Pi
+https://thepihut.com/collections/raspberry-pi-hats/products/wittypi3-rtc-power-management-for-raspberry-pi
+** HiFiBerry DAC+ Zero
+https://thepihut.com/collections/raspberry-pi-hats/products/hifiberry-dac-zero
+** HiFiBerry Digi+
+S/PDIF output board for any 40-pin Raspberry Pi
+https://thepihut.com/collections/hifiberry/products/hifiberry-digi-standard-version
+** HiFiBerry DAC+ Pro XLR
+https://thepihut.com/collections/hifiberry/products/hifiberry-dac-plus-pro-xlr
+** Pirate Audio: 3W Stereo Amp for Raspberry Pi
+https://thepihut.com/collections/raspberry-pi-hats/products/pirate-audio-3w-stereo-amp-for-raspberry-pi
+** Pirate Audio: Line-out for Raspberry Pi
+https://thepihut.com/collections/raspberry-pi-hats/products/pirate-audio-line-out-for-raspberry-pi
+** Allo BOSS - Raspberry Pi "Master" DAC v1.2
+https://thepihut.com/collections/raspberry-pi-hats/products/allo-boss-raspberry-pi-master-dac-v1-2
+** Ozzmaker BerryGPS-GSM hat for rpi
+https://thepihut.com/collections/raspberry-pi-hats/products/ozzmaker-berrygps-gsm
+** ReSpeaker 4-Mic Array
+https://thepihut.com/products/respeaker-4-mic-array-for-raspberry-pi?ref=avgman
+** ham radio hat for rpi
+https://www.aliexpress.com/item/4001090095937.html
+** Waveshare 1.3inch OLED display HAT for Raspberry Pi 2B/3B/3B+/Zero/Zero W,128x64 pixels,SPI,I2C interface
+neat little display with buttons for a rpi
+https://www.aliexpress.com/item/32844614245.html
+** Raspberry Pi Camera Focal Adjustable Night Vision Camera Module for Raspberry Pi 2/3/4B Model B
+https://www.aliexpress.com/item/32712369636.html
+** Raspberry Pi Zero Camera Module Night Vision Wide Angle Fisheye 5MP Webcam with Infrared IR Sensor LED Light for RPI Zero
+https://www.aliexpress.com/item/32795142508.html
+** Raspberry Pi 4 B ARGON ONE+ Aluminum Case Housing
+neat case for rpi 4
+https://www.aliexpress.com/item/4000379064637.html
+** GeeekPi 18650 New UPS With RTC & Coulometer Pro Extended Two USB Port Power Supply Device for Raspberry Pi 4 B / 3B+ / 3B
+https://www.aliexpress.com/item/33011106536.html
+** 18650 UPS Pro Power Supply Device Extended Two USBA
+https://www.aliexpress.com/item/4000518140829.html
+** GSM , GPS , Lora  hat for rpi
+https://www.aliexpress.com/item/33049853794.html
+** raspberry pi fan hat
+https://www.aliexpress.com/item/4000270522489.html
+** 4g modem for raspberry pi
+https://www.aliexpress.com/item/4000108480702.html
+** Kali for Nexus devices
+like that tablet i'm not using!
+https://www.kali.org/kali-linux-nethunter/
+** kali linux book (SHOULD READ)
+https://www.kali.org/download-kali-linux-revealed-book/
+** PiJuice HAT
+https://uk.pi-supply.com/products/pijuice-standard
+"A fully uninterruptible power supply (UPS) that will always keep your Raspberry Pi powered. "
+** pi battery discharge time calculator
+use this to figure out how long a pi will last with a particular battery
+https://learn.pi-supply.com/battery-levels/
+** PiJuice 12,000 mAh battery
+https://uk.pi-supply.com/products/pijuice-12000mah-battery
+** MoPi 2: Hot-Swap Mobile Power for the Pi
+https://shop.pimoroni.com/products/mopi-2-hot-swap-mobile-power-for-the-pi
+https://pi.gate.ac.uk/pages/mopi1.html
+** HyperPixel 4.0 - Hi-Res Display for Raspberry Pi
+https://shop.pimoroni.com/products/hyperpixel-4?variant=12569485443155
+** Inky wHAT (ePaper/eInk/EPD) – Yellow/Black/White
+4.2" EPD display (400x300 pixels)
+https://shop.pimoroni.com/products/inky-what?variant=21441988558931
+** Naturewatch camera kit
+neat kit for a rpi zero that has the parts to create a nature camera
+https://shop.pimoroni.com/products/my-naturewatch-standard-camera
+** Inky pHAT (ePaper/eInk/EPD) – Red/Black/White
+https://shop.pimoroni.com/products/inky-phat?variant=12549254217811
+** blinkt -- simple rgp led hat for rpi
+https://shop.pimoroni.com/products/blinkt
+** IO Expander Breakout
+https://shop.pimoroni.com/products/io-expander
+** 0.96" SPI Colour LCD (160x80) Breakout
+https://shop.pimoroni.com/products/0-96-spi-colour-lcd-160x80-breakout
+** 1.12" Mono OLED (128x128, white/black) Breakout – I2C
+https://shop.pimoroni.com/products/1-12-oled-breakout?variant=29421050757203
+** turn rpi into mp3 player
+https://shop.pimoroni.com/products/pirate-audio-headphone-amp
+** usb power meter
+use this to see how much power a rpi needs to run a deck with accessories
+https://www.amazon.ca/dp/B013FANC9W
+** LiFePO4wered rpi battery hat
+https://www.sparkfun.com/products/15840
+** li-ion battery
+https://www.sparkfun.com/products/12895
+** rpi battery pack
+https://www.amazon.com/MakerFocus-Raspberry-Standard-Expansion-Cellphone/dp/B01LAEX7J0
+** battery pack that can be used for an rpi
+https://www.adafruit.com/product/1566
+** rpi extended runtime battery ups
+https://www.buyapi.ca/product/extended-run-time-battery-ups-hat-18650-cell-2200mah/
+** rpi ups board
+https://www.buyapi.ca/product/pi-uptime-ups-board-for-raspberry-pi/
+** rpi power hat
+https://sixfab.com/product/raspberry-pi-power-management-ups-hat/
+** wpa2 cracking on rpi
+http://kamilslab.com/2017/04/10/how-to-crack-wpa2-wifi-networks-using-the-raspberry-pi/
+** more esp8266 hackery
+https://www.varonis.com/blog/hacking-wi-fi-with-the-esp8266/
+* Project Ideas
+** story idea
+smoke that breaks reality
+- smoke from forest fires that causes strange things to happen
+- after it leaves the sky is wrong
+Added: [2020-09-14 Mon 21:13]
+** shank drone
+make a drone that looks like a drone from destiny
+model: https://sketchfab.com/3d-models/destiny-fallen-shank-test-cfb74697d746421998a5517ab7f81ffe
+Added: [2020-08-25 Tue 21:40]
+** TODO ocean/river table                             :@personal:code:build:
+Added: [2021-04-14 Wed 15:16]
+[[https://www.youtube.com/watch?v=wWkldrESy3Q][SmoothOn instructions]]
+[[https://www.youtube.com/watch?v=DNRxlQVKf1U][more instructions]]
+[[https://thatpainter.com/best-epoxy-resins-for-wood/][other resins to look at]]
+[[https://www.totalboat.com/product/high-performance-21-epoxy-kits/][more resins to look at]]
+
+[[https://vancityliveedge.ca/product-category/inventory/][local live edge wood supply]]
+
+** TODO computer desk
+https://www.youtube.com/watch?v=Zrjp_F5FSjo
+
+[[https://www.youtube.com/watch?v=Zrjp_F5FSjo][cnc front design idea]] -- also a cool hidden drawer thing
+
+** recording videos of working on projects
+need:
+ - lapel mic for phone [[https://www.amazon.ca/dp/B00EO4A7L0][rode smartlav+]]
+ - tripod for camera
+
+[[https://play.google.com/store/apps/details?id=com.nchsoftware.pocketwavepad_free][android audio recorder]]
+
+nice to have:
+ - recorder that isn't my phone - [[https://www.amazon.ca/Zoom-Digital-Multitrack-Recorder-F1-LP/dp/B0797DCMGM/][zoom  digital recorder]]
+
+** Stuff To Sell                                                :sell:
+*** ttrpg themed soap
+[[https://www.wholesalesuppliesplus.com/soap-making-supplies/melt-pour-soap-base.aspx][soap supplies]] ( wholesale )
+
+two things that can be used to style the soap:
+
+- shape
+-- dice ( small hand soap, literally shaped like dice )
+-- dice-inspired ( normal bar-sized soap, but themed to look like dice )
+-- weapons ( swords, shields, fireball )
+-- armor ( plate mail, etc )
+
+- smell
+-- d&d classes (wizard, rogue, barbarian, etc)
+-- enemies (goblin, dragon, owlbear, etc)
+
+need non-D&D themed stuff too
+*** dice whiskey stones
+[[https://twitter.com/KatVHarris/status/1387476640175824898][tweet]]
+- apparently there are d6's and d20's out there
+- learn how to make them, then make a full set
+- determine how much effort that is, and if it's worth it to sell them
+*** tabletop accessories
+**** resin dice trays
+easier to make once i've got a mold, way more fun color options -- including
+glow in the dark!
+**** custom dice
+tricky, requires the dice molds and probably a vacuum chamber & pressure pot &
+slower curing resin ( or at least more pot time )
+**** dice rolling trays
+*** ttrpg candles
+- maybe focus on the non-fantasy side of ttrpgs ( sci-fi, cyberpunk, etc )
+- for fantasy candles, do novelty candles ( swords, etc )
+- can do novelty candles for other ones ( ray guns! ) -- especially if there's a
+  wax that is super clear when it's hard
+*** live edge wood furniture
+- smaller things to start ( side tables, nightstands, etc )
+- tables on comission only though
+
+** better streaming setup
+- key lights
+ - [[https://www.amazon.ca/Cahot-Conference-Adjustable-Conferencing-Broadcast/dp/B08SQH19HK/ref=sr_1_20_sspa?dchild=1&keywords=Zoom&qid=1618444543&sr=8-20-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyU0VaVEYwQVk0STMyJmVuY3J5cHRlZElkPUEwODAwNzQwM1VOUFZOMklFRUlNUCZlbmNyeXB0ZWRBZElkPUEwMTUxMDU0SkpLTUcwT1gzUlBWJndpZGdldE5hbWU9c3BfbXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==][maybe these]]
+
+** home automation ideas
+*** humidity sensor to turn on bathroom fan
+and turn it off when no longer humid
+*** lights activated via security camera motion
+
+** some woodworking project ideas
+[[https://www.bobvila.com/slideshow/15-surprisingly-simple-woodworking-projects-for-beginners-46626][list of 15 projects]]
+* testing thing
+#+begin_src ditaa :file some_filename.png
+    +-----------+        +---------+  
+    |    PLC    |        |         |                
+    |  Network  +<------>+   PLC   +<---=---------+ 
+    |    cRED   |        |  c707   |              | 
+    +-----------+        +----+----+              | 
+                              ^                   | 
+                              |                   | 
+                              |  +----------------|-----------------+
+                              |  |                |                 |
+                              v  v                v                 v
+      +----------+       +----+--+--+      +-------+---+      +-----+-----+       Windows clients
+      |          |       |          |      |           |      |           |      +----+      +----+
+      | Database +<----->+  Shared  +<---->+ Executive +<-=-->+ Operator  +<---->|cYEL| . . .|cYEL|
+      |   c707   |       |  Memory  |      |   c707    |      | Server    |      |    |      |    |
+      +--+----+--+       |{d} cGRE  |      +------+----+      |   c707    |      +----+      +----+
+         ^    ^          +----------+             ^           +-------+---+
+         |    |                                   |                        
+         |    +--------=--------------------------+                    
+         v                                                             
++--------+--------+                                                         
+|                 |                                                         
+| Millwide System |            -------- Data ---------                      
+| cBLU            |            --=----- Signals ---=--                      
++-----------------+
+#+end_src
+
+#+begin_src dot :file some_filename.png :cmdline -Kdot -Tpng
+digraph G {
+  size="8,6"
+  ratio=expand
+  edge [dir=both]
+  plcnet [shape=box, label="PLC Network"]
+  subgraph cluster_wrapline {
+    label="Wrapline Control System"
+    color=purple
+    subgraph {
+    rank=same
+    exec
+    sharedmem [style=filled, fillcolor=lightgrey, shape=box]
+    }
+    edge[style=dotted, dir=none]
+    exec -> opserver
+    exec -> db
+    plc -> exec
+    edge [style=line, dir=both]
+    exec -> sharedmem
+    sharedmem -> db
+    plc -> sharedmem
+    sharedmem -> opserver
+  }
+  plcnet -> plc [constraint=false]
+  millwide [shape=box, label="Millwide System"]
+  db -> millwide
+
+  subgraph cluster_opclients {
+    color=blue
+    label="Operator Clients"
+    rankdir=LR
+    labelloc=b
+    node[label=client]
+    opserver -> client1
+    opserver -> client2
+    opserver -> client3
+  }
+}
+#+end_src
+
+#+kRESULTS:
+[[file:some_filename.png]]
+
+
+#+begin_src plantuml :file somefile.png
+title Example Sequence Diagram
+activate Client
+Client -> Server: Session Initiation
+note right: Client requests new session
+activate Server
+Client <-- Server: Authorization Request
+note left: Server requires authentication
+Client -> Server: Authorization Response
+note right: Client provides authentication details
+Server --> Client: Session Token
+note left: Session established
+deactivate Server
+Client -> Client: Saves token
+deactivate Client
+#+end_src
+* Tasks
+** TODO games to register on steam
+This is the Police - D5CPV-6EZAL-06JR9
+Added: [2017-05-08 Mon 12:27]
+** TODO download all comics & books from the humble bundles to a hard drive (portable, probably)
+DEADLINE: <2021-03-31 Wed>
+or figure out how to transfer them to google play or something
+Added: [2017-04-19 Wed 10:20]
+** TODO look into setting default handlers for emails
+https://notmuchmail.org/emacstips/#index2h2
+Added: [2017-02-21 Tue 16:37]
+** TODO set up signatures for different email accounts
+https://notmuchmail.org/emacstips/#index16h2
+Added: [2017-02-21 Tue 16:38]
+** TODO look into writing mode for interacting with pocket
+get articles, save articles, etc.
+Added: [2017-02-22 Wed 10:54]
+
+

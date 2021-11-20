@@ -1,0 +1,345 @@
+:PROPERTIES:
+#+PROPERTY: board-name Endless Stream
+#+PROPERTY: board-id 5e2baf017c223488111a37be
+#+PROPERTY: DONE 5e2baf0e1aa3517c5c23f341
+#+PROPERTY: BLOCKED 5e2baf0cf6862079bf05f77f
+#+PROPERTY: IN-PROGRESS 5e2baf0928b1794db7b52fff
+#+PROPERTY: TODO 5e2baf05a3b8e121795beae2
+#+TODO: TODO IN-PROGRESS BLOCKED | DONE
+#+PROPERTY: orgtrello_user_xantheavandelay2 5fea87fcd172e2309a83f22f
+#+PROPERTY: orgtrello_user_xantheavandelay1 5fea7f620649b0780628b56d
+#+PROPERTY: orgtrello_user_xanthvan 534654ef054d223e7bb11bc5
+#+PROPERTY: orgtrello_user_seanpatrickhagen 4eb1cdb1357fa176c2548e4b
+#+PROPERTY: :red BUG
+#+PROPERTY: :blue Unity
+#+PROPERTY: :purple Feature Idea
+#+PROPERTY: :orange Art/Illustration
+#+PROPERTY: :green Design
+#+PROPERTY: :yellow Backend
+#+PROPERTY: orgtrello_user_me seanpatrickhagen
+:END:
+* TODO Add 'New Wave' player UI                                         :yellow:
+:PROPERTIES:
+:orgtrello_id: 5e4f2111b5a34357c4d45f8b
+:orgtrello_local_checksum: 363261e7bfd54724b40c5e5e0bc7323d12c14b913d129050f5a4d1ac075537ac
+:END:
+
+* TODO Add 'Char Select' game UI                                        :yellow:
+:PROPERTIES:
+:orgtrello_id: 5e4f2116b8777a2fbace0b97
+:orgtrello_local_checksum: 2c553405cec8182fb8a4d061835c9cb5cafd5f4b8fb919262e601f1392a5a081
+:END:
+
+* TODO Add 'New Wave' game UI                                           :yellow:
+:PROPERTIES:
+:orgtrello_id: 5e4f211c2771e342ff7d55bf
+:orgtrello_local_checksum: 21502c763e4098b00a126fa5f3e0bd6d4a6b08a510dd5bff1b55be2120a3fde1
+:END:
+
+* TODO Server assigns characters to players on game start               :yellow:
+:PROPERTIES:
+:orgtrello_id: 5e4f217112216273095ab2dc
+:orgtrello_local_checksum: 9e0fb8688e8965feafd6af11d7e8cd0e281b8a9aefbf136f82e432ba8b62c65b
+:END:
+
+* TODO Server creates basic AI players                                  :yellow:
+:PROPERTIES:
+:orgtrello_id: 5e4f21787c1e517620b98f81
+:orgtrello_local_checksum: e95bd92be263abbe51afdc6e2c2fcd1c860637608423b0725ebc994a858df0b7
+:END:
+  If there aren't four players in a game when it starts, the server needs to create AI players. 
+
+  AI:
+  * if not in same threat zone as an enemy, move forward
+  * if in same threat zone as an enemy, attack one
+* TODO Basic AI for enemies                                             :yellow:
+:PROPERTIES:
+:orgtrello_id: 5e4f21ed5cea5a653725157b
+:orgtrello_local_checksum: b8d8fe0426996b6f128129976d3e7c61ffbda62959b70445954cfaacf1b26537
+:END:
+
+* TODO Game process tick - basic                                        :yellow:
+:PROPERTIES:
+:orgtrello_id: 5e4f21f7ccbd063b94c2d5d9
+:orgtrello_local_checksum: 62803855f52490151b0dbc89e6eeba383296c571a579bb2b4e020484292d1767
+:END:
+  During a wave, once we have input from the current player ( ie, player whose turn it is ) move on to the 'processing wave' state.
+
+  This state needs to be able to do the following:
+  * process their action
+  * select next in initiative order
+  * continue to next state
+* TODO Game process tick - advanced                                     :yellow:
+:PROPERTIES:
+:orgtrello_id: 5e4f225abb48e11d0d032c03
+:orgtrello_local_checksum: e97a47ec01c75304b39f1a24f2a1b3d0537a70f4df2ad675d238e633e1b91b09
+:END:
+  Need to be able to handle more things during a 'process wave' tick:
+
+  * handle the action of the current player
+    * if they're using an item, process and wait for further input
+    * if it's using a skill, process and continue in iniative order
+  * handle any status effects and queue up any required animations for the UI
+
+* TODO Skills -- level requirements                                   :green:
+:PROPERTIES:
+:orgtrello_id: 5e9f6cd159c6644a74c8b908
+:orgtrello_local_checksum: 531f2243572c38d5bc888ffb606598a2d002976dc6deddaf25de7a1a7055bc16
+:END:
+
+* TODO options screen - global volume control                          :blue:
+  :PROPERTIES:
+  :orgtrello_id: 60641a4fbc1e79784ca40567
+  :orgtrello_local_checksum: 742131735433687cdef015d2684caed6eddebb75650a4baf9b69f857dfeecb9a
+  :END:
+  Need to build a system that can store the volume level in player prefs.
+
+* TODO options screen - music volume control                           :blue:
+  :PROPERTIES:
+  :orgtrello_id: 60641a5d06d8270942c0582f
+  :orgtrello_local_checksum: 72affe036b6c378b0f6af649bfdfbab90b494044781010a08ae7b895240d3b1e
+  :END:
+  Have something on the options creen that controls music volume.
+* TODO options screen - sfx volume control                             :blue:
+  :PROPERTIES:
+  :orgtrello_id: 60641a6541637d6fa3f2506c
+  :orgtrello_local_checksum: af15f2ebb157660f36f3a7e608c0705058fea3f9c8475bb7943b64498f4d1fb2
+  :END:
+  Store in player prefs
+* TODO make state machine that handles the elements on screen during a game :blue:
+  :PROPERTIES:
+  :orgtrello_id: 60641a69fe2c764bec94ec2a
+  :orgtrello_local_checksum: 4c37e80b36eaebb2ece00e6509e61df99f172b5098e9da7c48c7bb55d6a3906c
+  :END:
+
+* TODO create game makes call to backend server                        :blue:
+  :PROPERTIES:
+  :orgtrello_id: 60641a6cbd4499353ffdba03
+  :orgtrello_local_checksum: 7bb044dcc327d25ad46446a507ca2ab673f9df84820d93f60d6dcd8385e6ff0c
+  :END:
+  when the user clicks on 'host game', the game needs to reach out to the backend
+  and ask for a game server be set up. the server will generate and send back a
+  'game code', a 4-digit code (letters only, uppercase) that should be displayed
+  on screen
+  - [ ] create game checklist :PROPERTIES: {"orgtrello_id":"60641add3173f315ecf8160e","orgtrello_local_checksum":"32fe38de2f2b42d2287d2594ab810010d249e13bc484d7a098d434dbd2c1b798"}
+    - [ ] sends rpc call to create game :PROPERTIES: {"orgtrello_id":"60641add2606c436627c4beb","orgtrello_local_checksum":"234846ab235d0fd542a0669417348dd0dcc9484f3516238a4a1344da18c78309"}
+    - [ ] stores game code in game sessions state :PROPERTIES: {"orgtrello_id":"60641add23846b40d9cde0cb","orgtrello_local_checksum":"f88fc8493b00f0fd8f0ce391911029cc6d8b7368e8cbebed1cc0386e1d1ace73"}
+    - [ ] handles any calls that have to be made :PROPERTIES: {"orgtrello_id":"60641b1131dd0309042c2647","orgtrello_local_checksum":"85ea470df8d0befe94c15ad0a0afde2bcb3c919a64d28d5b41730dc3936fe2ab"}
+
+* TODO join game makes call to backend server                          :blue:
+  :PROPERTIES:
+  :orgtrello_id: 60641a6e67a2df5666f44922
+  :orgtrello_local_checksum: 7333409344812bc7d32a8a09e45534f9192ee52accbae3435658fe002f9c26a6
+  :END:
+
+* TODO anti-griefing features                                        :yellow:
+  :PROPERTIES:
+  :orgtrello_id: 60641c46a9bb44374e3576cc
+  :orgtrello_local_checksum: 0f41a57cd1a846c80ccb38554d356b588a333862c3239913f6c521306e7c76d0
+  :END:
+  need to talk about what kinds of features we might want to have to prevent
+  trolls from ruining all the fun.
+
+  - kick a player ( replace player with AI )
+  - what to do on timeout ( player hasn't chosen an action -- have AI make
+    choice? )
+
+  what else might we want to do to make sure a bad actor doesn't ruin the fun?
+
+* TODO VIP can start game                                            :yellow:
+:PROPERTIES:
+:orgtrello_id: 5e4f215329cf1703a3504dee
+:orgtrello_local_checksum: 866c489adc168d7c8b0ac308e72b46a80a532b4c5247437d9391b168a42fbfbd
+:END:
+
+* IN-PROGRESS Initial wireframe Game stream view                        :green:
+:PROPERTIES:
+:orgtrello_id: 5e2bb2f112bd632f1d5386af
+:orgtrello_local_checksum: f74cb9b76091f1075832a6d4473483a60b4333c782963139038de591da6d8d84
+:END:
+
+* IN-PROGRESS First Pass UI Design                                      :green:
+:PROPERTIES:
+:orgtrello_id: 5ea390f16b8b618613fe9338
+:orgtrello_local_checksum: b932fb8c7bcd5b15770ab14851b730d80458b88e51dda373244eca58fd6df844
+:END:
+
+* IN-PROGRESS Initial wireframe for player UI                           :green:
+:PROPERTIES:
+:orgtrello_id: 5e2baf75ced817782b57cea3
+:orgtrello_local_checksum: f6763bb0fc5d74f0b9f4756c227a327d0f1a3cfa5f64aefaade1cf23af5ad1a4
+:END:
+  States:
+
+  - character select
+    - shows four classes 
+      - each needs a 'disabled' state ( if selected by another player ) and a 'chosen' state ( if selected by player )
+    - VIP has 'start game' button that starts countdown to game start
+  - new wave ( shows wave number, and countdown until wave starts )
+  - character sheet
+    - 'disabled' state ( not this players turn )
+    - 'active' state ( this players turn )
+    - 'level up' state 
+  - victory state
+    - gold gained, other stats
+    - countdown until continuing to store
+    - vip has option to continue to store immediately ( bypass countdown )
+  - store state
+    - items available for purchase
+    - countdown until moving to 'new wave' state
+    - vip has option to continue to 'new wave' immediately
+  - defeat state
+    - vip has option to start again at wave 1 or end game
+  - game over state
+    - 'thanks for playing', etc.
+* IN-PROGRESS build system that can handle playing music separately from sfx :blue:
+  :PROPERTIES:
+  :orgtrello_id: 60641a6be4f13f312b91a49c
+  :orgtrello_local_checksum: 722ee34edc480c0a265ab368df76280521a6f8e72388d02ca665d86a54569ff9
+  :END:
+* DONE Diagram of game states                                           :green:
+:PROPERTIES:
+:orgtrello_id: 5e2baf50f8258915c8af55b6
+:orgtrello_local_checksum: 414ef19518cbdb635e0830bf2663a9e73ad7b170be3e1d5323091426805eeb13
+:END:
+  The game flow starting at the site main page, through logging in to a game setup screen, to the game flow.
+
+** COMMENT seanpatrickhagen, 2020-02-12T23:02:54.741Z
+:PROPERTIES:
+:orgtrello_id: 5e44841e19a99e24526222cb
+:orgtrello_local_checksum: 6a019ae362d2981e95949bbeb4e5696a7572aa6c401d4086fb0e258d72a68657
+:END:
+  Update the game states, added a vew things. Most important is the "Wave Animation Wait" state, which is a state the game goes to after processing and sending out updates, but before going to the next actors turn. It allows for the UI to show an animation or display a message before moving on.
+
+** COMMENT seanpatrickhagen, 2020-01-25T23:17:58.142Z
+:PROPERTIES:
+:orgtrello_id: 5e2ccca6734e6c7633de9d60
+:orgtrello_local_checksum: 639bba4c764ea15fb2052a78acb6342be5efca280c058e61c277ed646d43309f
+:END:
+  [Endless Stream Page_Game Flow Diagram.png](https://trello-attachments.s3.amazonaws.com/5e2baf017c223488111a37be/5e2baf50f8258915c8af55b6/2f13f466cae930a953e63d3e55107496/Endless_Stream_Page_Game_Flow_Diagram.png) 
+
+** COMMENT xanthvan, 2020-01-25T22:04:40.238Z
+:PROPERTIES:
+:orgtrello_id: 5e2cbb786ffea3022d3ab9dd
+:orgtrello_local_checksum: b5092b5731fc77f6e763e05cb68be317a5b6aed23fbf56f0a495bfc757388a94
+:END:
+  Does game setup include character select?
+
+** COMMENT xanthvan, 2020-01-25T09:22:31.170Z
+:PROPERTIES:
+:orgtrello_id: 5e2c08d70b746e44628be691
+:orgtrello_local_checksum: 1391fbcc24fc4987f374bca2be8a7dc33d11828153e5e965014d4f1efca89a2c
+:END:
+  @seanpatrickhagen somewhere somewhere needs a "you died" but I think this is pretty well covered! Game Over implies a finality, but resurrection is possible
+
+** COMMENT seanpatrickhagen, 2020-01-25T04:13:30.264Z
+:PROPERTIES:
+:orgtrello_id: 5e2bc06af4915464f59f77a8
+:orgtrello_local_checksum: c0446e37943e24caf8b697da5eb83b46bdca6caa286bc71c730ba3d87e4576fe
+:END:
+  @xanthvan thoughts? Anything missing?
+
+** COMMENT seanpatrickhagen, 2020-01-25T04:07:22.871Z
+:PROPERTIES:
+:orgtrello_id: 5e2bbefaff791255ee0adc41
+:orgtrello_local_checksum: 441409027d3b32f2eba6ac270f0ac6f9af82c7afd06a2bf79e83ec860c5bee10
+:END:
+  [Endless Stream Page_Game Flow Diagram.png](https://trello-attachments.s3.amazonaws.com/5e2baf017c223488111a37be/5e2baf50f8258915c8af55b6/1d07cfab0471d9ef8a0ab27a8c76dea7/Endless_Stream_Page_Game_Flow_Diagram.png) 
+
+* DONE Initial wireframe for store page                                 :green:
+:PROPERTIES:
+:orgtrello_id: 5e2baf7922b94067d6b17fe1
+:orgtrello_local_checksum: e762e0929c7480ddcb0fe66c51e74342ff88ec17c9ef5174992982b2ef86a039
+:END:
+
+
+** COMMENT xanthvan, 2020-04-25T01:23:35.064Z
+:PROPERTIES:
+:orgtrello_id: 5ea39117c30a99485535d6b6
+:orgtrello_local_checksum: f7fac3b2a43c6aa92b60f127d2822b7001bbed9eec3a61de7e58d4a19cfd65a4
+:END:
+  https://www.figma.com/file/XywF0X0wGAqfuxLDYgQsWq/Endless-Stream?node-id=2%3A16
+
+* DONE Inventory of assets from Humble Bundles                          :orange:
+:PROPERTIES:
+:orgtrello_id: 5e2cc6dba01d8475b354c7f1
+:orgtrello_local_checksum: 7e219c31c899d6df123eacffb8a938b2b3d6b86de030a87ef150571081035f54
+:END:
+
+
+** COMMENT seanpatrickhagen, 2020-01-26T00:48:00.989Z
+:PROPERTIES:
+:orgtrello_id: 5e2ce1c04179c1029f673d44
+:orgtrello_local_checksum: f8dca4905af486940429dac57b3e4e152a26c414320be71d5cb81c02afd03565
+:END:
+  Something to keep in mind with the GDM stuff is the [license (full link to license on gamedevmarket)](https://www.gamedevmarket.net/terms-conditions/#pro-licence):
+  
+      4.  LICENCE (A) – For purchases made after 00:00 (GMT) on 15th January 2019
+  
+      4.1. A “Licence” means that the Seller grants to GDN (purely for the purpose
+       of sub-licensing to the Purchaser) and GDN grants (by way of sub-licence 
+       thereof) to the Purchaser a non-exclusive perpetual licence to;
+  
+      (a) use the Licensed Asset to create Derivative Works; and
+  
+      (b) use the Licensed Asset and any Derivative Works as part of both Non-
+      Monetized Media Products and Monetized Media Products, with no 
+      restriction on the number of projects the Licensed Asset may be used in. In 
+      either case, the Licensed Assets can be used in Media Products that are 
+      either:
+  
+      i) used for the Purchaser’s own personal use; and/or
+  
+      ii) used for the Purchaser’s commercial use in which case it may be 
+      distributed, sold and supplied by the Purchaser for any fee that the 
+      Purchaser may determine.
+  
+      4.2. A Licence does not allow the Purchaser to:
+  
+      (a) Use the Licensed Asset or Derivative Works in a logo, trademark or 
+      service mark;
+  
+      (b) Use, sell, share, transfer, give away, sublicense or redistribute the 
+      Licensed Asset or Derivate Works other than as part of the relevant Media 
+      Product; or
+  
+      (c) Allow the user of the Media Product to extract the Licensed Asset or 
+      Derivative Works and use them outside of the relevant Media Product.
+  
+  
+  Basically we can use them *in* the game, we just can't use them in a logo, can't resell them, and can't let users get them for free ( somehow )
+
+** COMMENT seanpatrickhagen, 2020-01-26T00:45:03.973Z
+:PROPERTIES:
+:orgtrello_id: 5e2ce10ff7107b5cd94f6ed7
+:orgtrello_local_checksum: 88e8cd62afaa265605a166651a7e7b0b460f0119c73747e6d1dc3fd5f5654f79
+:END:
+  Also, found some free asset packs on GameDev Market:
+  https://www.gamedevmarket.net/asset/2d-pickups-pack-1217/?utm_source=brochure&utm_medium=pdf&utm_campaign=brochure
+  https://www.gamedevmarket.net/asset/magic-weapon-icons-1051/?utm_source=brochure&utm_medium=pdf&utm_campaign=brochure
+  https://www.gamedevmarket.net/asset/free-game-button-pack-1906?utm_source=brochure&utm_medium=pdf&utm_campaign=brochure
+  https://www.gamedevmarket.net/asset/fantasy-icon-pack-1178/?utm_source=brochure&utm_medium=pdf&utm_campaign=brochure
+
+** COMMENT seanpatrickhagen, 2020-01-26T00:41:11.512Z
+:PROPERTIES:
+:orgtrello_id: 5e2ce027bf78ff75fe38d63d
+:orgtrello_local_checksum: 70bf74c424e3f99ab66733b17843badcb49bd8f771fff7d18346534282bf9200
+:END:
+  I bought the RPG Game Dev bundle, here's a few of the more relevant asset packs that came with it:
+  
+  https://www.gamedevmarket.net/asset/pixel-effects-collection-01-8964/
+  https://www.gamedevmarket.net/asset/skill-icon-pack-8729/
+  https://www.gamedevmarket.net/asset/over-80-rpg-characters-w-animations-3540/
+  https://www.gamedevmarket.net/asset/16x16-icons-for-rpg-pack-1-915/
+  https://www.gamedevmarket.net/asset/2d-heroes-characters-bundle-10124-2/
+  https://www.gamedevmarket.net/asset/cartoon-rpg-characters-1-2067/
+  https://www.gamedevmarket.net/asset/monsters-time-fantasy-rpg-sprite-pack-4391/
+  https://www.gamedevmarket.net/asset/rpg-items-retro-pack-2585/
+  https://www.gamedevmarket.net/asset/rpg-inventory-icons-pack-vol1-1552/
+  https://www.gamedevmarket.net/asset/7souls-rpg-graphics-pack-2-ui-1208/
+  https://www.gamedevmarket.net/asset/animals-rpg-sprites-8008/
+  https://www.gamedevmarket.net/asset/gui-icons-8656/
+  https://www.gamedevmarket.net/asset/weapon-and-armor-icon-pack-8721/
+  
+  I can throw them up in a Google Drive folder if you don't have this Humble Bundle
+

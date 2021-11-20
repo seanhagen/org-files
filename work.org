@@ -1,0 +1,329 @@
+#+FILETAGS: @work
+#+CATEGORY: Work
+# Local Variables:
+# eval: (auto-revert-mode)
+# End:
+
+* Day Off Tracking
+*** 2021-04-19 - all day
+:LOGBOOK:
+CLOCK: [2021-04-19 Mon 09:00]--[2021-04-19 Mon 17:00] =>  8:00
+:END:
+*** 2021-05-07 - all day
+:LOGBOOK:
+CLOCK: [2021-05-07 Fri 09:00]--[2021-05-07 Fri 17:00] =>  8:00
+:END:
+*** 2021-05-10 - all week
+:LOGBOOK:
+CLOCK: [2021-05-10 Mon 09:00]--[2021-05-10 Mon 17:00] =>  8:00
+CLOCK: [2021-05-11 Tue 09:00]--[2021-05-11 Tue 17:00] =>  8:00
+CLOCK: [2021-05-12 Wed 09:00]--[2021-05-12 Wed 17:00] =>  8:00
+CLOCK: [2021-05-13 Thu 09:00]--[2021-05-13 Thu 17:00] =>  8:00
+CLOCK: [2021-05-14 Fri 09:00]--[2021-05-14 Fri 17:00] =>  8:00
+:END:
+*** 2021-05-24 - long weekend monday
+:LOGBOOK:
+CLOCK: [2021-05-24 Mon 09:00]--[2021-05-24 Mon 17:00] =>  8:00
+:END:
+*** 2021-07-01
+:LOGBOOK:
+CLOCK: [2021-07-01 Thu 09:00]--[2021-07-01 Thu 17:00] =>  8:00
+:END:
+*** 2021-07-02
+:LOGBOOK:
+CLOCK: [2021-07-02 Fri 09:00]--[2021-07-02 Fri 17:00] =>  8:00
+:END:
+
+* Code TODOs
+* Work TODOs
+** TODO figure out what's going on with the purchase price in the events [#B] :@work:task:events:
+SCHEDULED: <2021-08-09 Mon 16:40>
+
+Added: [2021-07-30 Fri 16:39]
+
+example event:
+  id: f7aa66c2-1e6b-48c6-9410-60ecd84b99b3
+  ymd: 2021-07-02
+  price: 0.025641026
+  code: CAD
+
+
+should be equivalent to 0.99 USD, so something is funky with big.NewRat and how
+i'm using it
+** TODO merge playgrounds [#C]                            :@work:task:merge:
+SCHEDULED: <2021-08-30 Mon 11:17>
+
+Added: [2021-07-22 Thu 11:17]
+
+to merge:
+6f2393b3-8860-4405-b4d2-fa29a506dea1
+9c6cde22-73fa-4e5f-b390-afaa6fc0feff
+7febcdc4-7940-460e-a883-4f498ae5da0a
+531e4bcc-8d98-4538-831b-c3c2845adc37
+** TODO update dataflow jobs logging to avoid getting charged too much [#A] :@work:task:dataflow:
+SCHEDULED: <2021-09-01 Wed 10:04>
+
+Added: [2021-07-15 Thu 10:04]
+** TODO burke import process [#B]                        :@work:task:import:
+SCHEDULED: <2021-07-06 Tue 13:22>
+
+Added: [2021-07-05 Mon 13:21]
+
+[[https://drive.google.com/file/d/1P1aEAFdp8cgSJHrpdqV2RouaKR3L0qW5/view][spreadsheet]]
+
+see: [[file:work-taskdiary.org::*burke data meeting][burke data meeting]]
+
+** biba merch
+- use a print-on-demand service to sell some kids merch
+- tshirts, hats, baby apparel, stickers, notebooks
+- partially to see if there's any interest ( print-on-demand means we don't have
+  to have stock on hand )
+- partially to be ready for when tv show launches we've got some stuff ready to
+  go if it takes off
+  
+** biba game idea for web page
+- simple in-page game
+- mostly just some quick exercise stuff ( warm up stuff: jumping jacks, burpees,
+  etc )
+- some minigames
+- idea is to have something on the site that shows how our games work, but is
+  also a "real" biba game ( ie, gameplay + exercise )
+  
+** TODO add Carr McNatt playground [#B]              :@work:task:playground:
+SCHEDULED: <2021-07-14 Wed>
+:LOGBOOK:
+CLOCK: [2021-05-18 Tue 16:53]--[2021-05-18 Tue 16:54] =>  0:01
+:END:
+
+Add this playground to the database ( and old bigquery table ):
+
+Carr Mcnatt Park
+1115 N Brown
+Casa Grande Az.
+85122.
+
+Tell Mike in #tech-requests when done       
+
+Added: [2021-05-18 Tue 16:53]
+** DONE update report template for pdf generation [#A]      :@work:task:pdf:
+CLOSED: [2021-07-14 Wed 10:52] SCHEDULED: <2021-07-10 Sat>
+
+Added: [2021-05-06 Thu 14:07]
+** TODO merge or rename playgrounds [#D]                 :@work:task:update:
+SCHEDULED: <2021-07-26 Mon>
+:LOGBOOK:
+CLOCK: [2021-04-08 Thu 10:22]--[2021-04-08 Thu 10:23] =>  0:01
+:END:
+
+from prod database:
+48fff8e0-abe5-481b-86e7-077e827a0e9c
+The Place At 7400 APTS - Playground 1 
+
+need to combine with 
+574c6832-5e26-4592-9e38-4bde00a76a61
+THE PLACE AT 7400 APTS - PLAYGROUND 2
+
+order numbers:
+MR00116289
+MR00116288
+
+two playgrounds in an apartment complex
+
+rename "Catalina Ridge Apartments"
+https://www.catalinaridgeapts.com/photogallery
+
+asked business team about it on slack in #tech-requests, waiting to hear back
+
+
+
+Added: [2021-04-08 Thu 10:22]
+** TODO set quotas on all Google Cloud APIs [#B]        :@work:task:billing:
+SCHEDULED: <2021-08-02 Mon>
+[[https://cloud.google.com/apis/docs/capping-api-usage][Capping API Usage]]
+use that document as starting point, reference the GCP billing reports to set
+appropriate quotas for all of the APIs and services
+
+ - [[https://cloud.google.com/bigquery/docs/custom-quotas][BigQuery Custom Quotas]]
+ - [[https://cloud.google.com/billing/docs/how-to/export-data-bigquery][Export Billing data to BigQuery]]
+Added: [2021-04-07 Wed 14:39]
+** TODO look into dataprep & composer
+SCHEDULED: <2021-08-01 Sun>
+Added: <2020-04-28 Tue 11:29>
+https://medium.com/google-cloud/automation-of-data-wrangling-and-machine-learning-on-google-cloud-7de6a80fde91
+** TODO scheduling dataflow pipeline article -- read this
+SCHEDULED: <2021-08-01 Sun>
+Added: <2020-05-07 Thu 17:24>
+https://cloud.google.com/blog/products/gcp/scheduling-dataflow-pipelines-using-app-engine-cron-service-or-cloud-functions
+** TODO location detection
+DEADLINE: <2021-08-31 Tue> SCHEDULED: <2021-08-02 Mon>
+Added: <2020-05-22 Fri 11:14>
+- [X] use vpn to test https://mylocationtest.appspot.com/ from multiple locations
+- [ ] see if grpc service can get the information from headers and forward to
+  appengine to do location detection
+- [ ] find out if there's another way to do location detection without appengine
+** TODO re-write gdpr data/forget handler [0/4]
+SCHEDULED: <2021-07-19 Mon> DEADLINE: <2021-07-31 Sat>
+Added: <2020-06-02 Tue 15:17>
+- no longer using zendesk, have to store requests elsewhere
+- probably easier to just fully automate so i don't have to keep on top of these
+  any more
+- [ ] store incoming requests
+- [ ] handle requests for data
+- [ ] handle requests to be forgotten
+- [ ] create audit log of requests
+** TODO things to shut down in google cloud  [0/4]
+SCHEDULED: <2021-08-01 Sun>
+Added: <2020-06-05 Fri 14:20>
+- [-] biba-backend [0/6]
+  - [ ] app engine [0/5]
+    - [ ] default
+     - some kind of firebase notification sender?
+     - no valid requests this year
+    - [ ] endpoint-dev
+    - [ ] endpoint -- still being used by some games
+    - [ ] django -- still moving events from datastore into db
+    - [ ] django-dev
+  - [ ] cloud sql [0/2]
+    - [ ] biba-backend
+    - [ ] biba-backend-dev
+  - [ ] cloud storage [0/14]
+    - [ ] biba-backend-dev
+    - [ ] biba-backend-public
+    - [ ] biba-backups
+    - [ ] biba-content
+    - [ ] biba-geodata
+    - [ ] biba-historical
+    - [ ] biba-public
+    - [ ] biba-public-access-logs
+    - [ ] biba_datastore_export
+    - [ ] canada_census
+    - [ ] datastore_events_export
+    - [ ] eents_ds_backup_*
+    - [ ] events_json_export
+    - [ ] the various automatically created buckets from appengine deployes, etc
+  - [-] bigquery [5/7]
+    - [ ] analytics_152895314
+    - [X] census_non_api
+    - [X] firebase_crashlytics
+    - [ ] firebase_messaging
+    - [X] firebase_performance
+    - [X] firebase_predictions
+    - [X] prod_datastore_backup
+  - [ ] google service control
+  - [ ] compute engine (?)
+    - again, probably app engine
+- [-] Biba-Cloud [1/4]
+  - [-] app engine [2/5]
+    - [ ] parents
+    - [X] parents-dev
+    - [ ] games
+    - [X] games-dev
+    - [ ] default
+  - [ ] cloud sql [0/1]
+    - [ ] biba-mysql-test
+  - [ ] compute engine (?)
+    - probably related to app engine
+  - [X] cloud storage [2/2]
+    - [X] biba-artifacts
+    - [X] all the automatic app engine buckets
+- [ ] biba-rackspace [0/1]
+  - [ ] compute engine $98 usd/mo [0/2]
+    - [ ] z2hmysql1 - $55 usd/mo
+    - [ ] z2hproduction - $43 usd/mo
+      - animism.com
+      - archive.zeros2heroes.com
+      - argoengine.com
+      - argopro.zeros2heroes.com
+      - argo.zeros2heroes.com
+      - bugs.zeros2heroes.com
+      - z2hmedia.com
+      - z2htools.zeros2heroes.com
+      - zeros2heroes.com
+- [-] biba-services [4/5]
+  - [X] app engine [2/2]
+    - [X] rights-management
+       this can definitely go
+    - [X] default -- disabled, can't delete
+       no idea what this is but has a '/key' route??
+         -- update: it was meant to be used with a biba users service to emit
+            pubsub events to trigger regenerating the jwt keys
+  - [X] compute engine
+    same as above, charge for static ip & storage pd but no instance
+    -- may have been appengine charges that show up as compute engine?
+  - [X] cloud dns?
+  - [-] cloud functions [3/4]
+    - [X] brochure_download_tracking
+    - [ ] eventer
+    - [X] newsletter_report_request
+    - [X] request_dashboard_access
+  - [X] cloud storage [9/9]
+    - [X] biba-database-export
+    - [X] cloudfunc_brochure_download_tracking
+    - [X] cloudfunc_brochure_download_tracking_public
+    - [X] cloudfunc_eventer
+    - [X] cloudfunc_newsletter_report_request
+    - [X] cloudfunc_request_dashboard_access
+    - [X] cloudfunc_upgrader
+    - [X] email-template-public
+    - [X] mps-prototype-images
+** TODO move to biba-backbot [0/2]
+:PROPERTIES:
+:EFFORT:   0:00
+:END:
+  - [ ] Biba-Cloud [0/2]
+    - [ ] geocoding api
+    - [ ] maps api
+  - [ ] biba-services [0/2]
+    - [ ] maps api
+    - [ ] places api
+* Email TODOs
+* Research TODOs
+** ideation for new music-based game                   :@work:research:game:
+burke has partnered with [[https://www.percussionplay.com][Percussion Play]] to add musical equipment to playgrounds
+and matt wants to think about building a music-themed Biba game in the same vein
+as [[https://play.google.com/store/apps/details?id=com.naturalmotion.clumsyninja&hl=en_CA&gl=US][Clumsy Ninja]]
+
+  - start with one Biba robot
+  - play music on the per.play equipment to train them to get better
+    - level them up?
+  - after a certain point, you get access to another robot
+  - keep going, repeating until you've got a whole band
+
+goal: ????
+
+
+things to look into:
+
+ - microphone sensitivity -- how easy is it to have the game pick up that you're
+   playing one of the instruments
+ - recognizing tones -- can the game (with or without a data connection)
+   recognize what notes someone has played
+   - does this require an ML model?
+   - if it does require an ML model, what is required to train it?
+   - how big would the model be?
+ - have the robot remember what you played
+   - how long?
+   - can you share the 'songs' you make?
+
+other gameplay features to think about:
+
+ - how to integrate ar?
+   - record kid playing with robots?
+  
+Added: [2021-04-01 Thu 17:33]
+** check out Pinterest's Querybook                     :@work:research:tool:
+- https://www.querybook.org/
+neat tool that works with bigquery ( and plenty of other data sources ) to do
+collaborative editing on stuff
+Added: [2021-03-31 Wed 11:56]
+** go packages to look at                            :@work:research:golang:
+- [ ] https://github.com/src-d/go-kallax
+- [ ] https://github.com/grpc-ecosystem/awesome-grpc#lang-go
+- [ ] https://github.com/rivo/tview
+- [ ] https://github.com/tal-tech/go-zero
+- [ ] https://github.com/gosuri/uiprogress
+Added: [2021-03-30 Tue 16:59]
+** graphql in grpc                                     :@work:research:grpc:
+- [ ] https://medium.com/@svengau/when-graphql-meets-grpc-3e9729d32e05
+- [ ] https://github.com/google/rejoiner
+Added: [2021-03-30 Tue 16:57]

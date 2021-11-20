@@ -1,0 +1,5 @@
+* My Org Files
+
+This is a repo for all my [[https://orgmode.org/][Emacs Org Mode]] files. I used to use Dropbox, but
+Dropbox & Manjaro don't seem to play nicely together. So rather than continue to
+deal with that hassle here we are.

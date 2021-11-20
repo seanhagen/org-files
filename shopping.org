@@ -1,0 +1,645 @@
+# Local Variables:
+# eval: (auto-revert-mode)
+# End:
+* Tools
+[[https://www.core77.com/posts/26320/Duncan-Hellmers-Nixie-Tube-Based-Blub-Clock][build a torsion box]]
+[[https://thepowertoolwebsite.com/torsion-box-workbench][more torasion box plans]]
+
+** CNC
+- [[https://www.amazon.ca/Wood-Engraving-Machine-easy-use/dp/B08H4STH1G][Maker M2 CNC]] $1200
+- [[https://www.amazon.ca/dp/B07YYZ6WSB?tag=inzania-20&geniuslink=true][Maker Made Maslow]] $700
+- [[https://www.v1engineering.com/specifications/][MPCNC]] "mostly printed" cnc, depending on how parts are sourced: ~$550
+- [[https://www.thingiverse.com/thing:2471313][Plastic Monstrosity]]
+- [[https://www.v1engineering.com/lowrider-cnc/][Lowrider CNC]]
+  - [[https://shop.v1engineering.com/products/lowrider-cnc-bundle][Lowrider v2]] $256
+- [[https://www.youtube.com/watch?v=jjdXpp77MdU][home built one]]
+
+[[https://www.reddit.com/r/CNC/comments/ge0lpc/anyone_ever_use_a_maslow_cnc_they_have_a_very/][redit thread on cnc machines]]    
+** Power Tools
+- [ ] [[https://www.homedepot.ca/product/ryobi-shank-carbide-router-bit-set-15-piece-/1001190550][router bit set]]
+- [ ] [[https://www.homedepot.ca/product/ryobi-18v-one-cordless-brushless-belt-sander-with-dust-bag-and-1-80-grit-sanding-belt-tool-only-/1001040448][cordless brushless belt sander]]
+- [ ] [[https://www.homedepot.ca/product/ryobi-18v-one-cordless-fixed-base-trim-router-with-tool-free-depth-adjustment-tool-only-/1001040976][router]]
+- [ ] [[https://www.homedepot.ca/product/ryobi-2-hp-10-amp-plunge-base-router/1000721583][plunge base router]]
+- [ ] [[https://www.homedepot.ca/product/ryobi-18v-one-cordless-portable-band-saw-tool-only-/1001500477][portable band saw]]
+- [ ] [[https://www.homedepot.ca/product/ryobi-1-2-amp-16-inch-corded-scroll-saw/1001203690][scrollsaw]]
+- [ ] [[https://www.homedepot.ca/product/ryobi-2-5-amp-9-inch-band-saw/1000747370][bandsaw]]
+- [ ] [[https://www.homedepot.ca/product/ryobi-13-amp-8-1-4-inch-table-saw/1001464923][8 1/4 table saw]]
+- [ ] [[https://www.homedepot.ca/product/ryobi-18v-one-lithium-ion-cordless-6-tool-combo-kit-with-2-batteries-charger-and-bag/1001411527][6-tool bundle kit]]
+- [ ] [[https://www.homedepot.ca/product/ryobi-18v-one-airstrike-18-gauge-cordless-brad-nailer-tool-only-/1000681783?rrec=true][brad nailer]]
+- [ ] [[https://www.homedepot.ca/product/ryobi-18v-one-cordless-1-gal-portable-air-compressor-tool-only-/1001214064][portable air compressor]]
+* Garage Workshop Setup
+
+- [[https://www.powdercoatguide.com/2014/06/how-to-dry-compressed.html#.VX-3VlI72KU][need to remove water/vapor from compressed air]]
+** Inspiration
+- [[https://www.shanty-2-chic.com/2018/02/diy-cabinets.html][ryobi and organized]]
+- [[https://www.etsy.com/listing/637882307/power-tool-charging-station-and][power tool charing station]]
+- [[https://nextluxury.com/home-design/tool-storage-ideas/][lots of examples]]
+- [[https://nextluxury.com/home-design/tool-storage-ideas/][woo]]
+- [[https://www.familyhandyman.com/list/super-simple-workbenches-you-can-build/][simple workbenches]]
+- [[https://festoolownersgroup.com/index.php?pretty;board=member-projects;topic=router-bit-storage-cabinet.msg339189#msg339189][router bit organization]]
+- [[https://www.holzwerken.net/lesergalerie/2020/244159_abschliessbare-werkzeugwand][storage cabinet]]
+- [[https://www.familyhandyman.com/list/roll-out-cabinet-drawers-you-can-build-yourself/?_cmp=DiyTipsHints&_ebid=DiyTipsHints2%2F15%2F2017&_mid=138203&ehid=f45f26952ec281cf15c8940cf79303a271339629&pmcode=IVBJJU103#6][sliding cabinet]]
+- [[https://www.paoson.com/blog/en/homemade-multi-function-workbench-n121/][multi-function workbench]]
+- [[http://www.visualspicer.com/foldable-workshop-table.html][foldable table]]
+- [[https://www.remodelandolacasa.com/2019/10/sgplyrch.html][charging station and tool storage]]
+- [[https://sawdustgirl.com/drill-bit-storage-2/][drill bit storage tray]]
+- [[https://thediynuts.com/diy-outdoor-table-what-to-do-with-leftover-composite-decking/?utm_source=pinterest&utm_medium=cpc&utm_campaign=woodworking&utm_content=taliakaiser][table]] - not a workshop, but can use the instructions for building the legs/base
+- [[https://www.shanty-2-chic.com/2018/03/diy-workbench-2.html][diy workbench]]
+- [[https://matchness.com/2018/11/10/34-creative-hacks-to-organize-your-stuff-for-garage-storage/][storage!]]
+- [[https://imgur.com/gallery/Emueb][tool rack]]
+- [[https://www.kreativekiste.de/tipps-tricks-basteln-werkstatt-kinder][wood bit storage]]
+- [[https://www.popularwoodworking.com/projects/tablesaw-storage-cabinet/][tablesaw storage]]
+- [[https://www.familyhandyman.com/list/12-simple-storage-solutions/][more storage!]]
+- [[https://www.farmshow.com/a_article.php?aid=26372][tool storage]]
+- [[https://fixthisbuildthat.com/diy-garage-cabinets-plans/][diy garage cabinet plans]]
+- [[https://matchness.com/2018/11/10/34-creative-hacks-to-organize-your-stuff-for-garage-storage/][garage organizer ideas]]
+- [[http://diypallet.selbermachendeko.com/wunderbare-tipps-holzbearbeitung-schuppen-vater-holzbearbeitung-tipps-holzbearbeitung-holzbearbeitung/][tool organizer]]
+- [[https://dreamdesigndiy.com/10-best-garage-workbench-builds/?utm_medium=social&utm_source=pinterest&utm_campaign=tailwind_tribes&utm_content=tribes&utm_term=985962802_44498772_342671][workbench ideas]]
+- [[https://100things2do.ca/organizethis-small-parts-bins/][small part bins]]
+- [[https://www.woodsmithplans.com/plan/3-in-1-drill-press-upgrade/][drill press upgrade]]
+- [[https://learn.kregtool.com/plans/miter-saw-station-with-drawers/?bmr=1&source=1669][miter saw station with drawers]]
+- [[https://www.familyhandyman.com/list/diy-tips-for-your-garage/][stoooooorage]]
+- [[https://sawdust2stitches.com/workbench-storage-table/][workbench storage table]]
+- [[https://www.bitterrootdiy.com/mobile-workbench-with-table-saw/][mobile workbench with saw]]
+- [[https://www.woodsmith.com/newsletter/2016/09/15/space-saving-tool-stations/?utm_source=WoodsmithTips&utm_medium=email&utm_campaign=11429][space saving tool stations]]
+- [[https://rogueengineer.com/ultimate-diy-workstation-plans/?mc_cid=0d298cfc92][diy workstation]]
+- [[https://diywoodfans.tumblr.com/?p=21143043027317][stuff]]
+- [[https://www.familyhandyman.com/project/how-to-build-a-workbench-super-simple-50-bench/][simple workbench]]
+- [[https://www.reddit.com/r/Workbenches/comments/fuzb6g/first_woodworking_project_figured_id_start_with_a/][simple workbench]]
+- [[https://woodshopmike.com/category/projects/shop-projects/][shop projects]]
+- [[https://imgur.com/gallery/9TZNjuR][awesome workshop table]]
+- [[https://imgur.com/gallery/5shkbCy][another awesome workshop table]]
+- [[https://www.familyhandyman.com/project/how-to-build-a-flip-top-workbench/][plans for building workshop with flip section]]
+- [[https://www.lumberjocks.com/projects/63000][tablesaw outfeed table]]
+- [[https://www.houselogic.com/by-room/garage-additions/garage-workshop/?site_ref=mosaic][some basic workshop stuff to take care of]]
+- [[https://extremehowto.com/build-the-perfect-workbench/][workbench ideas]]
+** Tutorials
+- [[https://mwawoodworks.com/how-to-make-a-crosscut-sled/][how to make a crosscut sled]]
+- [[https://www.blinds.com/blog/common-window-measuring-mistakes-how-to-avoid-them?utm_medium=soc&utm_source=pnt&utm_content=measuremistake&utm_campaign=eng%7Csoc&crlt.pid=camp.K4xxtw0SmK32][how to measure]]
+- [[https://www.etsy.com/listing/711647510/ultimate-workbench-woodworking-plans?epik=dj0yJnU9dDgxY0pCNWgydU9vWlVpdW9PMG1OM1NUNWNQYjZFMG8mcD0wJm49LVhjMDlDTllZU0FEOVhCRENXZl9KZyZ0PUFBQUFBR0I3NjJ3][build plans for workbench]] -- lots of plans available on etsy, looks like
+- [[https://www.etsy.com/ca/listing/673488782/pdf-mobile-project-center-workbench?item_group_id=PG_673488782&epik=dj0yJnU9MkhzbFY3OVRJbWlmUEo4RnRqeHZZSndJNk5RRXZyYmMmcD0wJm49dnM4QWc5VFJyWWZVMXc4Wl9TREx0ZyZ0PUFBQUFBR0I3OEhn][more plans for workbench]]
+- [[https://100things2do.ca/building-plans-for-a-table-saw-stand/][build plans for table saw stand]]
+** Neat Ideas
+-[[https://ibuildit.ca/projects/wooden-gantry-crane/][ wooden gantry crane]]
+- [[https://www.instructables.com/Dust-Free-Sanding-Using-a-Storage-Container/?linkId=76202755][dust free sanding setup]]
+-
+* Network Gear [3/3]
+- [X] punch-down ethernet keystone
+- [X] cat6 ethernet cable
+- [X] punch-down tool
+  
+* Home Automation Stuff
+** Notes
+[[https://www.youtube.com/watch?v=sVqyDtEjudk][home assistant.io setup guide video]]
+
+prefered tech:
+- zigbee
+- wifi
+- bluetooth
+- zwave
+
+things to consider:
+
+[[https://youtu.be/v8-VNIQQiQE?t=792][according to The Hook Up]]:
+zwave better when:
+- purchasing many devices at once
+- devices will span many rooms
+- willing to pay more per devcie to ensure compatability
+
+use a local hub like Hubitat or Home Assistant (rpi with usb dongles )
+
+- [[https://www.amazon.com/Hubitat-Elevation-Home-Automation-Hub/dp/B07D19VVTX/ref=as_li_ss_tl?keywords=hubitat&qid=1581453498&sr=8-2&linkCode=sl1&tag=thehookup00-20&linkId=0780d3811c4cd53f827b0f29782dcdd3&language=en_US][hub]] $147.75
+- [[https://www.amazon.ca/Z-Wave-Stick-Assistant-HomeSeer-Software/dp/B07GNZ56BK/][usb dongle]] $64.95
+- [[https://www.amazon.ca/Gateway-Controller-Connectivity-Wireless-Network/dp/B088QPLQS2/ref=sr_1_3?dchild=1&keywords=zwave+usb&qid=1618524842&sr=8-3][usb dongle]] $32.65
+- [[https://www.amazon.ca/Controller-SmartStart-Raspberry-Compatible-SmartThings/dp/B089GSFKYW/ref=sr_1_2?dchild=1&keywords=zwave+usb&qid=1618524842&sr=8-2][usb dongle]] $86.46
+
+
+zigbee better when:  
+- more options and lower prices
+- willing to do research to ensure device compatibility ( probably not easy )
+- devices i want are _only_ zigbee (philips hue)
+- have a specific reason to buy zigbee, otherwise wait for the [[https://www.verypossible.com/insights/what-you-need-to-know-about-project-connected-home-over-ip#:~:text=Short%20for%20%E2%80%9CConnected%20Home%20over,%2C%20Apple%2C%20Google%2C%20the%20Zigbee][Connnected Home
+  over IP]] project to start producing devices
+  
+
+- [[https://www.amazon.com/dresden-elektronik-ConBee-Universal-Gateway/dp/B07PZ7ZHG5/ref=as_li_ss_tl?crid=2YDW4ERYA3WP3&keywords=conbee+ii&qid=1581453584&sprefix=conbee+,aps,171&sr=8-2&linkCode=sl1&tag=thehookup00-20&linkId=2b38406eb96e0ddac719c203ba599b0b&language=en_US][usb dongle]] $42.30
+
+wifi better when:
+- ~easiest and most user friendly setup experience~
+- ~not overly concerned with data privacy (tend to be cloud controlled)~
+- willing to modify with custom firmware (ie [[https://tasmota.github.io/docs/Compile-your-build/][tasmota]] )
+- willing to do research and troubleshoot
+- data privacy, security, and local control are high on priority list ( but
+  willing to put in all the work required to get there )
+
+
+*** other things to set up
+**** mqtt broker
+can just install via add-on 'store' in ha.io, but would like to have one
+installed in a vm/docker image to better monitor and maybe use with other stuff
+** Doorbell
+- [[https://www.amazon.com/Amcrest-Doorbell-Camera-Weatherproof-Two-Way/dp/B07ZJS3L5Y/][Amcrest]] - $90
+
+Notes:
+ - [[https://mightygadget.co.uk/setting-up-anker-eufycam-2c-with-a-nas-surveillance-station-or-blueiris-nvr/][Eufy Doorbell & RTSP]]
+ - [[https://medium.com/zmninja/diy-doorbell-face-recognition-with-zoneminder-and-dbell-e15d4cd261c4][Face Recognition in ZoneMinder]]
+** Door Lock
+  - shlage connect with zwave plus
+    
+** Home Security
+- [[https://www.vivintdeals.com/][Vivint]]
+  
+** Switches/Lights
+*** Shelly
+[[https://www.iot-store.ca/][canadian distributor]]
+
+- [[https://www.amazon.ca/Shelly-Wireless-Automation-Android-Application/dp/B07G33LNDY][snhelly 1]] $45
+
+** Window Coverings
+*** Blinds
+*** Curtains
+** Sun Shades
+** Security Cameras
+look into nvr platforms:
+- zoneminder
+- [[https://shinobi.video/features][shinobi]]
+  
+- cameras need to be either onvif or rtsp devices in order to work best with
+  zoneminder
+- stay away from propreitary solutions ( ring, nest, etc )
+
+[[https://zoneminder.readthedocs.io/en/stable/faq.html#math-for-memory-making-sure-you-have-enough-memory-to-handle-your-cameras][calculate ram required by zoneminder]]
+
+[[https://www.reddit.com/r/reolinkcam/comments/jnurzm/adding_reolink_cameras_to_zoneminder_nvr/][Guide on adding Reolink to Zoneminder]]
+
+Reolink - [[https://wiki.zoneminder.com/Reolink][ZM Wiki]]
+ most reolink are ONVIF & RTSP compatible
+- [[https://www.amazon.ca/Reolink-Security-Outdoor-Detection-RLC-420-5MP/dp/B01AL4GM9W/ref=dp_prsubs_2?pd_rd_i=B01AL4GM9W&psc=1][Reolink PoE]] $69 CAD
+- [[https://www.amazon.com/Reolink-RLC-420-5MP-Surveillance-Security-Detection/dp/B07HFQ4LH1/][Reolink PoE Dome]] $96 USD - (2-pack)
+- [[https://www.amazon.ca/Reolink-Security-Optical-Outdoor-RLC-511/dp/B07GNFSWCS][Reolink PoE Bullet]] $124 CAD
+- [[https://www.amazon.ca/Reolink-Security-Surveillance-Detection-RLC-410-5MP/dp/B01AHXEHYY/ref=sr_1_4_sspa?dchild=1&keywords=Reolink+PoE+IP+Camera&qid=1620961501&sr=8-4-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExS0pNVVpQNU45STVXJmVuY3J5cHRlZElkPUEwMzg4ODk4M1VJWEVOTTFLRDNBQyZlbmNyeXB0ZWRBZElkPUEwMTc3NDgzMVBOS0c1NFVFSjdGUiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=][Reolink]] poe bullet $59 CAD
+  
+Anpviz
+- [[https://www.amazon.com/Hikvision-Compatible-Microphone-Weatherproof-IPC-3150G/dp/B07P6KKSGW/][PoE Dome]] $55
+
+Nameless?
+- [[https://www.amazon.com/Security-Revotech-Detection-Surveillance-I706-2-P/dp/B07WBVTVD4/][Mini PoE 3MP]] $33
+- [[https://www.amazon.com/Security-Revotech-2-8-12mm-Surveillance-Detection/dp/B07YCFZL8N/][Mini PoE 3MP 6-22mm zoom]] $44
+- [[https://www.amazon.com/Camera-Wireless-Security-Surveillance-Waterproof/dp/B07VT6D5DS/][WiFi PTZ HD 5MP Dome camera]] $135
+  
+** Sprinkler
+[[https://opensprinkler.com/product/opensprinkler/][OpenSprinkler]]
+ - $186 with ethernet adapter
+ - $166 without
+
+** Water Monitoring
+[[https://www.homedepot.ca/product/sharkbite-streamlabs-smart-home-water-monitor/1001544619][something like this]]
+[[https://www.homedepot.ca/product/moen-flo-by-moen-smart-water-shut-off/1001528693][or this]]
+** Landscape Lighting
+** Smart Sprinkler
+[[https://rachio.com/rachio-3/][rachio 3]]
+
+** Door Sensors
+- great idea if we have kids ( can detect a door being opened after bedtime if
+  we're outside )
+
+** Thermostat
+[[https://www.reddit.com/r/homeautomation/comments/aj0pjr/locally_controllable_but_noncloud_connected/][reddit thread]] on options
+[[https://www.amazon.ca/GoControl-BRO-NTBZ48-Z-Wave-Battery-Powered-Thermostat/dp/B00ZIRV40K][z-wave thermostat]]
+
+** Security Stuff
+- [[https://konnected.io/collections/shop-now/products/konnected-alarm-panel-pro-12-zone-kit?variant=31677817552969][konnected]]
+- [[https://www.reddit.com/r/homeassistant/comments/8svu4i/bang_for_buck_alarm_system_with_home_assistant/][thread on sensor options]]
+
+** Voice Commands
+- want to move away from google speakers for voice control ( don't really use
+  them for music or podcasts )
+
+- [[https://github.com/rhasspy/rhasspy][rhasspy]]
+- [[https://github.com/home-assistant/ada][ada]]
+- [[https://almond.stanford.edu/][almond]] ( might be requirement for ada? )
+* House Upgrades
+** Shower Head
+[[https://www.amazon.ca/SR-SUN-RISE-6-Settings-Pressure/dp/B089K3VWYL/ref=sr_1_7?dchild=1&keywords=sr+sunrise+shower+head&qid=1618527866&s=hi&sr=1-7][nice looking one]] - $110
+* Neat SubscriptionBoxes
+- [[https://www.cratejoy.com/subscription-box/madbomr/][Madbomr]]
+- [[https://www.cratejoy.com/subscription-box/paletteful-packs/?pt=subscription-box&gs=craftsmancrate&cn=3&sn=aws_related_sims-recs][Paletteful Packs - Quarterly]]
+- [[https://www.cratejoy.com/subscription-box/skulls-unlimited-international-inc/?pt=category&gs=novelty-subscription-boxes&cn=1&pn=1&ft=&sn=main][Skulls Unlimited's BoneBox]]
+- [[https://www.cratejoy.com/category/book-subscription-boxes/?ships_to=CA][Various Book Subscription Boxes]]
+- [[https://www.cratejoy.com/subscription-box/the-calligraphy-box/?pt=category&gs=arts-and-craft-subscription-boxes&cn=17&pn=1&ft=&sn=main][The Caligraphy Box]]
+- [[https://www.cratejoy.com/subscription-box/theinkybox/?pt=category&gs=arts-and-craft-subscription-boxes&cn=9&pn=1&ft=&sn=main][The Inky Box]]
+- [[https://www.cratejoy.com/subscription-box/practicehope/?pt=category&gs=arts-and-craft-subscription-boxes&cn=10&pn=1&ft=&sn=main][Hopebroidery]]
+- [[https://www.cratejoy.com/subscription-box/recordsclub/?pt=category&gs=music&cn=7&pn=1&ft=&sn=main][Records Club]]
+- [[https://www.cratejoy.com/subscription-box/vinyl-moon/?pt=category&gs=music&cn=2&pn=1&ft=&sn=main][Vinyl Moon]]
+- [[https://www.cratejoy.com/subscription-box/cloth-paper-co/?pt=category&gs=planning-stationery&cn=1&pn=1&ft=&sn=main][Cloth & Paper]]
+- [[https://www.cratejoy.com/subscription-box/zanini-box/?pt=category&gs=video-game-subscription-boxes&cn=7&pn=1&ft=&sn=main][Zanini - Pins!]]
+- [[https://www.cratejoy.com/subscription-box/the-tool-chest/?pt=category&gs=diy-subscription-boxes&cn=20&pn=2&ft=&sn=main][Tool Subscription]]
+- [[https://www.cratejoy.com/subscription-box/scribe-delivery/?pt=category&gs=diy-subscription-boxes&cn=12&pn=1&ft=&sn=main][SCRIBEdelivery]]
+- [[https://www.cratejoy.com/subscription-box/loot-pin/?pt=category&gs=geek-gaming-subscription-boxes&cn=23&pn=2&ft=&sn=main][Enamel Pins]]
+- [[https://www.cratejoy.com/subscription-box/laserbrain-patch-co/?pt=category&gs=geek-gaming-subscription-boxes&cn=18&pn=2&ft=&sn=main][Pin & Patch Box]]
+- [[https://www.cratejoy.com/subscription-box/culture-carton/?pt=subscription-box&gs=beard-care-club&cn=1&sn=aws_related_sims-recs][Culture Carton For Men]]
+- [[https://www.cratejoy.com/subscription-box/gentlemans-box1/?pt=subscription-box&gs=beard-care-club&cn=2&sn=aws_related_sims-recs][Gentleman's Box]]
+- [[https://www.cratejoy.com/subscription-box/craftsmancrate/?pt=subscription-box&gs=gentlemans-box1&cn=2&sn=aws_related_sims-recs][Craftsman Box]]
+- [[https://www.cratejoy.com/subscription-box/sprezzabox/?pt=subscription-box&gs=gentlemans-box1&cn=4&sn=aws_related_sims-recs][SprezzaBox]] - choose from a variety of boxes each month, each with 5-6 items
+- [[https://www.cratejoy.com/subscription-box/southern-scholar/?pt=subscription-box&gs=victorybox&cn=4&sn=aws_related_sims-recs][Southern Scholar Box]]
+- [[https://www.cratejoy.com/subscription-box/beard-care-club/][Beard Care Club]]
+- [[https://www.cratejoy.com/subscription-box/ziggy-sticker-club/?pt=category&gs=novelty-subscription-boxes&cn=18&pn=9&ft=&sn=main][Ziggy Sticker Club]]
+- [[https://www.cratejoy.com/subscription-box/volkan/?pt=category&gs=home-garden-subscription-boxes&cn=16&pn=1&ft=&sn=main][Canvas Prints]]
+- [[https://www.cratejoy.com/subscription-box/shaker-spoon/?pt=category&gs=liquor-mixologoly-subscription-boxes&cn=1&pn=1&ft=&sn=main][Shaker & Spoon]]
+- [[https://www.cratejoy.com/subscription-box/the-plug-crate/?pt=category&gs=subscription-boxes-for-men&cn=18&pn=2&ft=&sn=main][Ear Plug Crate]]
+- [[https://www.cratejoy.com/subscription-box/sharpcrispclean/?pt=category&gs=subscription-boxes-for-men&cn=17&pn=2&ft=&sn=main][Bow Tie Club]]
+- [[https://www.cratejoy.com/subscription-box/soxcrate/?pt=category&gs=subscription-boxes-for-men&cn=1&pn=3&ft=&sn=main][Sox Club]] - high quality designer socks each month
+- [[https://www.cratejoy.com/subscription-box/jetsole/?pt=category&gs=subscription-boxes-for-men&cn=5&pn=6&ft=&sn=main][JetSole]] -
+- [[https://www.cratejoy.com/subscription-box/king-x-portland/?pt=category&gs=subscription-boxes-for-men&cn=22&pn=4&ft=&sn=main][King x Portland]]
+- [[https://www.cratejoy.com/subscription-box/wolf-grooming-co/?pt=category&gs=subscription-boxes-for-men&cn=11&pn=4&ft=&sn=main][Wolf Shower Experience]]
+- [[https://www.cratejoy.com/subscription-box/hiker-crate/?pt=category&gs=prepper-survival-subscription-boxes&cn=3&pn=1&ft=&sn=main][Hiker Crate]]
+- [[https://www.cratejoy.com/subscription-box/beard-balm/?pt=category&gs=subscription-boxes-for-men&cn=19&pn=1&ft=&sn=main][Murphy's Beard Balm]]
+- [[https://www.cratejoy.com/subscription-box/and-the-story-begins/?pt=category&gs=book-subscription-boxes&cn=15&pn=1&ft=&sn=main][and the story begins]] -- 2 books from selected genre each month
+- [[https://www.bespokepost.com/start?sr=nav_top][BeSpoke Post]]
+- [[https://gentlemansbox.com/classic/][Gentleman's Box Classic]]
+- [[https://gentlemansbox.com/premium/][Gentleman's Box Premium]] - quarterly
+** Pet Boxes
+- [ ] [[https://www.barkbox.com/][Barkbox]]
+- [ ] [[https://www.nomnomnow.com/][NomNom]]
+- [ ] [[https://www.thefarmersdog.com/][The Farmers Dog]]
+- [ ] [[https://www.barkbox.com/super-chewer/][BarkBox Super Chewer]]
+- [ ] [[https://get.boxdog.com/][BoxDog]]
+- [ ] [[https://kittypooclub.com/][Kitty Poo Club]] - new recyclable litter box & bag of litter each month
+- [ ] [[https://meowbox.com/][MeowBox]] - cat toys
+- [ ] [[https://apupabove.com/][A Pup Above]] - single or subscription dog food
+* Grooming Stuff
+** Products
+- notes:
+  - if shampoo & conditioner is premium, can use for hair & beard -- heard good
+    things about argan oil products
+  - use warm water and not scalding hot? rinse quickly with cold water
+  - https://www.toolsofmen.com/how-to-clean-your-beard/
+  - https://www.dollarshaveclub.com/content/story/scrub-dub-dub-exfoliate-shaving
+  - https://www.dollarshaveclub.com/content/story/take-care-face-majestic-beard
+  - https://www.tiege.com/blogs/news/how-to-take-care-of-your-skin-when-you-have-a-beard
+    
+*** Trial Products [2/4]
+- ~[ ] Dollar Shave Club [[https://www.dollarshaveclub.com/shop/trial-size][list]]~
+- [ ] Birchbox Subscription box [[https://www.birchbox.com/subscribe/men][link]]
+  get a box of 5 samples each month
+- [X] [[https://freshbeards.com/][FreshBeards]]
+  - sample pack: 1920, Armor, Shipwrecked, Woodland
+- [X] [[https://badassbeardcare.com/][Badass Beard Care]]
+  - samples:
+    - [[https://badassbeardcare.com/collections/trial-packs-samples/products/badass-beard-wash-trial-size?variant=19311927459936][Beard Wash]]
+    - [[https://badassbeardcare.com/collections/trial-packs-samples/products/sample-pack-oil-balm-and-wash?variant=37666183807166][Sample Pack Single]] - get the seasonal one with this
+    - [[https://badassbeardcare.com/products/ultimate-trial-kit-every-scent?variant=37289539928254][Ultimate Trial Pack]]
+  
+*** Other Gear
+- [ ] DSC [[https://www.dollarshaveclub.com/product/tool-kit][tool kit]]
+- [ ] DSC [[https://www.dollarshaveclub.com/product/traveler][travel bag]]
+  
+*** Facial or Exfoliating Scrubs [0/5]
+- [ ] https://www.dollarshaveclub.com/product/hydrating-face-cleanser
+- [ ] https://www.esquire.com/style/grooming/g25139482/best-face-scrub-for-men/
+- [ ] https://www.gq-magazine.co.uk/gallery/8-of-the-best-exfoliators-for-men?image=5f1589df5c7c349fdae82d73
+- [ ] https://www.menshealth.com/grooming/g21601437/best-face-scrubs-for-men/
+- [ ] https://www.tiege.com/products/mens-exfoliating-scrub
+
+*** Hair Shampoo [0/9]
+- might be time to think about using not head & shoulders
+- [ ] [[https://www.aesop.com/us/p/hair/hair-cleanse/calming-shampoo/][Aesop Calming Shampoo]]
+- [ ] [[https://www.amazon.ca/Mens-Shampoo-Peppermint-Eucalyptus-Prevents/dp/B07T3HJKT6/ref=pd_day0_3?pd_rd_w=Zr04X&pf_rd_p=a0f07c06-3bfe-427e-9527-5be8cea27b66&pf_rd_r=59QRE33ZZ0DAGZRX0Q7Z&pd_rd_r=db52eab3-06e7-4914-9133-3b878c940481&pd_rd_wg=rUGA4&pd_rd_i=B07T3HJKT6&psc=1][Rocky Mountain Barber Company]]
+- [ ] [[https://www.amazon.ca/Pure-Nature-Lux-Spa-Moroccan/dp/B075CYCPX4][Moroccan Argan Oil Shampoo]]
+- [ ] [[https://www.ulta.com/natural-balance-apple-cider-vinegar-sulfate-free-shampoo?productId=xlsImpprod16371007][AG Hair Natural Balance Apple Cider Vinegar Sulfate-Free Shampoo]]
+- [ ] [[https://www.amazon.ca/dp/B00OO0J9UY?psc=1&language=en_US&th=1&linkCode=gs2&tag=spycan00-20][SheaMoisture 13 oz Manuka Honey & Mafura Oil Intensive Hydration Shampoo]]
+- [ ] [[https://www.amazon.ca/ORIBE-Hair-Care-Signature-Shampoo/dp/B07XGTMQLF][ORIBE Hair Care Signature Shampoo , 8.5 fl. oz.]]
+- [ ] [[https://www.amazon.ca/dp/B008J2GP9G?psc=1&language=en_US&th=1&linkCode=gs2&tag=spycan00-20][OGX Renewing Moroccan Argan Oil Shampoo]]
+- [ ] ++ https://www.billyjealousy.com/products/beard-envy-kit
+- [ ] https://www.dollarshaveclub.com/product/hydrating-shampoo
+  
+*** Hair Conditioner [0/4]
+- something that can help moisturize my scalp would be A++
+- something that can also do beards would be fantastic ( would obv need more
+  though )
+
+- to check out
+- [ ] [[https://www.amazon.com/dp/B071K5T5Q2?tag=wwd0e2-20&linkCode=ogi&th=1&psc=1&language=en_US][The Honest Company Purely Sensitive Conditioner]]
+- [ ] [[https://shop.frederickbenjamin.com/products/conditioner-invigorating-moisturizer][CONDITIONER - INVIGORATING MOISTURIZER]]
+- [ ] [[https://www.desertessence.com/store/hair-care/fragrance-free-conditioner][Desert Essence FRAGRANCE-FREE HAIR CONDITIONER]]
+- [ ] https://www.dollarshaveclub.com/product/hydrating-conditioner
+*** Hair Styling [0/9]
+- go for wax, clay, or fiber ( most to least desirable )
+- putty or mud is just other terms for clay-based pomades
+
+- [ ] [[https://www.amazon.com/gp/product/B00VVV0RD2/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00VVV0RD2&linkCode=as2&tag=stucosuccess&linkId=FSXA3GZUT5SFDAZ4][BYRD Classic Pomade]]
+- [ ] [[https://www.amazon.com/gp/product/B00Z08NA8Q/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00Z08NA8Q&linkCode=as2&tag=stucosuccess&linkId=FSXA3GZUT5SFDAZ4][Bed Head Men Matte Separation Workable Wax by TIGI]]
+- [ ] [[https://www.amazon.com/gp/product/B005OS2JZ2/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B005OS2JZ2&linkCode=as2&tag=stucosuccess&linkId=FSXA3GZUT5SFDAZ4][Gatsby Hair Styling Wax Matt & Hard]]
+- [ ] [[https://www.amazon.com/gp/product/B000MIKEZQ/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000MIKEZQ&linkCode=as2&tag=stucosuccess&linkId=FSXA3GZUT5SFDAZ4][Baxter of California Clay Pomade, Matte Finish/Strong Hold]]
+- [ ] [[https://www.amazon.com/gp/product/B07KCNDSB8/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B07KCNDSB8&linkCode=as2&tag=stucosuccess&linkId=FSXA3GZUT5SFDAZ4][Duke Cannon Supply Co. - News Anchor Fiber Pomade]]
+- [ ] [[https://www.amazon.com/gp/product/B0007CXWC4/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0007CXWC4&linkCode=as2&tag=stucosuccess&linkId=FSXA3GZUT5SFDAZ4][AMERICAN CREW Fiber]]
+- [ ] [[https://www.amazon.com/gp/product/B01LXGGO5E/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B01LXGGO5E&linkCode=as2&tag=stucosuccess&linkId=FSXA3GZUT5SFDAZ4][Layrite Cement Clay]]
+- [ ] [[https://www.amazon.com/gp/product/B0167HOOEC/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0167HOOEC&linkCode=as2&tag=stucosuccess&linkId=FSXA3GZUT5SFDAZ4][Smooth Viking Hair Styling Clay]]
+- [ ] [[https://www.amazon.com/gp/product/B07M7LCR7X/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B07M7LCR7X&linkCode=as2&tag=stucosuccess&linkId=FSXA3GZUT5SFDAZ4][BYRD Clay Pomade ]]
+*** Beard Shampoo [0/6]
+- [ ] [[https://www.sephora.com/ca/en/product/beard-wash-P427514][Jack Black Beard Wash]]
+- [ ] https://www.toolsofmen.com/best-beard-shampoo/
+- [ ] https://thebeardclub.com/products/beard-shampoo
+- [ ] https://www.menshairstylestoday.com/best-beard-shampoo-conditioner/
+- [ ] https://www.zeusbeard.com/collections/beard-shampoo-conditioner
+- [ ] ++ https://www.amazon.ca/dp/B00HBSC3JA?linkCode=gs2&tag=tooofmen-20
+*** Beard Conditioner [0/3]
+note: beard balm can accomplish the same thing, but if a product is specifically
+'beard conditioner', use it in the shower ( put in, leave a bit, wash out )
+- [ ] https://beardguidance.com/beard-oil-vs-beard-conditioner/
+- [ ] https://www.themanual.com/grooming/best-beard-conditioner/
+- [ ] https://www.esquire.com/style/grooming/g32670641/best-beard-conditioners/
+*** Beard Oil or Balm [0/2]
+- all three help moisturize:
+  - oil: no hold, doesn't help with styling
+  - butter: a bit more shaping ability than oil
+  - balm: tends to have some kind of wax to aid in styling, should be washed out at end of day
+- [ ] [[https://freshbeards.com/][FreshBeards]]
+- [ ] [[https://badassbeardcare.com/][Badass Beard Care]]
+** Equipment/Gear
+*** Kits
+- [[https://thebeardclub.com/products/premium-beard-grooming-kit][Beard Club Premium Grooming Kit]]
+*** Brush/Comb
+- wood is best, try to avoid plastic
+*** Trimmer & Scissors
+- wireless would be nice, but the one i've got might be fine
+- a small pair of scissors would be nice for trimming errant hairs
+** Care Routine
+*** Twice A Day
+**** Facial Scrub
+- morning after shower, evening before bed (use hot towel to get steam effect)
+**** Moisturize
+- morning after shower, evening before bed
+- beard -- morning: balm, evening: oil
+- face -- morning & evening: oil or cream
+- scalp -- morning & evening: oil ( same as beard oil? )
+*** Daily
+**** Morning Shower
+- brush beard before shower ([[https://libertygrooming.com/why-not-to-wash-your-beard-every-day-and-what-to-do-instead/][from here]])
+- just body wash on most days, quick hot 5 minute shower
+*** Twice A Week
+- mondays & thursday mornings
+**** Wash Hair & Beard In Shower
+- no-scent, sulfate-free shampoo
+- same for conditioner
+**** Exfoliate
+- face & skin under beard
+**** Trimming
+- use scissors to take care of problem hairs & keep areas 
+  like around the ears and moustace cleaner
+*** Links
+- https://beardoholic.com/how-to-use-beard-balm/
+* Clothes
+** Socks To Check Out [0/2]
+- [ ] [[https://www.stance.ca/men-icon-3-pack-Black][Stance Icon]]
+- [ ] [[https://www.meundies.com/membership][MeUndies - Socks!]]
+** Underwear [0/3]
+- [ ] [[https://www.meundies.com/membership][MeUndies]]
+- [ ] [[https://www.underwearexpert.com/][Underwear Expert]]
+- [ ] [[https://boxes.hellosubscription.com/subscription-box/manbuns/][Manbuns]]
+** Sock & Underwear [0/2]
+- [ ] [[https://boxes.hellosubscription.com/subscription-box/wimu/][WIMU]]
+- [ ] 
+** Shirts [0/3]
+- [ ] [[https://boxes.hellosubscription.com/subscription-box/dive-bar-shirt-club/][Dive Bar Shirt Club]]
+- [ ] [[https://wohven.com/][Wohven]] ([[https://boxes.hellosubscription.com/subscription-box/wohven/][HelloSubscription link]])
+- [ ] 
+** Outfits [0/2]
+- [ ] [[https://www.stitchfix.com/men][StichFix Men]]
+- [ ] 
+* Aeroplan Stuff
+Points: 226,380
+
+| Product                                                                                       | Points  | MSRP  | Link |
+|-----------------------------------------------------------------------------------------------+---------+-------+------|
+| Eufy by Anker Smart Video Doorbell 2K Battery or Wired with HomeBase                          | 37,700  | $280  | [[https://aeroplan.rewardops.com/en-CA/product-details/137362?src=category&category=Electronics][link]] |
+| IK Multimedia iRig Keys I/O 49 MIDI Controller and Audio Interface                            | 50,300  | $400  | [[https://aeroplan.rewardops.com/en-CA/product-details/134566?src=category&category=Electronics][link]] |
+| Best Buy $500 eGift Card                                                                      | 70,000  | $500  | [[https://aeroplan.rewardops.com/en-CA/product-details/128439?src=category&category=Electronics][link]] |
+| House of Marley® Stir It Up Wireless - Bamboo Turn table                                      | 35,400  | $350  | [[https://aeroplan.rewardops.com/en-CA/product-details/128023?src=category&category=Electronics][link]] |
+| RICOH WG-6                                                                                    | 73,000  | $570  | [[https://aeroplan.rewardops.com/en-CA/product-details/126631?src=category&category=Electronics][link]] |
+| Bose Soundbar 700 - Black                                                                     | 120,600 | $1000 | [[https://aeroplan.rewardops.com/en-CA/product-details/126732?src=category&category=Electronics][link]] |
+| Apple iPad Mini Wifi + Cellular 256 GB, Space Grey                                            | 117,800 | $900  | [[https://aeroplan.rewardops.com/en-CA/product-details/127639?src=search&q=ipad&sourceFilter=all][link]] |
+| Amazon $500 Gift Card                                                                         | 70,000  | $500  | [[https://aeroplan.rewardops.com/en-CA/product-details/128653?src=brand&brand=amazon][link]] |
+| iRobot Roomba® i7+ 7550 Wi-Fi® Connected Robot Vacuum with Automatic Dirt Disposal - Charcoal | 125,000 | $1000 | [[https://aeroplan.rewardops.com/en-CA/product-details/136339][link]] |
+| Escali Smart Connect Kitchen Scale with Bluetooth                                             | 11,200  | $120  | [[https://aeroplan.rewardops.com/en-CA/product-details/127116][link]] |
+
+
+210,000
+left with 16,380
+
+ stuff to get from amazon:
+ - ryobi cordless heat gun [[https://www.amazon.ca/Ryobi-18-Volt-Lithium-Ion-Cordless-P3150/dp/B07SGYWXRY][link]]                    $145
+ - ryobi airstrike cordless brad nailer [[https://www.amazon.ca/Ryobi-P320-Airstrike-Cordless-Included/dp/B00CRFEZFC/][link]]       $160
+ - craftsman 6 gallon air compressor [[https://www.amazon.ca/CRAFTSMAN-Compressor-Oil-Free-Accessory-CMEC6150K][link]]          $200
+ - stanley wet/dry vac 12 gallon [[https://www.amazon.ca/Stanley-Wet-Vacuum-Gallon-Horsepower/dp/B00IS94BW8/][link]]              $100
+ - ryobi cordless random orbit sander [[https://www.amazon.ca/Ryobi-P411-Cordless-Operated-Included/dp/B017POA9R2][link]]          $60
+ - dewalt plunge router [[https://www.amazon.ca/DEWALT-DW618PKB-Fixed-Plunge-Router/dp/B00D8WJDC8/][link]]                       $260
+ - 3M Full Facepiece Reusable Respirator 6800 [[https://www.amazon.ca/dp/B007JZ1LG6/][link]] $170
+ - 3m worktunes [[https://www.amazon.ca/3M-WorkTunes-Protector-Bluetooth-Technology/dp/B07N6XXCWM/][link]]                               $100
+   
+subtotal --------------------------------------   $1195
+
+
+ 
+get the ryobi 6-tool kit from home depot ( it's in stock and like $200 cheaper )
+
+home depot for the table saw?
+ - dewalt 8-1/4in table saw [[https://www.amazon.ca/Dewalt-DWE7485-Compact-Jobsite-Table/dp/B0842QDW95][link]]                   $350
+* Purchase Plans 
+** Entertainment Unit [2/2]
+- [X] fans for entertainment unit
+- [X] tv in-wall power pass-through
+  
+** Home Automation [5/10]
+- [X] raspberry pi 4 (home assistant)
+- [X] zigbee usb gateway
+- [X] z-wave plus usb adapter
+- [X] 4-port usb hub ( for zigbee & z-wave adapters )
+- [X] shlage connect smart deadbolt lock
+- [-] smart switches
+  - [X] z-wave dimmers [2/2]
+    - [X] bedroom
+    - [X] walk in closet
+  - [ ] shelly dimmer 2 [0/3]
+    - [ ] tv area
+    - [ ] under kitchen cabinets
+    - [ ] island lights
+  - [ ] shelly 1 [0/7]
+    - [ ] balcony
+    - [ ] sink light
+    - [ ] kitchen overheads
+    - [ ] laundry closet
+    - [ ] landing
+    - [ ] guest bedroom
+    - [ ] office
+  - [ ] shelly 2.5 [0/2]
+    - [ ] powder room ( mirror light & fan )
+    - [ ] guest bathroom ( light & fan )
+- [ ] gas sensors [0/2]
+  - [ ] inside near stove
+  - [ ] outside near bbq
+- [ ] temperature sensors [0/5]
+  - [ ] server closet ( can be self-built )
+  - [ ] garage ( can be self-built )
+  - [ ] bedroom ( shelly h&t )
+  - [ ] bathroom ( shelly h&t )
+  - [ ] living room ( shelly h&t )
+- [ ] flood sensors (1, for server closet)
+- [ ] motion sensor (1, laundry closet)  
+** Server Closet [7/8]
+- [X] network equipment 6U rack
+- [X] patch panel ( no keystones installed )
+- [X] 6U vertical server rack
+- [X] poe switch
+- [X] managed switch ( bought: WS-C3560G-48PS-S )
+- [X] new chasis for freenas server
+- [X] new chassi for old plex -- becoming zoneminder/security server
+- [ ] power distribution 
+
+* Stuff That's Been Bought ( And I'm Waiting For It To Arrive ) [19/19]
+- [X] rackmount chasis for zoneminder (26 may - 3 june)
+- [X] 1u power supply for rackmount chasis (8 june - 30 june -- fun!)
+- [X] z-wave smart thermostat ( tuesday )
+- [X] dewalt saftey glasses
+- [X] over head, over ear noise protection earmuffs ( tuesday )
+- [X] reolink bullet security camera ( wednesday )
+- [X] monitor wall mount ( wednesday )
+- [X] office chair mat ( tuesday )
+- [X] ac infinity fans for aarup ( 7 june - 29 june )
+- [X] z-wave plus usb stick ( 25 may - 2 june )
+- [X] wall mount server rack ( 8 june )
+- [X] conditioner ( saturday )
+- [X] headphone audio cable ( june 4 - june 16 )
+- [X] zwave dimmer switch ( may 26 )
+- [X] bluetooth transmitter ( may 26 )
+- [X] usb hub ( may 26 )
+- [X] headphone splitter ( may 27 )
+- [X] bar keepers friend ( may 31 - june 2 )
+- [X] scotchgard ( june 3 - june 15 )
+  
+* more project materials [6/8]
+- [X] 23.5" long, 1/2" x2 wood
+- [X] velcro strips for power bar mounting in arrup
+- [X] outlet for server closet
+- [X] cable for server closet
+- [X] outlet box for server closet
+- [X] fastener things to keep cable on wall for server closet
+- [ ] box attachment things for wire in server closet ( x2 ? )
+- [ ] 
+* Cars/SUVs
+Full Electric:
+- Ford 2021 Mustang Mach-E -- $53,995
+- Hyndai 2021 Kona Electric -- $48,757
+- Kia 2020 Niro EV EX -- $46,890
+- VW 2021 AWD Pro ID.4 -- $58,000
+- Volvo XC90 Recharge -- $98,000
+- Audi 2021 e-tron -- $95,545
+- (compact, not suv) Nissan Leaf -- $47,003
+- BMW 2021 iX -- $89,900
+
+Hybrid:
+- Toyota 2021 RAV4 Hybrid LE AWD -- $32,950
+- Subaru 2021 Crosstrek -- $28,515
+- Mitsubishi 2021 Outlander PHEV SE S-AWC -- $44,198
+- Ford 2021 Escape -- $32,549
+- Jeep 2021 Wrangler 4xe Unlimited Rubicon -- $63,185
+
+Not electric:
+- Nissan Rogue -- $28,800
+- Jeep 2021 Renegade -- $38,125
+
+* Wood Supply Places
+places to get wood:
+ - COE Timber Mart [ 3485 West Broadway, Vancouver ]
+ - Dunbar Lumber   [ 2930 Arbutus Street, Vancouver ]
+ - Standard Building Supplies [ 4925 Still Creek Ave, Burnaby ]
+ - Northern Building Supply Ltd [ 1640 East Kent Ave, Vancouver ]
+ - Windsor Plywood [ 2280 Holdom Ave, Burnaby -- right near Holdom Skytrain ]
+ - Dick's Lumber [ 2580 Gilmore Ave, Burnaby -- right near Home Depot & Gilmore Skytrain ]
+  
+* ordered and waiting on
+- ordered second power supply because i keep
+  forgetting about the one from aliexpress ( that's
+  apparently been returned to the sender???? )
+
+** office & desk
+- [ ] usb kvm/switch
+- [ ] wall mount bracket for microphone
+- [ ] managed 5 port switch ( poe )
+  
+** server room
+- [ ] usb to rs232 adapter cable
+  
+** Gigabyte GA-P55-USB3
+- [ ] power supply ( amazon, apevia )
+- [ ] pcie riser cable
+    
+** R310
+- [ ] new control board ( ebay, ordered )
+  
+** R720XD & R810
+- [ ] hard drive screws ( assorted box of 660pcs )
+- [ ] hard drive screws ( assorted box of 500pcs )
+- [ ] hard drive screws ( m3x4.8mm 200pcs )
+
+* Horus Heresy Books [58/59]
+- [X] Horus Rising
+- [X] False Gods
+- [X] Galaxy in Flames
+- [X] The Flight of the Eisenstein
+- [X] Fulgrim
+- [X] Descent of Angels
+- [X] Legion
+- [X] Battle for the Abyss
+- [X] Mechanicum
+- [X] Tales of Heresy
+- [X] Fallen Angels
+- [X] A Thousand Sons
+- [X] Nemesis
+- [X] The First Heretic
+- [X] Prospero Burns
+- [X] Age of Darkness
+- [X] The Outcast Dead
+- [X] Deliverance Lost
+- [X] Know No Fear
+- [X] The Primarchs
+- [X] Fear to Tread
+- [X] Shadows of Treachery
+- [X] Angel Exterminatus
+- [X] Betrayer
+- [X] Mark of Calth
+- [X] Vulkan Lives
+- [X] The Unremembered Empire
+- [X] Scars (ordered)
+- [X] Vengeful Spirit
+- [X] The Damnation of Pythos
+- [X] Legacies of Betrayal
+- [X] Deathfire
+- [X] War Without End
+- [X] Pharos
+- [X] Eye of Terra
+- [X] The Path of Heaven
+- [X] The Silent War
+- [X] Angels of Caliban
+- [X] Praetorian of Dorn
+- [X] Corax
+- [X] The Master of Mankind
+- [X] Garro
+- [X] Shattered Legions
+- [X] The Crimson King
+- [X] Tallarn
+- [X] Ruinstorm
+- [X] Old Earth
+- [X] The Burden of Loyalty
+- [X] Wolfsbane
+- [X] Born of Flame
+- [X] Slaves to Darkness
+- [X] Heralds of the Siege
+- [X] Titandeath
+- [X] The Buried Dagger
+- [X] The Solar War
+- [X] The Lost and the Damned
+- [X] The First Wall
+- [X] Saturnine
+- [ ] Mortis (ordered)
+

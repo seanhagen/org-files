@@ -1,0 +1,89 @@
+#+FILETAGS: @personal task
+#+CATEGORY: Tasks
+# Local Variables:
+# eval: (auto-revert-mode)
+# End:
+
+* TODOs
+** TODO lastpass replacement to look into          :@personal:task:security:
+:PROPERTIES:
+SCHEDULED: <2021-03-30 Tue>
+:END:
+- https://www.passwordstore.org/
+Added: [2021-03-29 Mon 21:48]
+** TODO more emacs stuff to look at                   :@personal:task:emacs:
+:PROPERTIES:
+SCHEDULED: <2021-04-03 Sat>
+:END:
+- https://github.com/mads-hartmann/.emacs.d/blob/master/init.el
+- https://www.masteringemacs.org/article/polymode-multiple-major-modes-how-to-use-sql-python-in-one-buffer
+- https://so.nwalsh.com/2020/02/29/dot-emacs
+Added: [2021-03-29 Mon 18:08]
+** TODO emacs sql stuff to look into / setup          :@personal:task:emacs:
+:PROPERTIES:
+SCHEDULED: <2021-04-03 Sat>
+:END:
+- generic stuff: https://www.emacswiki.org/emacs/SqlMode
+- https://www.reddit.com/r/emacs/comments/bb5mnv/sql_workflows_inside_emacs_anyone_have_a_nice/
+- https://www.reddit.com/r/emacs/comments/cyexjy/use_emacs_as_a_database_client/
+- https://arjanvandergaag.nl/blog/using-emacs-as-a-database-client.html
+- https://www.reddit.com/r/emacs/comments/9o449c/complete_sql_development_layer/
+- https://emacsredux.com/blog/2013/06/13/using-emacs-as-a-database-client/
+  
+Added: [2021-03-29 Mon 18:07]
+** TODO emacs configs to check out                    :@personal:task:emacs:
+:PROPERTIES:
+SCHEDULED: <2021-04-30 Fri>
+:END:
+ - https://github.com/Atman50/emacs-config
+ - http://martinowen.net/blog/2010/02/03/tips-for-emacs-ibuffer.html
+ - https://github.com/ag91/code-compass - https://ag91.github.io/blog/2021/03/26/emacs-as-your-code-compass-a-gentle-trigger-for-maintenance/
+ - https://muto.ca/posts/my-emacs-configuration.html
+ - https://blog.lambda.cx/posts/wip-emacs-align-columns/
+ - https://www.reddit.com/r/emacs/
+Added: [2021-03-26 Fri 18:07]
+** TODO org capture from browser                      :@personal:task:emacs:
+:PROPERTIES:
+SCHEDULED: <2021-04-05 Mon>
+:END:
+thing to look into: https://github.com/sprig/org-capture-extension
+Added: [2021-03-26 Fri 17:59]
+** TODO more emacs stuff to setup                     :@personal:task:emacs:
+:PROPERTIES:
+SCHEDULED: <2021-04-05 Mon>
+:END:
+more org stuff:
+https://www.rousette.org.uk/archives/doom-emacs-tweaks-org-journal-and-org-super-agenda/
+even more org stuff: https://hugocisneros.com/org-config/
+EVEN MORE org stuff: http://doc.norang.ca/org-mode.html#HowToUseThisDocument --
+specifically stuff on task estimates
+Added: [2021-03-26 Fri 17:58]
+** TODO look into org-roam some more                  :emacs:
+SCHEDULED: <2021-07-26 Mon>
+look into this: https://github.com/org-roam/org-roam
+Added: [2021-03-26 Fri 17:13]
+** TODO GRPC stuff to look into                       :@personal:task:@work:
+:PROPERTIES:
+SCHEDULED: <2021-04-05 Mon>
+:END:
+- https://github.com/grpc/grpc/blob/master/doc/http-grpc-status-mapping.md
+- https://github.com/grpc/grpc/blob/master/doc/statuscodes.md
+- https://github.com/avinassh/grpc-errors
+- https://cloud.google.com/apis/design/
+- https://github.com/seamia/protodot
+- https://github.com/bojand/ghz
+- https://github.com/grpc-swagger/grpc-swagger
+- https://github.com/bradleyjkemp/grpc-tools
+- https://github.com/ericbets/danby
+- https://github.com/moul/protoc-gen-gotemplate
+- https://github.com/asim/go-micro
+- https://github.com/go-kit/kit/tree/master/transport/grpc
+- https://github.com/improbable-eng/grpc-web
+- https://github.com/google/go-microservice-helpers
+- https://github.com/lileio/lile
+- https://github.com/fiorix/protoc-gen-cobra
+- https://github.com/fullstorydev/grpchan
+- https://github.com/fullstorydev/grpcui
+- https://github.com/izumin5210/grapi
+Added: [2021-03-29 Mon 18:09]
+

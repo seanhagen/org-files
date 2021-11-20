@@ -1,0 +1,26 @@
+* Tasks
+** DONE let's encrypt update ssl certs for l10n service
+   CLOSED: [2021-03-29 Mon 12:13] DEADLINE: <2021-04-28 Wed>
+ [[notmuch:id:20210319T062146.1507343864615732575.expiry@letsencrypt.org][Mail: Let's Encrypt certificate expiration notice for domain "localization.bibabots.com"]]
+ Added: [2021-03-22 Mon 11:42]
+** DONE let's encrypt update for games.bibabots.com
+   CLOSED: [2021-03-29 Mon 12:13] DEADLINE: <2021-04-28 Wed>
+ [[notmuch:id:20210319T064019.2541558921159907309.expiry@letsencrypt.org][Mail: Let's Encrypt certificate expiration notice for domain "games.bibabots.com"]]
+ Added: [2021-03-22 Mon 11:42]
+** TODO games to register on steam
+This is the Police - D5CPV-6EZAL-06JR9
+Added: [2017-05-08 Mon 12:27]
+** TODO download all comics & books from the humble bundles to a hard drive (portable, probably)
+or figure out how to transfer them to google play or something
+Added: [2017-04-19 Wed 10:20]
+** TODO look into setting default handlers for emails
+https://notmuchmail.org/emacstips/#index2h2
+Added: [2017-02-21 Tue 16:37]
+** TODO set up signatures for different email accounts
+https://notmuchmail.org/emacstips/#index16h2
+Added: [2017-02-21 Tue 16:38]
+** TODO look into writing mode for interacting with pocket
+get articles, save articles, etc.
+Added: [2017-02-22 Wed 10:54]
+* Clipboard
+* Camping

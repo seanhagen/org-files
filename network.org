@@ -1,0 +1,206 @@
+* Other Things To Do
+** DONE Update Firmware in EAP245
+CLOSED: [2021-06-08 Tue 12:06]
+[[https://www.tp-link.com/us/support/download/eap245/#Firmware][Get from here]]
+
+Might have to power cycle the AP to have the web interface come back up
+
+* Old Machines
+** Gigabyte GA-P55-USB3
+[[https://www.gigabyte.com/ca/Motherboard/GA-P55-USB3-rev-20/sp#sp][specs]]
+- 30.5cm x 24.4cm ( 12" x 9.6" )
+- 8gb ram ( max 16gb, 4 slots -- supports DDR3 2200/1333/1066/800 Mhz)
+- Intel i7 @ 2.93ghz ( 4 cores, 8 threads )
+  - lga1156 socket
+
+verdict: keep, use as proxmox virtualization server to test stuff?
+- upgrades:
+  - [X] [[https://www.newegg.ca/nemix-ram-16gb-240-pin-ddr3-sdram/p/0RN-004P-005G1?Description=DDR3&cm_re=DDR3-_-9SIA8X67KX2838-_-Product][16gb ram]] (4 x 4gb modules)
+  - [X] [[https://www.newegg.ca/rosewill-rocc-17001/p/N82E16835200120?Description=low%20profile%20heat%20sink&cm_re=low_profile%20heat%20sink-_-35-200-120-_-Product][low profile cpu cooler]]
+- [X] [[https://www.newegg.ca/black-supermicro-cse-512l-200b/p/N82E16811152222?Item=N82E16811152222][rackmount case]] ( [[https://www.supermicro.com/en/products/chassis/1U/512/SC512L-200B][specs]] )
+
+* PFSense Stuff [1/5]
+- [X] setup the interfaces properly [4/4]
+  - [X] igb0 -- wan
+  - [X] igb1 -- all VLANs ( via bridge )
+  - [X] igb2 -- all VLANs ( via bridge ) 
+  - [X] igb3 -- all VLANs ( via bridge ) 
+- [ ] block access to pfsense web ui from every vlan except hstream
+- [ ] block access [0/3]:
+  - [ ] from hlabmng to any
+  - [ ] from guest to any
+  - [ ] from work to any
+- [ ] allow stream to access other vlans via firewall
+- [ ] allow access to homelab from home & stream, but not the other way (
+  connection based )
+  
+* VPN Stuff
+- [[https://security.stackexchange.com/questions/90467/can-i-vpn-a-phones-connection-to-my-home-network-and-then-apply-my-home-firewa][security stackexchange thread]]
+- [[https://www.reddit.com/r/HomeNetworking/comments/b2ob89/how_to_access_home_network_remotely_via_vpn/][reddit thread]]
+- [[https://openvpn.net/community-resources/how-to/#expanding-the-scope-of-the-vpn-to-include-additional-machines-on-either-the-client-or-server-subnet][openvpn setup]]
+- [[https://zerotier.com/pricing/][zerotier]]
+- [[https://www.wireguard.com/][wireguard]]
+- [[https://www.howtogeek.com/221001/how-to-set-up-your-own-home-vpn-server/][setup guide]]
+
+* Machines
+** Network Rack -- 6U [6/6]
+- [X] 1U patch panel
+- [X] 1U Cisco 3560G 48port switch (P)
+- [X] 1U ASROCK QM77 Core i3-3120M 2.5ghz 8gb ram (P)
+- [X] 1U AMD E350 1.6ghz / 2cores, 8gb ram (P)
+- [X] 1U APC AP9319 Environmental Monitoring Unit (P)
+- [X] Gigabyte GA-P55-USB3 ? (P)
+  
+** Vertical Server Rack -- 6U [5/6]
+- [X] 1u Dell PowerEdge R310 (P)
+- [X] 2U Dell PowerEdge R720XD (P)
+- [X] ^-----------------------
+- [X] 2u Dell PowerEdge R810 (P)
+- [X] ^---------------------
+- [ ] 
+
+** Machine Uses
+*** ASROCK IMG-170
+*** AMD E350
+*** Gigabyte GA-P55-USB3
+*** R310
+- zoneminder
+*** R720XD
+- freenas ( or upgrade to truenas )
+*** R810
+- proxmox virtualization
+
+* VLAN Setup
+** Default ( No Access )
+VLAN: 1
+IP: 10.0.0.1/24
+NAME: DEFAULT
+Wifi: None
+
+ACCESS TO VLAN: NONE
+ACCESS FROM VLAN: HLAB, HSTREAM
+
+DOMAIN: hagendef
+
+- what you get when plugged into an unconfigured port on the switch
+
+** Management VLAN
+VLAN: 10
+IP: 10.10.0.1/24
+NAME: HLABMNG
+WIFI: HLABMNG
+
+ACCESS TO VLAN: NONE
+ACCESS FROM VLAN: HSTREAM
+
+DOMAIN: hlabmanage
+
+- for accessing any router/switch stuff, as well as any management interfaces on
+  servers ( if they exist -- idrac, etc )
+  
+** Homelab Access
+VLAN: 20
+IP: 10.20.0.1/24
+NAME: HLAB
+WIFI: None
+
+ACCESS TO VLAN: HIOT, HGUEST, HWORK, HMEDIA
+ACCESS FROM VLAN: HSTREAM, HHOME, HMEDIA, HIOT
+
+DOMAIN: hagenlab
+
+- for usage of stuff in the homelab -- getting to sabnzbd, etc
+  
+** Stream Optimized 
+VLAN: 30
+IP: 10.30.0.1/24
+NAME: HSTREAM
+WIFI: HagenStream
+
+ACCESS TO VLAN: ALL
+ACCESS FROM VLAN: NONE
+
+DOMAIN: hstream
+
+- for my stuff ( work computer, fun computer, laptop, phone )
+  
+** Home 
+VLAN: 40
+IP: 10.40.0.1/24
+NAME: HHOME
+WIFI: HagenWifi ( current: Hagenwifi )
+
+ACCESS TO VLAN: HLAB, HMEDIA, HIOT
+ACCESS FROM VLAN: NONE
+
+DOMAIN: hagenhome
+
+- for marie's stuff ( phone, laptop )
+  
+** Media Network
+VLAN: 50
+IP: 10.50.0.1/24
+NAME: HMEDIA
+WIFI: HagenMedia
+
+ACCESS TO VLAN: HLAB
+ACCESS FROM VLAN: HLAB, HSTREAM, HHOME
+
+DOMAIN: hagenmedia
+
+- for chromecast, roku tv, etc  
+
+** Work Machines
+VLAN: 60
+IP: 10.60.0.1/24
+NAME: HWORK
+WIFI: HagenWork
+
+ACCESS TO VLAN: NONE
+ACCESS FROM VLAN: HSTREAM, HLAB
+
+DOMAIN: hagenwork
+
+- for any work devices we bring home ( marie's work laptop & phone )
+  
+** Internet of Things
+VLAN: 500
+IP: 10.100.0.1/24
+NAME: HIOT
+WIFI: HagenIoT
+
+ACCESS TO VLAN: NONE
+ACCESS FROM VLAN: HLAB, HSTREAM, HHOME
+
+DOMAIN: hageniot
+
+- for any internet of things devices ( shelly, wemo, etc )
+  
+** Security
+VLAN: 600
+IP: 10.200.0.1/24
+NAME: HSEC
+WIFI: HagenSecurity
+
+ACCESS TO VLAN: ??? (HLAB?)
+ACCESS FROM VLAN: HLAB, HSTREAM, HHOME
+
+DOMAIN: hagensecurity
+
+- for any security devices ( cameras, konnected, etc )
+
+** Guest Access
+VLAN: 1000
+IP: 10.250.0.1/24
+NAME: HGUEST
+WIFI: HagenGuest
+
+ACCESS TO VLAN: NONE
+ACCESS FROM VLAN: HLAB, HSTREAM, HHOME
+
+DOMAIN: hagenguest
+
+- for anybody who visits
+- will be heeeeeavily throttled
+
+

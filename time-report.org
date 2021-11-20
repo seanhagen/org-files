@@ -1,0 +1,733 @@
+#+FILETAGS: @work
+#+CATEGORY: Work
+* Time Reporting 
+** Time Reports For 2021-03
+*** Time Report For Week of 2021-03-29
+#+BEGIN: clocktable :scope agenda :maxlevel 5 :compact t :stepskip0 t :fileskip0 t :step day :tstart "[2021-03-29]" :tend "[2021-04-02]"
+
+Daily report: [2021-03-29 Mon]
+| File             | Headline                                   | Time |
+|------------------+--------------------------------------------+------|
+|                  | ALL *Total time*                             | *3:27* |
+|------------------+--------------------------------------------+------|
+| work.org         | *File time*                                  | *1:01* |
+|                  | Email TODOs                                | 1:01 |
+|                  | \_  ssl expiry - games.bibabots.com        | 0:12 |
+|                  | \_  ssl expiry - localization.bibabots.com | 0:26 |
+|                  | \_  ssl expiry - playground.bibabots.com   | 0:23 |
+|------------------+--------------------------------------------+------|
+| backend-team.org | *File time*                                  | *2:26* |
+|                  | update playgrounds service to have...      | 2:26 |
+
+Daily report: [2021-03-30 Tue]
+| File               | Headline                                     | Time |
+|--------------------+----------------------------------------------+------|
+|                    | ALL *Total time*                               | *2:47* |
+|--------------------+----------------------------------------------+------|
+| work.org           | *File time*                                    | *2:15* |
+|                    | Email TODOs                                  | 2:15 |
+|                    | \_  move domains to Matt Toner               | 2:15 |
+|--------------------+----------------------------------------------+------|
+| work-taskdiary.org | *File time*                                    | *0:32* |
+|                    | Tasks                                        | 0:32 |
+|                    | \_  2021                                     | 0:32 |
+|                    | \_    2021-03 March                          | 0:32 |
+|                    | \_      2021-03-30 Tuesday                   | 0:32 |
+|                    | \_        create new biba playgrounds for... | 0:32 |
+
+Daily report: [2021-03-31 Wed]
+| File               | Headline                                | Time |
+|--------------------+-----------------------------------------+------|
+|                    | ALL *Total time*                          | *3:48* |
+|--------------------+-----------------------------------------+------|
+| work.org           | *File time*                               | *3:39* |
+|                    | Code TODOs                              | 1:30 |
+|                    | \_  review data science test for rachel | 1:30 |
+|                    | Work TODOs                              | 2:09 |
+|                    | \_  look into localization bug [#A]     | 2:09 |
+|--------------------+-----------------------------------------+------|
+| work-taskdiary.org | *File time*                               | *0:09* |
+|                    | Tasks                                   | 0:09 |
+|                    | \_  2021                                | 0:09 |
+|                    | \_    2021-03 March                     | 0:09 |
+|                    | \_      2021-03-31 Wednesday            | 0:09 |
+|                    | \_        receipts for sarah [#A]       | 0:09 |
+
+Daily report: [2021-04-01 Thu]
+| File               | Headline                                        | Time |
+|--------------------+-------------------------------------------------+------|
+|                    | ALL *Total time*                                  | *5:17* |
+|--------------------+-------------------------------------------------+------|
+| work.org           | *File time*                                       | *2:07* |
+|                    | Code TODOs                                      | 0:50 |
+|                    | \_  review data science test for rachel         | 0:50 |
+|                    | Work TODOs                                      | 1:17 |
+|                    | \_  finish script to re-export...               | 0:16 |
+|                    | \_  create dataset for data science test...     | 1:01 |
+|--------------------+-------------------------------------------------+------|
+| work-taskdiary.org | *File time*                                       | *3:10* |
+|                    | Meetings                                        | 1:30 |
+|                    | \_  2021                                        | 1:30 |
+|                    | \_    2021-04 April                             | 1:30 |
+|                    | \_      2021-04-05 Monday                       | 1:15 |
+|                    | \_        data team - deep dives                | 1:00 |
+|                    | \_        chat with byron & mike about unbounce | 0:15 |
+|                    | \_      2021-04-01 Thursday                     | 0:15 |
+|                    | \_        all-hands meeting                     | 0:15 |
+|                    | Tasks                                           | 1:40 |
+|                    | \_  2021                                        | 1:40 |
+|                    | \_    2021-04 April                             | 1:40 |
+|                    | \_      2021-04-01 Thursday                     | 1:40 |
+|                    | \_        biba activity in yukon [#A]           | 0:10 |
+|                    | \_        density in tennessee [#A]             | 1:00 |
+|                    | \_        unbounce nutshell errors              | 0:30 |
+#+END:
+** Time Reports For 2021-04
+#+BEGIN: clocktable :scope agenda-with-archives :maxlevel 5 :hidefiles t :compact t :stepskip0 t :fileskip0 t :step week :tstart "[2021-04-01]" :tend "[2021-05-01]"
+
+Weekly report starting on: [2021-04-01 Thu]
+| Headline                                        | Time |
+|-------------------------------------------------+------|
+| *Total time*                                      | *6:34* |
+|-------------------------------------------------+------|
+| From work.org                                   | 3:24 |
+| \_  finish script to re-export...               | 0:16 |
+| \_  create dataset for data science test...     | 1:01 |
+| \_  review data science test for rachel         | 0:50 |
+| \_  finish script to re-export...               | 0:16 |
+| \_  create dataset for data science test...     | 1:01 |
+| From work-taskdiary.org                         | 1:40 |
+| \_  2021-04-01 Thursday                         | 1:40 |
+| \_    biba activity in yukon [#A]               | 0:10 |
+| \_    density in tennessee [#A]                 | 1:00 |
+| \_    unbounce nutshell errors                  | 0:30 |
+|-------------------------------------------------+------|
+| Meetings                                        | 1:30 |
+| \_  2021                                        | 1:30 |
+| \_    2021-04 April                             | 1:30 |
+| \_      2021-04-05 Monday                       | 1:15 |
+| \_        data team - deep dives                | 1:00 |
+| \_        chat with byron & mike about unbounce | 0:15 |
+| \_      2021-04-01 Thursday                     | 0:15 |
+| \_        all-hands meeting                     | 0:15 |
+
+Weekly report starting on: [2021-04-05 Mon]
+| Headline                                    |     Time |
+|---------------------------------------------+----------|
+| *Total time*                                  | *1d 20:54* |
+|---------------------------------------------+----------|
+| From work.org                               | 1d 15:06 |
+| \_  review deep dive [#A]                   |     0:04 |
+| \_  review rachel's sql pr [#A]             |     0:05 |
+| \_  finish script to re-export...           |    19:24 |
+| \_  review deep dive [#A]                   |     0:04 |
+| \_  review rachel's sql pr [#A]             |     0:05 |
+| \_  finish script to re-export...           |    19:24 |
+| From work-taskdiary.org                     |     1:14 |
+| \_  2021-04-01 Thursday                     |     1:10 |
+| \_    density in tennessee [#A]             |     1:10 |
+| \_  2021-04-06 Tuesday                      |     0:04 |
+| \_    check info@ email -- sean f needs...  |     0:02 |
+| \_    see if Crespatown Elementary is...    |     0:02 |
+| From TODO.org                               |     2:24 |
+| \_  add these playgrounds if not already... |     0:03 |
+| \_  fix playground names                    |     2:20 |
+| \_  ensure export isn't fucking up...       |     0:01 |
+|---------------------------------------------+----------|
+| Work TODOs                                  |     0:01 |
+| \_  merge or rename playgrounds [#D]        |     0:01 |
+|---------------------------------------------+----------|
+| Meetings                                    |     2:09 |
+| \_  2021                                    |     2:09 |
+| \_    2021-04 April                         |     2:09 |
+| \_      2021-04-05 Monday                   |     0:20 |
+| \_        Monday Morning Stand-UP           |     0:20 |
+| \_      2021-04-06 Tuesday                  |     0:43 |
+| \_        call with rachel                  |     0:20 |
+| \_        tech team morning meeting         |     0:23 |
+| \_      2021-04-07 Wednesday                |     0:19 |
+| \_        morning meeting                   |     0:19 |
+| \_      2021-04-08 Thursday                 |     0:18 |
+| \_        eod call                          |     0:01 |
+| \_        thursday biba team meeting        |     0:17 |
+| \_      2021-04-09 Friday                   |     0:29 |
+| \_        morning meeting                   |     0:29 |
+
+Weekly report starting on: [2021-04-12 Mon]
+| Headline                                    |  Time |
+|---------------------------------------------+-------|
+| *Total time*                                  | *11:02* |
+|---------------------------------------------+-------|
+| From work.org                               |  9:59 |
+| \_  regen any reports that had errors [#A]  |  0:10 |
+| \_  email report pdfs [#A]                  |  0:29 |
+| \_  generate pdfs for march 2021 [#A]       |  3:01 |
+| \_  pdf template update for March 2021 [#A] |  2:14 |
+| \_  generate pdfs for march 2021 [#A]       |  1:51 |
+| \_  pdf template update for March 2021 [#A] |  2:14 |
+|---------------------------------------------+-------|
+| Meetings                                    |  1:03 |
+| \_  2021                                    |  1:03 |
+| \_    2021-04 April                         |  1:03 |
+| \_      2021-04-12 Monday                   |  0:12 |
+| \_        morning all-hands meeting         |  0:12 |
+| \_      2021-04-15 Thursday                 |  0:17 |
+| \_        all-team standup                  |  0:17 |
+| \_      2021-04-16 Friday                   |  0:34 |
+| \_        morning meeting                   |  0:34 |
+
+Weekly report starting on: [2021-04-19 Mon]
+| Headline                        | Time |
+|---------------------------------+------|
+| *Total time*                      | *9:22* |
+|---------------------------------+------|
+| Work                            | 8:00 |
+| \_  Day Off Tracking            | 8:00 |
+| \_    2021-04-19 - all day      | 8:00 |
+|---------------------------------+------|
+| Meetings                        | 1:22 |
+| \_  2021                        | 1:22 |
+| \_    2021-04 April             | 1:22 |
+| \_      2021-04-20 Tuesday      | 0:42 |
+| \_        cmf discussion        | 0:29 |
+| \_        chat with byron       | 0:13 |
+| \_      2021-04-21 Wednesday    | 0:17 |
+| \_        afternoon cmf meeting | 0:11 |
+| \_        morning all-team      | 0:06 |
+| \_      2021-04-23 Friday       | 0:23 |
+| \_        prototype stuff       | 0:23 |
+
+Weekly report starting on: [2021-04-26 Mon]
+| Headline                                      | Time |
+|-----------------------------------------------+------|
+| *Total time*                                    | *0:53* |
+|-----------------------------------------------+------|
+| Meetings                                      | 0:06 |
+| \_  2021                                      | 0:06 |
+| \_    2021-04 April                           | 0:06 |
+| \_      2021-04-26 Monday                     | 0:06 |
+| \_        morning standup                     | 0:06 |
+| Tasks                                         | 0:47 |
+| \_  2021                                      | 0:47 |
+| \_    2021-04 April                           | 0:47 |
+| \_      2021-04-23 Friday                     | 0:47 |
+| \_        get omnitech/austrlia playground... | 0:47 |
+#+END:
+*** Time Report For Week of 2021-04-06
+#+BEGIN: clocktable :scope agenda :maxlevel 5 :compact t :stepskip0 t :fileskip0 t :step day :tstart "[2021-04-05]" :tend "[2021-04-10]"
+
+Daily report: [2021-04-05 Mon]
+| File               | Headline                          | Time |
+|--------------------+-----------------------------------+------|
+|                    | ALL *Total time*                    | *8:21* |
+|--------------------+-----------------------------------+------|
+| work.org           | *File time*                         | *8:01* |
+|                    | Work TODOs                        | 8:01 |
+|                    | \_  finish script to re-export... | 8:01 |
+|--------------------+-----------------------------------+------|
+| work-taskdiary.org | *File time*                         | *0:20* |
+|                    | Meetings                          | 0:20 |
+|                    | \_  2021                          | 0:20 |
+|                    | \_    2021-04 April               | 0:20 |
+|                    | \_      2021-04-05 Monday         | 0:20 |
+|                    | \_        Monday Morning Stand-UP | 0:20 |
+
+Daily report: [2021-04-06 Tue]
+| File               | Headline                                       | Time |
+|--------------------+------------------------------------------------+------|
+|                    | ALL *Total time*                                 | *6:18* |
+|--------------------+------------------------------------------------+------|
+| work.org           | *File time*                                      | *4:21* |
+|                    | Work TODOs                                     | 4:21 |
+|                    | \_  review rachel's sql pr [#A]                | 0:05 |
+|                    | \_  finish script to re-export...              | 4:16 |
+|--------------------+------------------------------------------------+------|
+| work-taskdiary.org | *File time*                                      | *1:57* |
+|                    | Meetings                                       | 0:43 |
+|                    | \_  2021                                       | 0:43 |
+|                    | \_    2021-04 April                            | 0:43 |
+|                    | \_      2021-04-06 Tuesday                     | 0:43 |
+|                    | \_        call with rachel                     | 0:20 |
+|                    | \_        tech team morning meeting            | 0:23 |
+|                    | Tasks                                          | 1:14 |
+|                    | \_  2021                                       | 1:14 |
+|                    | \_    2021-04 April                            | 1:14 |
+|                    | \_      2021-04-01 Thursday                    | 1:10 |
+|                    | \_        density in tennessee [#A]            | 1:10 |
+|                    | \_      2021-04-06 Tuesday                     | 0:04 |
+|                    | \_        check info@ email -- sean f needs... | 0:02 |
+|                    | \_        see if Crespatown Elementary is...   | 0:02 |
+
+Daily report: [2021-04-07 Wed]
+| File               | Headline                          | Time |
+|--------------------+-----------------------------------+------|
+|                    | ALL *Total time*                    | *7:26* |
+|--------------------+-----------------------------------+------|
+| work.org           | *File time*                         | *7:07* |
+|                    | Work TODOs                        | 7:07 |
+|                    | \_  finish script to re-export... | 7:07 |
+|--------------------+-----------------------------------+------|
+| work-taskdiary.org | *File time*                         | *0:19* |
+|                    | Meetings                          | 0:19 |
+|                    | \_  2021                          | 0:19 |
+|                    | \_    2021-04 April               | 0:19 |
+|                    | \_      2021-04-07 Wednesday      | 0:19 |
+|                    | \_        morning meeting         | 0:19 |
+
+Daily report: [2021-04-08 Thu]
+| File               | Headline                                | Time |
+|--------------------+-----------------------------------------+------|
+|                    | ALL *Total time*                          | *4:51* |
+|--------------------+-----------------------------------------+------|
+| work.org           | *File time*                               | *0:05* |
+|                    | Work TODOs                              | 0:05 |
+|                    | \_  review deep dive [#A]               | 0:04 |
+|                    | \_  merge or rename playgrounds [#D]    | 0:01 |
+|--------------------+-----------------------------------------+------|
+| work-taskdiary.org | *File time*                               | *0:18* |
+|                    | Meetings                                | 0:18 |
+|                    | \_  2021                                | 0:18 |
+|                    | \_    2021-04 April                     | 0:18 |
+|                    | \_      2021-04-08 Thursday             | 0:18 |
+|                    | \_        eod call                      | 0:01 |
+|                    | \_        thursday biba team meeting    | 0:17 |
+|--------------------+-----------------------------------------+------|
+| TODO.org           | *File time*                               | *4:28* |
+|                    | add report APIs [/]                     | 2:04 |
+|                    | add these playgrounds if not already... | 0:03 |
+|                    | fix playground names                    | 2:20 |
+|                    | ensure export isn't fucking up...       | 0:01 |
+
+Daily report: [2021-04-09 Fri]
+| File               | Headline                  | Time |
+|--------------------+---------------------------+------|
+|                    | ALL *Total time*            | *0:29* |
+|--------------------+---------------------------+------|
+| work-taskdiary.org | *File time*                 | *0:29* |
+|                    | Meetings                  | 0:29 |
+|                    | \_  2021                  | 0:29 |
+|                    | \_    2021-04 April       | 0:29 |
+|                    | \_      2021-04-09 Friday | 0:29 |
+|                    | \_        morning meeting | 0:29 |
+#+END:
+*** Time Report For Week of 2021-04-12
+#+BEGIN: clocktable :scope agenda :maxlevel 5 :compact t :stepskip0 t :fileskip0 t :step day :tstart "[2021-04-12]" :tend "[2021-04-17]"
+
+Daily report: [2021-04-12 Mon]
+| File               | Headline                            | Time |
+|--------------------+-------------------------------------+------|
+|                    | ALL *Total time*                      | *0:12* |
+|--------------------+-------------------------------------+------|
+| work-taskdiary.org | *File time*                           | *0:12* |
+|                    | Meetings                            | 0:12 |
+|                    | \_  2021                            | 0:12 |
+|                    | \_    2021-04 April                 | 0:12 |
+|                    | \_      2021-04-12 Monday           | 0:12 |
+|                    | \_        morning all-hands meeting | 0:12 |
+
+Daily report: [2021-04-14 Wed]
+| File     | Headline                                    | Time |
+|----------+---------------------------------------------+------|
+|          | ALL *Total time*                              | *4:05* |
+|----------+---------------------------------------------+------|
+| work.org | *File time*                                   | *4:05* |
+|          | Work TODOs                                  | 4:05 |
+|          | \_  generate pdfs for march 2021 [#A]       | 1:51 |
+|          | \_  pdf template update for March 2021 [#A] | 2:14 |
+
+Daily report: [2021-04-15 Thu]
+| File               | Headline                    | Time |
+|--------------------+-----------------------------+------|
+|                    | ALL *Total time*              | *0:17* |
+|--------------------+-----------------------------+------|
+| work-taskdiary.org | *File time*                   | *0:17* |
+|                    | Meetings                    | 0:17 |
+|                    | \_  2021                    | 0:17 |
+|                    | \_    2021-04 April         | 0:17 |
+|                    | \_      2021-04-15 Thursday | 0:17 |
+|                    | \_        all-team standup  | 0:17 |
+
+Daily report: [2021-04-16 Fri]
+| File               | Headline                  | Time |
+|--------------------+---------------------------+------|
+|                    | ALL *Total time*            | *0:34* |
+|--------------------+---------------------------+------|
+| work-taskdiary.org | *File time*                 | *0:34* |
+|                    | Meetings                  | 0:34 |
+|                    | \_  2021                  | 0:34 |
+|                    | \_    2021-04 April       | 0:34 |
+|                    | \_      2021-04-16 Friday | 0:34 |
+|                    | \_        morning meeting | 0:34 |
+#+END:
+*** Time Report For Week of 2021-04-19
+#+BEGIN: clocktable :scope agenda :maxlevel 5 :compact t :stepskip0 t :fileskip0 t :step day :tstart "[2021-04-19]" :tend "[2021-04-24]"
+
+Daily report: [2021-04-19 Mon]
+| File     | Headline                   | Time |
+|----------+----------------------------+------|
+|          | ALL *Total time*             | *8:00* |
+|----------+----------------------------+------|
+| work.org | *File time*                  | *8:00* |
+|          | Work                       | 8:00 |
+|          | \_  Day Off Tracking       | 8:00 |
+|          | \_    2021-04-19 - all day | 8:00 |
+
+Daily report: [2021-04-20 Tue]
+| File               | Headline                   | Time |
+|--------------------+----------------------------+------|
+|                    | ALL *Total time*             | *0:42* |
+|--------------------+----------------------------+------|
+| work-taskdiary.org | *File time*                  | *0:42* |
+|                    | Meetings                   | 0:42 |
+|                    | \_  2021                   | 0:42 |
+|                    | \_    2021-04 April        | 0:42 |
+|                    | \_      2021-04-20 Tuesday | 0:42 |
+|                    | \_        cmf discussion   | 0:29 |
+|                    | \_        chat with byron  | 0:13 |
+
+Daily report: [2021-04-21 Wed]
+| File               | Headline                        | Time |
+|--------------------+---------------------------------+------|
+|                    | ALL *Total time*                  | *0:17* |
+|--------------------+---------------------------------+------|
+| work-taskdiary.org | *File time*                       | *0:17* |
+|                    | Meetings                        | 0:17 |
+|                    | \_  2021                        | 0:17 |
+|                    | \_    2021-04 April             | 0:17 |
+|                    | \_      2021-04-21 Wednesday    | 0:17 |
+|                    | \_        afternoon cmf meeting | 0:11 |
+|                    | \_        morning all-team      | 0:06 |
+
+Daily report: [2021-04-23 Fri]
+| File               | Headline                  | Time |
+|--------------------+---------------------------+------|
+|                    | ALL *Total time*            | *0:23* |
+|--------------------+---------------------------+------|
+| work-taskdiary.org | *File time*                 | *0:23* |
+|                    | Meetings                  | 0:23 |
+|                    | \_  2021                  | 0:23 |
+|                    | \_    2021-04 April       | 0:23 |
+|                    | \_      2021-04-23 Friday | 0:23 |
+|                    | \_        prototype stuff | 0:23 |
+#+END:
+*** Time Report For Week of 2021-04-26
+#+BEGIN: clocktable :scope agenda-with-archives :maxlevel 5 :compact t :stepskip0 t :fileskip0 t :step day :tstart "[2021-04-26]" :tend "[2021-05-01]" :match "-@personal"
+
+Daily report: [2021-04-26 Mon]
+| File               | Headline                                  | Time |
+|--------------------+-------------------------------------------+------|
+|                    | ALL *Total time*                            | *0:53* |
+|--------------------+-------------------------------------------+------|
+| archive.org        | *File time*                                 | *0:47* |
+|                    | From work-taskdiary.org                   | 0:47 |
+|                    | \_  2021-04-23 Friday                     | 0:47 |
+|                    | \_    get omnitech/austrlia playground... | 0:47 |
+|--------------------+-------------------------------------------+------|
+| work-taskdiary.org | *File time*                                 | *0:06* |
+|                    | Meetings                                  | 0:06 |
+|                    | \_  2021                                  | 0:06 |
+|                    | \_    2021-04 April                       | 0:06 |
+|                    | \_      2021-04-26 Monday                 | 0:06 |
+|                    | \_        morning standup                 | 0:06 |
+
+Daily report: [2021-04-27 Tue]
+| File               | Headline                      | Time |
+|--------------------+-------------------------------+------|
+|                    | ALL *Total time*                | *0:21* |
+|--------------------+-------------------------------+------|
+| work-taskdiary.org | *File time*                     | *0:21* |
+|                    | Meetings                      | 0:21 |
+|                    | \_  2021                      | 0:21 |
+|                    | \_    2021-04 April           | 0:21 |
+|                    | \_      2021-04-27 Tuesday    | 0:21 |
+|                    | \_        priorities, website | 0:12 |
+|                    | \_        morning standup     | 0:09 |
+
+Daily report: [2021-04-28 Wed]
+| File               | Headline                     | Time |
+|--------------------+------------------------------+------|
+|                    | ALL *Total time*               | *1:51* |
+|--------------------+------------------------------+------|
+| work-taskdiary.org | *File time*                    | *1:51* |
+|                    | Meetings                     | 1:51 |
+|                    | \_  2021                     | 1:51 |
+|                    | \_    2021-04 April          | 1:51 |
+|                    | \_      2021-04-23 Friday    | 1:41 |
+|                    | \_        prototype stuff    | 1:41 |
+|                    | \_      2021-04-28 Wednesday | 0:10 |
+|                    | \_        morning stand-up   | 0:10 |
+
+#+END:
+
+** Time Report For 2021-05
+*** Time Report For Week of 2021-05-03
+#+BEGIN: clocktable :scope agenda-with-archives :maxlevel 5 :compact t :stepskip0 t :fileskip0 t :step day :tstart "[2021-05-03]" :tend "[2021-05-08]" :match "-@personal"
+
+Daily report: [2021-05-07 Fri]
+| File     | Headline                   | Time |
+|----------+----------------------------+------|
+|          | ALL *Total time*             | *8:00* |
+|----------+----------------------------+------|
+| work.org | *File time*                  | *8:00* |
+|          | Work                       | 8:00 |
+|          | \_  Day Off Tracking       | 8:00 |
+|          | \_    2021-05-07 - all day | 8:00 |
+#+END:
+*** Time Report For Week of 2021-05-10
+#+BEGIN: clocktable :scope agenda-with-archives :maxlevel 5 :compact t :stepskip0 t :fileskip0 t :step day :tstart "[2021-05-10]" :tend "[2021-05-15]" :match "-@personal"
+
+Daily report: [2021-05-10 Mon]
+| File     | Headline                    | Time |
+|----------+-----------------------------+------|
+|          | ALL *Total time*              | *8:00* |
+|----------+-----------------------------+------|
+| work.org | *File time*                   | *8:00* |
+|          | Work                        | 8:00 |
+|          | \_  Day Off Tracking        | 8:00 |
+|          | \_    2021-05-10 - all week | 8:00 |
+
+Daily report: [2021-05-11 Tue]
+| File     | Headline                    | Time |
+|----------+-----------------------------+------|
+|          | ALL *Total time*              | *8:00* |
+|----------+-----------------------------+------|
+| work.org | *File time*                   | *8:00* |
+|          | Work                        | 8:00 |
+|          | \_  Day Off Tracking        | 8:00 |
+|          | \_    2021-05-10 - all week | 8:00 |
+
+Daily report: [2021-05-12 Wed]
+| File     | Headline                    | Time |
+|----------+-----------------------------+------|
+|          | ALL *Total time*              | *8:00* |
+|----------+-----------------------------+------|
+| work.org | *File time*                   | *8:00* |
+|          | Work                        | 8:00 |
+|          | \_  Day Off Tracking        | 8:00 |
+|          | \_    2021-05-10 - all week | 8:00 |
+
+Daily report: [2021-05-13 Thu]
+| File     | Headline                    | Time |
+|----------+-----------------------------+------|
+|          | ALL *Total time*              | *8:00* |
+|----------+-----------------------------+------|
+| work.org | *File time*                   | *8:00* |
+|          | Work                        | 8:00 |
+|          | \_  Day Off Tracking        | 8:00 |
+|          | \_    2021-05-10 - all week | 8:00 |
+
+Daily report: [2021-05-14 Fri]
+| File     | Headline                    | Time |
+|----------+-----------------------------+------|
+|          | ALL *Total time*              | *8:00* |
+|----------+-----------------------------+------|
+| work.org | *File time*                   | *8:00* |
+|          | Work                        | 8:00 |
+|          | \_  Day Off Tracking        | 8:00 |
+|          | \_    2021-05-10 - all week | 8:00 |
+#+END:
+*** Time Report For Week of 2021-05-17
+- forgot to track time 
+*** Time Report For Week of 2021-05-24
+#+BEGIN: clocktable :scope agenda-with-archives :maxlevel 5 :compact t :stepskip0 t :fileskip0 t :step day :tstart "[2021-05-24]" :tend "[2021-05-29]" :match "-@personal"
+
+Daily report: [2021-05-24 Mon]
+| File     | Headline                               | Time |
+|----------+----------------------------------------+------|
+|          | ALL *Total time*                         | *8:00* |
+|----------+----------------------------------------+------|
+| work.org | *File time*                              | *8:00* |
+|          | Day Off Tracking                       | 8:00 |
+|          | \_    2021-05-24 - long weekend monday | 8:00 |
+
+Daily report: [2021-05-26 Wed]
+| File               | Headline                              | Time |
+|--------------------+---------------------------------------+------|
+|                    | ALL *Total time*                        | *1:53* |
+|--------------------+---------------------------------------+------|
+| work.org           | *File time*                             | *1:27* |
+|                    | Work TODOs                            | 1:27 |
+|                    | \_  biba website 3.0 [#A]             | 1:27 |
+|--------------------+---------------------------------------+------|
+| work-taskdiary.org | *File time*                             | *0:26* |
+|                    | Meetings                              | 0:21 |
+|                    | \_  2021                              | 0:21 |
+|                    | \_    2021-05 May                     | 0:21 |
+|                    | \_      2021-05-26 Wednesday          | 0:21 |
+|                    | \_        talking about website stuff | 0:14 |
+|                    | \_        morning meeting             | 0:07 |
+|                    | Tasks                                 | 0:05 |
+|                    | \_  2021                              | 0:05 |
+|                    | \_    2021-05 May                     | 0:05 |
+|                    | \_      2021-05-26 Wednesday          | 0:05 |
+|                    | \_        analytics for playbiba.com  | 0:05 |
+
+Daily report: [2021-05-27 Thu]
+| File               | Headline                        | Time |
+|--------------------+---------------------------------+------|
+|                    | ALL *Total time*                  | *0:19* |
+|--------------------+---------------------------------+------|
+| work-taskdiary.org | *File time*                       | *0:19* |
+|                    | Meetings                        | 0:19 |
+|                    | \_  2021                        | 0:19 |
+|                    | \_    2021-05 May               | 0:19 |
+|                    | \_      2021-05-27 Thursday     | 0:19 |
+|                    | \_        morning meeting       | 0:08 |
+|                    | \_        talking about website | 0:11 |
+
+#+END:
+** Time Report For 2021-06
+#+BEGIN: clocktable :scope agenda-with-archives :maxlevel 5 :hidefiles t :compact t :stepskip0 t :fileskip0 t :step week :tstart "[2021-06-01]" :tend "[2021-07-01]"
+
+Weekly report starting on: [2021-06-01 Tue]
+| Headline                          | Time |
+|-----------------------------------+------|
+| *Total time*                        | *5:57* |
+|-----------------------------------+------|
+| Tasks                             | 5:57 |
+| \_  2021                          | 5:57 |
+| \_    2021-06 June                | 5:57 |
+| \_      2021-06-03 Thursday       | 5:57 |
+| \_        matt ask for stats [#A] | 5:57 |
+
+Weekly report starting on: [2021-06-07 Mon]
+| Headline                         | Time |
+|----------------------------------+------|
+| *Total time*                       | *0:43* |
+|----------------------------------+------|
+| Work TODOs                       | 0:33 |
+| \_  burke numbers for byron [#A] | 0:33 |
+|----------------------------------+------|
+| Meetings                         | 0:10 |
+| \_  2021                         | 0:10 |
+| \_    2021-06 June               | 0:10 |
+| \_      2021-06-07 Monday        | 0:10 |
+| \_        morning meeting        | 0:10 |
+
+Weekly report starting on: [2021-06-14 Mon]
+| Headline                          | Time |
+|-----------------------------------+------|
+| *Total time*                        | *4:35* |
+|-----------------------------------+------|
+| Work TODOs                        | 3:23 |
+| \_  pdf reports for may 2021 [#A] | 3:23 |
+|-----------------------------------+------|
+| Meetings                          | 1:12 |
+| \_  2021                          | 1:12 |
+| \_    2021-06 June                | 1:12 |
+| \_      2021-06-14 Monday         | 0:49 |
+| \_        website meeting notes   | 0:49 |
+| \_      2021-06-17 Thursday       | 0:23 |
+| \_        meeting with rachel     | 0:23 |
+
+Weekly report starting on: [2021-06-21 Mon]
+| Headline                   | Time |
+|----------------------------+------|
+| *Total time*                 | *0:14* |
+|----------------------------+------|
+| Meetings                   | 0:14 |
+| \_  2021                   | 0:14 |
+| \_    2021-06 June         | 0:14 |
+| \_      2021-06-22 Tuesday | 0:14 |
+| \_        morning meeting  | 0:14 |
+
+Weekly report starting on: [2021-06-28 Mon]
+| Headline                     | Time |
+|------------------------------+------|
+| *Total time*                   | *1:50* |
+|------------------------------+------|
+| Meetings                     | 1:50 |
+| \_  2021                     | 1:50 |
+| \_    2021-06 June           | 1:50 |
+| \_      2021-06-28 Monday    | 0:13 |
+| \_        morning standup    | 0:13 |
+| \_      2021-06-30 Wednesday | 1:37 |
+| \_        leads call         | 1:37 |
+#+END:
+*** Time Report For Week of 2021-06-28
+#+BEGIN: clocktable :scope agenda-with-archives :maxlevel 5 :compact t :stepskip0 t :fileskip0 t :step day :tstart "[2021-06-28]" :tend "[2021-07-03]" :match "-@personal"
+
+Daily report: [2021-06-28 Mon]
+| File        | Headline                | Time |
+|-------------+-------------------------+------|
+|             | ALL *Total time*          | *0:13* |
+|-------------+-------------------------+------|
+| archive.org | *File time*               | *0:13* |
+|             | From work-taskdiary.org | 0:13 |
+|             | \_  2021-06 June        | 0:13 |
+|             | \_    2021-06-28 Monday | 0:13 |
+|             | \_      morning standup | 0:13 |
+
+Daily report: [2021-06-30 Wed]
+| File        | Headline                   | Time |
+|-------------+----------------------------+------|
+|             | ALL *Total time*             | *1:37* |
+|-------------+----------------------------+------|
+| archive.org | *File time*                  | *1:37* |
+|             | From work-taskdiary.org    | 1:37 |
+|             | \_  2021-06 June           | 1:37 |
+|             | \_    2021-06-30 Wednesday | 1:37 |
+|             | \_      leads call         | 1:37 |
+
+Daily report: [2021-07-01 Thu]
+| File     | Headline         | Time |
+|----------+------------------+------|
+|          | ALL *Total time*   | *8:00* |
+|----------+------------------+------|
+| work.org | *File time*        | *8:00* |
+|          | Day Off Tracking | 8:00 |
+|          | \_    2021-07-01 | 8:00 |
+
+Daily report: [2021-07-02 Fri]
+| File     | Headline         | Time |
+|----------+------------------+------|
+|          | ALL *Total time*   | *8:00* |
+|----------+------------------+------|
+| work.org | *File time*        | *8:00* |
+|          | Day Off Tracking | 8:00 |
+|          | \_    2021-07-02 | 8:00 |
+#+END:
+** Time Report For 2021-07
+#+BEGIN: clocktable :scope agenda-with-archives :maxlevel 5 :hidefiles t :compact t :stepskip0 t :fileskip0 t :step week :tstart "[2021-07-01]" :tend "[2021-08-01]"
+
+Weekly report starting on: [2021-07-01 Thu]
+| Headline         |  Time |
+|------------------+-------|
+| *Total time*       | *16:00* |
+|------------------+-------|
+| Day Off Tracking | 16:00 |
+| \_    2021-07-01 |  8:00 |
+| \_    2021-07-02 |  8:00 |
+
+Weekly report starting on: [2021-07-05 Mon]
+| Headline                                  | Time |
+|-------------------------------------------+------|
+| *Total time*                                | *1:31* |
+|-------------------------------------------+------|
+| Meetings                                  | 1:31 |
+| \_  2021                                  | 1:31 |
+| \_    2021-07 July                        | 1:31 |
+| \_      2021-07-05 Monday                 | 1:31 |
+| \_        leads - biba 3.0 part 2         | 0:55 |
+| \_        burke data meeting              | 0:17 |
+| \_        leads - biba 3.0 business model | 0:19 |
+
+#+END:
+*** Time Report For Week of 2021-07-05
+#+BEGIN: clocktable :scope agenda-with-archives :maxlevel 5 :compact t :stepskip0 t :fileskip0 t :step day :tstart "[2021-07-05]" :tend "[2021-07-10]" :match "-@personal"
+
+Daily report: [2021-07-05 Mon]
+| File               | Headline                                  | Time |
+|--------------------+-------------------------------------------+------|
+|                    | ALL *Total time*                            | *1:31* |
+|--------------------+-------------------------------------------+------|
+| work-taskdiary.org | *File time*                                 | *1:31* |
+|                    | Meetings                                  | 1:31 |
+|                    | \_  2021                                  | 1:31 |
+|                    | \_    2021-07 July                        | 1:31 |
+|                    | \_      2021-07-05 Monday                 | 1:31 |
+|                    | \_        leads - biba 3.0 part 2         | 0:55 |
+|                    | \_        burke data meeting              | 0:17 |
+|                    | \_        leads - biba 3.0 business model | 0:19 |
+
+#+END:

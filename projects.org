@@ -1,0 +1,528 @@
+* Project Resources
+** lvgl
+[[https://lvgl.io/][site]] - [[https://github.com/lvgl/lvgl][repo]]
+
+it's a "light and versatile embedded graphics library", ie: make nice looking
+displays with microcontrollers and small displays
+
+- works on raspberry pi, arduino, esp32
+- site has tools for converting fonts & images
+- looks like it works with lots of different boards & displays
+
+[[https://github.com/yangyongzhen/golvgl][old go library]] -- 17 months old, so may not be fully up-to-date; but maybe can
+use as jumping off point to make go pkg for latest version of lvgl  
+
+** [[https://www.aliexpress.com/item/32954180664.html?spm=a2g0o.cart.0.0.344f3c00egahUK&mp=1][ups lite]]
+it's the recommended battery solution for the pwnagotchi, so it's probably a
+good bet it's a good piece to use when i need a portable pi zero
+
+** potentially useful project bits
+not something that's the seed of a project on it's own, but could be useful in
+various projects
+- [[https://elmwoodelectronics.ca/collections/adafruit/products/adafruit-i2c-non-volatile-fram-breakout-256kbit-32kbyte][fram breakout]] -- 256Kbits of storage over i2c
+
+* Project Idea
+** stuff to spark project ideas
+- [[https://shop.pimoroni.com/products/1-3-spi-colour-round-lcd-240x240-breakout][round spi lcd]] - watch? it's a neat small round display
+- [[https://shop.pimoroni.com/products/gpi-raspberry-pi-zero-case][gpi case]] - retro looking gameboy case for rpi zero
+- [[https://www.buyapi.ca/product/raspberry-pi-gsm-gprs-board-sim800/][pi gsp hat]] - make a phone? very remote sensor?
+- [[https://www.buyapi.ca/product/mini-wireless-keyboard-rii-i8x/][mini wireless keyboard rii i8x]] - just useful for dealing with pis
+- [[https://www.youtube.com/watch?v=ar9v6bvTVp8&t=63s][video: build real world gaming hardware with tinygo]]
+- [[https://www.crowdsupply.com/13-37/infinite-noise-trng][infinite noise trng]] - open hardware usb true RNG, maybe make a little
+  networked rng server
+- [[https://www.crowdsupply.com/f-secure/usb-armory-mk-ii][usb armory mkII]] - make my own yubikey, with blackjack, and hookers
+- [[https://www.seeedstudio.com/IRduino-Arduino-compatible-USB-IR-Receiver-p-2933.html][irduino]] - arduino compatible usb ir receiver, control stuff with ir remotes
+- [[https://www.crowdsupply.com/anavi-technology/infrared-phat][infrared phat]] - raspberry pi infrared led tx/rx hat
+- [[https://www.pishop.ca/product/gert-vga-666-hardware-vga-for-raspberry-pi/][gert vga 666]] -- hardware vga for rpi
+- [[https://www.tindie.com/products/Clacktronics/video-audio-cap-for-raspberry-pi-zero/][video audio cap]] - similar to above, vga, audio, and composite hat for rpi zero
+- [[https://www.aliexpress.com/item/1005001844438349.html?algo_pvid=c7aa1a9a-5a56-46fd-9c66-8199d6a6342d&algo_exp_id=c7aa1a9a-5a56-46fd-9c66-8199d6a6342d-2]["aviation" cable]] - neat cable with 2 to 7 pins, could make a nice swappable
+  usb cable for keyboards
+** smart speaker
+- [[https://www.amazon.ca/Raspberry-Model-2019-Quad-Bluetooth/dp/B07TC2BK1X/ref=pd_sbs_2/144-3033634-5313625?pd_rd_w=PKdLK&pf_rd_p=01fdeee8-dd76-431b-910b-f00bfed49bd2&pf_rd_r=EGJ3NS35X3A57YSG344W&pd_rd_r=682da5f2-7cb7-4d4d-8370-d93ff9b8821d&pd_rd_wg=4DcRc&pd_rd_i=B07TC2BK1X&psc=1][raspberry pi 4]]
+- [[https://www.seeedstudio.com/ReSpeaker-6-Mic-Circular-Array-Kit-for-Raspberry-Pi.html][respeaker 6-mic array]]
+- 
+** photo booth for erin's wedding
+- [[https://florianmuller.com/raspberry-pi-photobooth-in-a-classic-vintage-plate-camera][guide]]
+- [[https://noise.getoto.net/2017/03/28/the-all-seeing-pi-a-raspberry-pi-photo-booth/][another guide]]
+- [[https://makezine.com/projects/raspberry-pi-photo-booth/][say it with me: another guide]]
+- [[https://www.raspberrypi.com/news/all-seeing-pi-photo-booth/][boop]]
+** fun looking kits to build
+*** fm transmitter
+[[https://www.tindie.com/products/tinkeringtech/scoutmakes-fm-radio-kit-with-bluetooth-control/][store page]] -- has a screen, could be fun project that would also let me test the
+fm transmitters i've recently acquired 
+*** thermometer kit
+[[https://www.tindie.com/products/cheerful/indoor-outdoor-thermometer-kit/][store page]]
+*** altair 8800 kit
+[[https://www.tindie.com/products/kb0wwp/altair-duino-pro/][store page]] -- it's $300 CAD though ( but a fun piece of computing history! )
+*** universal micro keyboard
+[[https://www.tindie.com/products/semachthemonkey/universal-micro-keyboard/][store page]]
+
+5 x 8 Matrix output, Serial ASCII output or USB output. Tactile keyboard
+compatible with RC2014, retro Sinclair computers and many more uses
+** lotsa gpu ml training box
+- [[https://www.aliexpress.com/item/1005002439510955.html?ug_edm_item_id=1005002439510955&edm_click_module=alg_products&tracelog=rowan&rowan_id1=aeug_edm_19483_1_en_US_2021-08-12&rowan_msg_id=0839biz_search_edm:0:0_2545989$a854baa2c8134151a55fb2b747c9b288&ck=in_edm_other][get a decomissioned mining machine]], get a bunch of the same gpu, set it up for
+  training ml models
+
+** air quality sensor
+- [[https://www.adafruit.com/product/3686?utm_source=pocket_mylist][PM2.5 Air Quality Sensor]]
+  UART, needs 5V
+- [[https://www.adafruit.com/product/4505?utm_source=pocket_mylist][PMSA003I]]
+  I2C with Qwiic connectors!
+- [[https://shop.pimoroni.com/products/pms5003-particulate-matter-sensor-with-cable][PMS5003]]
+  cheaper, and [[https://shop.pimoroni.com/products/particulate-matter-sensor-breakout?utm_source=pocket_mylist][pimoroni sells a breakout board to connect it]]
+
+** server room environment monitoring
+- [[https://www.pishop.ca/product/enviro-for-raspberry-pi/?utm_source=pocket_mylist][enviro+ for raspberrry pi]]
+  it's a hat for a pi ( zero-sized ) with a bunch of sensors, would be a nice
+  way to monitor the server closet
+
+** neat esp32 badge -- 256 rgb led badge
+[[https://www.tindie.com/products/curioussuplies/pixel-badge-founders-edition-esp32-led-panel/][store page]]
+
+** ntp server
+- [[https://www.ebay.ca/itm/113906289814][already bought this]]
+- [[https://www.eevblog.com/forum/metrology/ebay-ntp-server-software-needed/][forum thread on how to use]]
+- [[https://fc-ntp-100.toimii.fi/][site for the device]]
+- [[https://developer.here.com/blog/interacting-with-a-neo-6m-gps-module-using-golang-and-a-raspberry-pi-zero-w][reading gps data strings in Go]]
+- [[http://aprs.gids.nl/nmea/#allgp][nmea string definitions]]
+- [[https://www.multitech.net/developer/software/mlinux/using-mlinux/gpsd/#:~:text=GPSD%20configuration%20file%20is%20located,d%2Fgpsd.][gpsd stuff]]
+- [[https://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html][build network time server with raspberry pi]]
+  
+** fomu
+it's the tiny usb thing i got from adafruit! it's an fpga, so that's neat
+
+[[https://workshop.fomu.im/en/latest/python.html][workshop]]
+[[https://www.adafruit.com/product/4332][adafruit store page]]
+[[https://github.com/im-tomu/fomu-hardware][repo]]
+[[https://tomu.im/fomu.html][website]]
+
+** pwnagotchi -- add-ons
+[[https://www.aliexpress.com/item/32954180664.html][ups lite]]  -- 5v 1.2A 1000mAh -> $25.86 ( $77.58 with rpi zero w )
+[[https://www.tindie.com/products/pisugar/pisugar2-battery-for-raspberry-pi-zero/][pisugar2]]  -- 5v 2.4A 1200mAh -> $39.99
+[[https://www.tindie.com/products/pisugar/pisugar-s-battery-for-raspberry-pi-zero/][pisugar s]] -- 5v 3A   5000mAh -> $27.99 ( out of stock )
+
+alternate upses for the piz:
+- [[https://www.tindie.com/products/omzlo/pivoyager-the-smart-ups-for-the-raspberry-pi/][pivoyager]] -- just a board, no battery, currently not being sold
+- [[https://www.tindie.com/products/silicognition/lifepo4weredpi-2/#specs][LiFePO4wered/Pi+]] -- just a board, but uses 18650 LFP ( same as vape )
+
+purchsed a ups lite, we'll see how it works once it arrives  
+
+** rpi car computer
+- [[https://www.tindie.com/products/picotouch/raspberry-pi-automatic-onoff-v21-new-version/][power circuit]]
+- [[https://www.aliexpress.com/item/1005002276142994.html?ug_edm_item_id=1005002276142994&edm_click_module=alg_products&tracelog=rowan&rowan_id1=aeug_edm_19443_1_en_US_2021-08-14&rowan_msg_id=5156biz_add_cart:0:0_2554154$0518415a9c494775b1714d8641cf6f8c&ck=in_edm_other][long display]] [[https://www.aliexpress.com/item/1005002908207104.html?spm=a2g0o.detail.1000013.5.60aa39c75oaUU8&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.169870.0&scm_id=1007.13339.169870.0&scm-url=1007.13339.169870.0&pvid=903c14e9-6af7-4f67-bb26-61f488d18c03&_t=gps-id:pcDetailBottomMoreThisSeller,scm-url:1007.13339.169870.0,pvid:903c14e9-6af7-4f67-bb26-61f488d18c03,tpp_buckets:668%230%23131923%2396_668%230%23131923%2396_668%23888%233325%237_668%23888%233325%237_668%232846%238114%231999_668%235811%2327179%2337_668%236421%2330827%23685_668%232717%237562%23483_668%231000022185%231000066058%230_668%236808%2332772%23365_668%233468%2315609%23272_668%232846%238114%231999_668%235811%2327179%2337_668%236421%2330827%23685_668%232717%237562%23483_668%233164%239976%23216_668%236808%2332772%23365_668%233468%2315609%23272&&pdp_ext_f=%7B%22sceneId%22:%223339%22,%22sku_id%22:%2212000022724197565%22%7D][another]]
+  colud be useful for a car display?
+- [[https://www.youtube.com/watch?v=6C3y08uojag][how to take dash apart]] ([[https://www.instructables.com/Swap-out-your-car-stereos/][alternate instructable]])
+- [[https://www.installdr.com/Harnesses/Toyota-Wiring.asp][toyota radio wiring diagram]] ([[https://www.installdr.com/Harnesses/Toyota-Wiring.pdf][direct to pdf]])
+- [[https://www.carid.com/2005-toyota-echo-wire-harnesses/][wiring harnesses]] [[https://www.carid.com/american-international/factory-replacement-wiring-harness-with-oem-radio-plug.html?urlId=78706690][another]] [[https://www.carid.com/scosche/aftermarket-radio-wiring-harness-with-oem-plug.html?urlId=78706690][another]] [[https://www.carid.com/toyota-echo-wire-harnesses/][so many options]]
+- [[https://www.scosche.com/shopby/index/result/value_id/19975/][dash kits]] [[https://www.carid.com/best-kits/single-din-stereo-dash-kit.html][alternate]]
+- 
+
+** old tv display
+- use the rpi 1 i've got, or [[https://www.crowdsupply.com/isotope-engineering/pimod-zero][this hat]]
+
+** custom watch
+- [[https://www.crowdsupply.com/sqfmi/watchy][watchy]] -- open source & customizable e-ink watch 
+
+** gaming stuff
+- [[https://www.crowdsupply.com/byte-mix-labs/microbyte][microbyte]]
+  "microByte is an open-hardware, battery-powered, handheld console that allows
+  you to play games—from the NES, GameBoy, GameBoy Color, Game Gear, and Sega
+  Master System platforms—on a backlit, color IPS display using built-in
+  controls. And if you’re more interested in doing your own thing, microByte can
+  help with that too. Not only is it fully compatible with Arduino IDE, it
+  allows you to run your own sketches from a microSD card without having to
+  reflash the device! And if you prefer MicroPython, you can access an open
+  source library that you can use to make your own games (or whatever else
+  you’re into)."
+
+
+** custom ebook reader
+- [[https://www.crowdsupply.com/e-radionica/inkplate-10][inkplate 10]] -- 9.7" epaper display
+- [[https://www.tindie.com/products/lilygo/lilygo-t5-47-inch-e-paper-capacitive-touch-cover/][touch cover]] for [[https://www.aliexpress.com/item/1005002006058892.html][specific eink display]]
+
+** neat laptops
+- [[https://www.crowdsupply.com/mnt/reform][reform]] -- open source diy laptop
+- [[https://frame.work/][frame.work]] -- high performance diy laptop
+
+** rpi touchscreen slack status updater
+- use the rpi2 and the touchscreen
+- update status ( set to "Lunch" or whatever ), along with maybe some
+  status/notifications from slack
+  - list of servers, with unread counts for each?
+  - channels with unread messages?
+
+[[https://api.slack.com/web][slack web api]]
+[[https://api.slack.com/rtm][slack rtm/websockets api]]
+[[https://api.slack.com/events][slack api events]] -- use to determine if web api or rtm api should be used
+[[https://api.slack.com/docs/presence-and-status#presence][presence and status]]
+[[https://pkg.go.dev/github.com/slack-go/slack#RTM][golang slack package]]
+[[https://learn.adafruit.com/adafruit-pitft-28-inch-resistive-touchscreen-display-raspberry-pi/easy-install-2][install instructions for tft screen on rpi]]
+[[https://learn.adafruit.com/adafruit-mini-pitft-135x240-color-tft-add-on-for-raspberry-pi/kernel-module-troubleshooting][troubleshooting for tft]]
+
+helpful:
+[[https://www.raspberrypi.org/forums/viewtopic.php?t=267709][how to open browser from ssh session]]
+[[https://raspberrypi.stackexchange.com/questions/69204/open-chromium-full-screen-on-start-up][start browser on startup]]
+[[https://diyprojects.io/open-html-page-starting-raspberry-pi-os-chromium-browser-full-screen-kiosk-mode/][more info on how to open browser on startup]]
+[[https://medium.com/@farissyariati/go-raspberry-pi-hello-world-tutorial-7e830d08b3ae][gpio in raspberry pi from go]]
+[[https://github.com/warthog618/gpiod][go library for gpio]]
+[[https://github.com/stianeikeland/go-rpio][another gpio library for go]]
+
+**  pi zero portable audio player
+- [[https://abra-electronics.com/robotics-embedded-electronics/raspberry-pi-zero/wave-19739-ups-hat-for-raspberry-pi-zero-stable-5v-power-output.html][battery ups hat]]
+- [[https://abra-electronics.com/robotics-embedded-electronics/raspberry-pi-zero/ups-hat-for-raspberry-pi-zero.html][another ups hat]]
+- 
+  
+** pi zero network speaker
+- [[https://www.rickmakes.com/routing-audio-from-a-usb-turntable-to-hdmi-using-a-raspberry-pi/][get audio from turntable]]
+- [[https://dupontgu.medium.com/how-to-stream-your-record-player-throughout-your-home-for-cheap-fb044368a240][more instructions]]
+- [[https://www.youtube.com/watch?v=NSyDTF0fmCs][youtube vid]]
+- 
+  
+** pi zero network thing
+-[[https://abra-electronics.com/robotics-embedded-electronics/raspberry-pi-zero/pi-zero-enc28j60-pi-zero-network-adapter-module.html][pi zero network adapter]]
+
+** keyboard featherwing lora thing
+-[[https://msglab.co/room/lo-ra-msg][ site]]
+- [[https://hackaday.com/2021/02/05/lora-messenger-does-its-best-blackberry-impression/][hackaday post]]
+- 
+
+** hdmi man-in-the-middle display
+- [[https://www.adafruit.com/product/609?utm_source=pocket_mylist][NeTV starter pack]] - $150
+- [[https://www.crowdsupply.com/alphamax/netv2][netv2]] - $215, but uses a raspberry pi instead of it's own board
+  
+** make a 8-bit console
+- [[https://www.crowdsupply.com/itaca-innovation/usvc][uChip Simple VGA console]]
+- [[https://www.crowdsupply.com/excamera/gameduino-3x-dazzler][gameduino 3x dazzler]] - is hdmi, not vga
+
+** calibre web thing
+[[https://github.com/janeczku/calibre-web][calibre-web]] -- when working, available [[http://calibreweb.homelab/][here]]
+- [[https://github.com/janeczku/calibre-web/wiki/Setup-Service-on-Linux][start service on linux]]
+- [[https://github.com/janeczku/calibre-web/wiki/Kobo-Integration][kobo integration]]
+- [[https://github.com/janeczku/calibre-web/wiki/G-Drive-Setup][gdrive setup]]
+- [[https://github.com/janeczku/calibre-web/wiki/FAQ][faq]], [[https://github-wiki-see.page/m/janeczku/calibre-web/wiki/FAQ][more faq]]
+- [[https://github.com/janeczku/calibre-web/wiki/How-To:Install-Calibre-web-(-Python3-)-in-Linux-Mint-19-or-20][install instructions]]
+- [[https://github.com/janeczku/calibre-web/wiki/Configuration][configuration]]
+- [[https://github.com/janeczku/calibre-web/wiki/Command-Line-Interface][cli]]
+
+- [[https://geek-cookbook.funkypenguin.co.nz/recipes/calibre-web/][do it with docker]]
+
+- [[https://www.kryogenix.org/days/2016/01/13/managing-my-books/][blog post]]
+- [[https://www.reddit.com/r/Calibre/comments/buje7o/autoimporting_books/][reddit thread about auto-importing books]]
+- [[https://www.digitalocean.com/community/tutorials/how-to-create-a-calibre-ebook-server-on-ubuntu-14-04][do tutorial]]
+- [[
+
+** autopirate
+[[https://geek-cookbook.funkypenguin.co.nz/recipes/autopirate/][boop]]
+
+** story idea
+
+smoke that breaks reality
+- smoke from forest fires that causes strange things to happen
+- after it leaves the sky is wrong
+Added: [2020-09-14 Mon 21:13]
+
+** shank drone
+
+make a drone that looks like a drone from destiny
+model: https://sketchfab.com/3d-models/destiny-fallen-shank-test-cfb74697d746421998a5517ab7f81ffe
+Added: [2020-08-25 Tue 21:40]
+
+** more nixie tube stuff
+do something with nixie tubes cause they're neat
+*** [[https://axiris.eu/en/index.php/project-corner/iv-3-shield-for-arduino][arduino shield]]
+*** [[https://www.amazon.ca/IV3-VFD-Tubes-Clock-pcs/dp/B01LYCGLQS][10 pcs iv3-a vfd tubes]]
+*** [[https://www.amazon.ca/Integrated-Design-Remote-Control-Suitable/dp/B083WGBTN1/ref=pd_lpo_1?pd_rd_i=B083WGBTN1&psc=1][4-bit integrated nixie tube clock]]
+*** [[https://www.amazon.ca/Vintage-NEON-Nixie-Analog-B5991/dp/B079QQNLJW/ref=pd_day0fbt_2/144-3033634-5313625?pd_rd_w=mUtOF&pf_rd_p=acc65436-fc4e-45ed-98e6-1cea96557795&pf_rd_r=1V17RCGZVEQTCJ0ACW0M&pd_rd_r=401f809e-df87-4a8d-9a6b-ba35856c5043&pd_rd_wg=uUEhj&pd_rd_i=B079QQNLJW&psc=1][vintage neon nixie tube in-12b]]
+*** [[https://timewitharduino.blogspot.com/2017/07/iv-3-vfd-confusion.html][pinouts for iv-3 tubes and others]]
+*** [[https://tubes-store.com/product_info.php?cPath=32_43&products_id=43][tubes store]]
+*** [[https://tubes-store.com/product_info.php?cPath=32_43&products_id=643][in-3 nixie tube (dot, not number), $0.30/ea]]
+*** [[https://tubes-store.com/product_info.php?cPath=32_43&products_id=86][in-2 micro nixie tube, $2.50/ea]]
+*** [[https://tubes-store.com/product_info.php?cPath=32_43&products_id=234][in-1 nixie tube, $4/ea]]
+*** [[https://tubes-store.com/product_info.php?products_id=238][iv-3 vfd tube, $1/ea]]
+
+** flip-number display for a clock or something
+
+** sdr stuff
+software defined radio, yo!
+- [[https://www.crowdsupply.com/lime-micro/limesdr-mini][limesdr mini]] -- $159
+- [[https://www.crowdsupply.com/lime-micro/limenet-micro][limenet micro]] -- $345 (yikes! but uses a raspberry pi compute module 3+, so
+  lots of stuff could be done with it )
+- [[https://www.crowdsupply.com/fairwaves/xtrx][xtrx]] sdr in a mini-pcie
+
+** hass mic/speaker controller
+replacement for google home speakers
+
+- [[https://shop.pimoroni.com/products/respeaker-4-mic-array-for-raspberry-pi][respeaker 4-mic array for raspberry pi]]
+- [[https://shop.pimoroni.com/products/pirate-audio-dual-mic][pirate audio: dual mic for raspberry pi]]
+- 
+
+** home assistant wall display
+- [[https://shop.pimoroni.com/products/inky-what?variant=21441988558931][inky wHAT eINK yellow/black/white display]]
+- 
+
+** portable dev boards
+idea: making my own little hacker palm pilot type thing
+
+already making something with the [[https://shop.pimoroni.com/products/keyboard-featherwing-qwerty-keyboard-2-6-lcd][keyboard featherwing]]
+ current brain options:
+  - adafruit feather rp2040
+    - rp2040 -- 32-bit cortex M0+ dual core @ 125 Mhz, 3.3v logic & power
+    - 264kb ram
+    - 8 mb spi flash, no eeprom
+  - adafruit feather m0 with rfm95 lora radio (900mhz)
+    - atsamd21g18  -- 48mhz with 3.3v logic & power
+    - no eeprom
+ new brain options:
+  - [[https://www.crowdsupply.com/groboards/giant-board][giant board]] -- featherwing compatible, alternate brains for keyboard
+
+pre-assembled:
+- [[https://www.crowdsupply.com/sutajio-kosagi/precursor][precursor]]
+- [[https://www.crowdsupply.com/the-arkadia/the-ark-dev-kit][ark dev kit]] (not out yet, signed up for notifications)
+- [[https://www.crowdsupply.com/yellow-beak-computer/ello-2m][ello 2m]] neat little portable device
+
+** stream box
+making something that will let me play steam games ( or anything that can be
+streamed from the gaming pc ) on the nice big tv in the living room
+
+- [[https://www.crowdsupply.com/hackboard/hb2][hackboard2]] -- $199 for win 10 version, $175 for ubuntu
+  it's a single board computer with 4gb or 8gb of ram ( 8gb is +$35 ), and 64gb,
+  128gb (+$10), 256gb (+$25), or 512gb (+$50) nvme m.2 ( and has an empty nvme
+  m.2 slot as well for more storage )
+
+  - intel celeron n4020 (dual core, 64 bit, up to 2.8ghz clock)
+  - can do 4k hdmi 2.1 out
+  - 6 pin touchscreen interface (!)
+  - built in wifi and bluetooth
+  - 3 x usb 3.0 ports 
+
+ can also get a starter kit (hackboard 2 with windows, aluminum & abs case, usb
+ video camera, wireless keyboard) for $250
+
+** cyberdeck!
+*** brain!
+**** [[https://www.sparkfun.com/products/15470][raspberry pi zero w]]
+**** [[https://www.sparkfun.com/products/15447][raspberry pi 4 model b - 4gb]]
+**** [[https://www.sparkfun.com/products/17244][nvidia jetson nano]] ?
+**** [[https://www.crowdsupply.com/sifive/hifive-unmatched][HiFive Unmatched]] 
+mini itx sized risc-v linux dev platform!
+**** [[https://www.crowdsupply.com/eoma68/micro-desktop][EOMA68 computing device]]
+kind of like the old expresscard for laptops, but it's a computer!
+- the card is $65 ( with parabola[arch], debian, devuan[debian without systemd] or
+fedora )
+- desktop housing is $55
+- laptop housing is $450 (print own enclosure) or $500 (printed for you kit)
+- pcmcia/eoma68 breakout board is $20 (could use to seat the brain cartridge in
+  the cyberdeck)
+- can get a usb = hdmi cable set to get it to work without a housing for $15
+**** [[https://www.crowdsupply.com/sutajio-kosagi/novena][Novena]] 
+another variation on the single board computer
+
+for $200, get:
+ - Freescale iMX6 CPU ( quad core cortex a9 @ 1.2Ghz )
+ - boot from internal microSD firmware
+ - 64bit ddr3-1066 so-dimm slot for ram (ships with 4gb)
+ - sata-II (3gbps)
+ - mini PCI-express slot
+ - UIM slot for mPCIx mobile data card support (ships with Ath9k mPCIe wifi
+   card, 802.11n/b/g 1t1r)
+ - bunch of other stuff:
+   - spartan-6 csg324 packaged fpga built in
+   - high-speed i/o expansion header for gpio or high-performance analog data sampling
+**** [[https://www.crowdsupply.com/starcat/jupiter-nano][Jupiter Nano]]
+$79 tiny form factor board that can run NuttX RTOS or Linux
+- it's 1.125" x 2.5", so tiny
+- works with LiPo batteries out of the box
+
+specs:
+ - ARM Cortex A5 at 498 Mhz
+ - 128 MB ram
+
+downside is a lot more work would be required to hook up all the bits, compared
+to a more fully feature i/o board like a pi or one of the mobos above
+**** [[https://www.crowdsupply.com/onion/omega2-dash][Omega2 Dash]]
+$75 gets me a combined 3.2" tft touchscreen and Omega2s+ IoT computer module
+
+specs:
+ - 3.2" 320x240 16-bit color tft touchscreen
+ - Omega2S+ IoT computer module
+   - 580 Mhz MIPS cpu
+   - 128 MB ram
+   - 32 MB storage
+   - 2.4 Ghz b/g/n wi-fi (ap and client mode)
+   - openwrt 18.06 linux
+**** [[https://www.crowdsupply.com/onion/omega2-pro][Onion Omega2 Pro]]
+$55 for base kit, $140 for board + all expansion boards
+
+some expansion boards:
+- $15 for 0.96" 128x64 monochrome oled display
+- $15 for 100mbps ethernet module
+- $20 for nfc/rfid expansion
+not purchasable separately, but in $140 kit:
+- gps expansion
+
+specs:
+  - 580 Mhz MIPS CPU
+  - 512 MB ram ( 128 MB RAM & 384 MB flash swap file )
+  - 8 gb storage
+  - 2.4 Ghz b/g/n Wi-Fi
+    * 2 dBi directional chip antenna
+    * u.fl connector for external antenna
+    * can be wifi ap & client simultaneously
+  - openwrt 18.06 linux
+  - lipo battery management & jst-ph battery connector
+  - 73mm x 44mm
+
+*** cartridges!
+i want to have cartridges for different functions, because cartridges
+**** [[https://www.tindie.com/products/driptronics/cartridge-breakout-board-for-gameboy/][cartridge breakout board]]
+**** [[https://www.tindie.com/products/insidegadgets/gameboygba-debug-cart/][gameboy/gba debug cart]]
+**** [[https://www.tindie.com/products/insidegadgets/32kb-flash-cart-for-gameboy/][32kb flash cart]]
+**** [[https://www.tindie.com/products/insidegadgets/gameboy-2mb-128kb-sram-flash-cart-2/][gameboy 2mb 128kb sram flash cart]]
+**** [[https://www.tindie.com/products/driptronics/gameboy-breakout-board/][gameboy breakout board]]
+**** [[https://www.sparkfun.com/products/17287][micro:bit]]
+***** [[https://tech.microbit.org/hardware/edgeconnector/][micro:bit v1 & v2 edge connector pinout]]
+*** screen!
+**** [[https://www.sparkfun.com/products/13733][7" lcd touchscreen]]
+**** [[https://www.crystalfontz.com/product/cfaf800480e1050sna2-800x480-5-inch-eve-tft][5" 800x480 tft]]
+**** [[https://www.crystalfontz.com/product/cfaf800480e1050sca2-800x480-cap-touch-eve-tft-module][5" 800x480 capacitive touchscreen tft]]
+*** keyboard
+**** [[https://novelkeys.xyz/products/kailh-low-profile-switches?variant=3747939713064][low profile kailh choc switches]]
+**** [[https://www.adafruit.com/product/5113][Kailh CHOC low profile red, 10-pack]]
+**** [[https://www.adafruit.com/product/5111][Kailh CHOC slim key caps]]
+*** battery/power
+**** [[https://www.crowdsupply.com/pi-supply/pijuice-zero][pijuice zero]]
+*** wifi
+*** bluetooth
+*** other wireless
+** card identifier
+been wanting to do this for a while, build something that can automatically go
+through cards and identify them, and save the identified cards to a database for
+later lookup
+- use TensorFlow to train a model that can identify MTG cards ( maybe even Star
+  Wars CCG ones, as a separate model? )
+
+** portable audio
+*** [[https://www.sparkfun.com/products/16326][pimoroni pirate audio headphone amp]]
+
+- rpi zero & pirate audio hat ordered
+
+to figure out:
+- portable power ( battery hat? just use usb battery pack? )
+
+** stereo thing
+*** [[https://www.sparkfun.com/products/16324][pimoroni pirate audio 3w stereo amp]]
+*** [[https://www.sparkfun.com/products/17738][raspberry pi iqaudio dac+]]
+
+- rpi zero & pirate audio hat ordered
+- usb otg cable ordered ( for usb audio capture device )
+**** need to get [0/2]
+- [ ] usb audio capture device
+- [ ] turntable
+
+
+* House Projects
+** Office
+- [[https://www.amazon.ca/PWAY-Extender-Single-Ethernet-Function/dp/B08LR2PM93/ref=sr_1_6?dchild=1&keywords=usb+hdmi+extender&qid=1622675119&sr=8-6][hdmi & usb extender]] -- maybe put computers in closet?
+
+*** Desk
+lumber:
+
+1 x 2x12 x 16' -> $45.99
+1 x 2x8  x 16' -> $64.99
+
+lumber total: $110.98
+
+plywood:
+
+3 x 4'x8'
+
+1/2" top choice birch @ $79.99/ea x 3  => $239.97
+3/4" maple paint grade @ $89.99/ea x 3 => $269.97
+
+
+3.5 desk pieces + 1.5 bookcase pieces:
+lowes 1/2" 4'x8' spruce @ $70.99/ea x 5 => $354.95
+
+*** Bookcase
+ 
+sides:
+
+8'
+3A    -> 1'x7.5' x 2 ( 2x pine 1x10x8 -- $19.50/ea )
+
+
+4'
+1A    -> 1'x4'   x 2 ( 1x pine 1x10x8 -- $19.50/ea )
+2B    -> 1'x3'   x 4 ( 2x pine 1x10x8 -- $19.50/ea )
+3B+3C -> 1'x2'5' x 3 ( 1x pine 1x10x8 -- $19.50/ea )
+
+2'
+1C+1B -> 1'x2'   x 3 ( 1x pine 1x10x8 -- $19.50/ea )
+2A    -> 1'x1.5' x 4 ( 1x pine 1x10x8 -- $19.50/ea )
+
+9 x pine 1x10x8 @ $19.50/ea => $175.90
+
+
+
+OR 
+3x 5/8 plywood:
+
+- standard building supplies -> 5/8" std fir 4x8 @ $120.05/sheet => $360.15
+- griff building supplies    -> 5/8" std fir 4x8 @ $105.60/sheet => $316.80
+- poco building supplies     -> 5/8" (??)    4x8 @ $104.15/sheet => $312.45
+- lowes                      -> 3/4" fir     4x8 @ $99.99/sheet  => $299.97
+
+
+lowes
+- 2 x 3/4" 4'x8' top choice red oak @ $101/each => $202
+- 2 x 3/4" 4'x8' maple paint grade  @ $90/each  => $180
+
+
+
+backs:
+- lowes                   -> 2 x 1/2" 4'x8' top choice birch   @ $80/each  => $160
+- poco building supplies  -> 2 x 1/2" 4'x8' fir                @ $88.64/ea => $177.28
+- windsor                 -> 2 x 1/2" 4'x8' birch              @ $50/ea    =>
+  $100
+
+lowes total: $335.90
+
+
+  
+**  Home Automation / Security
+ - [[https://konnected.io/collections/shop-now/products/konnected-alarm-panel-pro-12-zone-kit?variant=31677817552969][Konnected 12-zone alarm kit]] ( $289 USD )
+ - [[https://www.amazon.ca/Konnected-Alarm-12-Zone-System-Retrofit/dp/B08RJZPPYR/ref=sr_1_5?dchild=1&keywords=konnected&qid=1622100013&sr=8-5][Amazon - $299 CAD]]
+ - [[https://help.konnected.io/support/solutions/articles/32000022627-using-a-tablet-as-a-keypad-replacement][using tablet for konnected]]
+ - [[https://play.google.com/store/apps/details?id=de.ozerov.fully&referrer=utm_source%3D/fully-home-en%26utm_content%3Dtext-link][fully kiosk browser app for google]]
+ - [[https://konnected.io/products/12v-to-5v-usb-power-converter?variant=828080488468][12v to 5v usb power converter]] - for using security wires to power tablet
+ - [[https://www.vidabox.com/kiosks/vidamount-on-wall-ipad-tablet-enclosure-mount.html][wall-mount tablet]] -- for making tablet wall mounted and look nice
+   - for [[https://www.vidabox.com/kiosks/vidamount-on-wall-tablet-mount-amazon-fire-7th-generation-2017-7-inch-black.html][amazon fire 7" 7th gen]]
+   - [[https://www.amazon.ca/fire-7-tablet/dp/B07JQP2C3X/ref=sr_1_2_sspa?dchild=1&keywords=android%2Btablet&qid=1621464824&sr=8-2-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzOFM0SFhWS05ISlhFJmVuY3J5cHRlZElkPUEwMjYzODA0M1RIUzhESVRNREE1QSZlbmNyeXB0ZWRBZElkPUEwNjM3NTA0Wk8xMzdMMlhKTzFTJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1][amazon fire 7 tablet, $70 CAD]]
+ - [[https://www.home-assistant.io/integrations/lannouncer/][lannouncer]] - spoken alerts & messages on android
+ -
+
+** Server Room
+*** KVM
+ - [[https://github.com/pikvm/pikvm#diy-getting-started][pikvm]]
+ - [[https://github.com/pikvm/pikvm#hardware-for-v2][pikvm hardware]]
+ - [[https://pikvm.org/][pikvm site]]
+ - [[https://github.com/pikvm/pikvm/blob/master/pages/tailscale.md][pikvm using tailscale vpn]]
+ - [[https://github.com/pikvm/pikvm#the-future-v3-platform-work-in-progress][pikvm v3]]
+ - [[https://www.pishop.us/product/usb-c-pwr-splitter/][pi4 usb c power splitter]]
+ - [[https://www.amazon.ca/GREATHTEK-Switch-HDMI-Port-HDCP2-2/dp/B0921NX43B/ref=sr_1_3_sspa?dchild=1&keywords=HDMI2.0+Switch+4X1+with+USB3.0+KVM&qid=1621961824&sr=8-3-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyRUwxRVJIQUcwVjBQJmVuY3J5cHRlZElkPUEwMTMwMTI0MlZaMVFHSkw1SzMxNCZlbmNyeXB0ZWRBZElkPUEwNjQ3OTA0MzZZSEI2MVVYS0Q4TCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=][4 port usb & hdmi switch]] - $100 CAD
+ - [[https://www.amazon.ca/PW-S7402H-HDMI-Switch-Port-60Hz/dp/B088WKZRQ9/ref=sr_1_21_sspa?dchild=1&keywords=HDMI2.0%2BSwitch%2B4X1%2Bwith%2BUSB3.0%2BKVM&qid=1621961824&sr=8-21-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyRUwxRVJIQUcwVjBQJmVuY3J5cHRlZElkPUEwMTMwMTI0MlZaMVFHSkw1SzMxNCZlbmNyeXB0ZWRBZElkPUEwNTUxNDAzMVJCMlRGWk5FSEJKUiZ3aWRnZXROYW1lPXNwX210ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1][another 4 port usb & hdmi switch]]
+ - [[https://www.easycoolav.com/products/hdmi20-switch-4x1-with-usb30-kvm-4-port-usbsupport-4k60hz-444-and-hdr-audio-breakout][ezcoo hdmi2 & usb 3.0 kvm]] -- i think this is the one used in the demo video
+
+*** Raspberry Pi
+- [[https://www.myelectronics.nl/us/raspberry-pi-19-inch-rack-mount/raspberry-pi-19-inch-rack-mount-frames/][rack mounts]] ( & [[https://www.myelectronics.nl/us/raspberry-pi-19-inch-rack-mount/raspberry-pi-19-inch-rack-mount-accessories/][accessories]] )
+- 
+
+** Balcony/Patio
+*** Build Patio Furniture
+- woods to use:
+  - cypress
+  - cedar
+  - white oak
+  - redwood
+
+
