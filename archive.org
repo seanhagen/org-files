@@ -3435,3 +3435,20 @@ Not electric:
 - [ ] hard drive screws ( m3x4.8mm 200pcs )
 
 
+
+* From hacking.org
+
+** DONE computer desk
+CLOSED: [2021-11-14 Sun 12:45]
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-11-20 Sat 17:34
+:ARCHIVE_FILE: ~/Documents/Org/hacking.org
+:ARCHIVE_OLPATH: Project Ideas
+:ARCHIVE_CATEGORY: Hacking
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: @personal
+:END:
+https://www.youtube.com/watch?v=Zrjp_F5FSjo
+
+[[https://www.youtube.com/watch?v=Zrjp_F5FSjo][cnc front design idea]] -- also a cool hidden drawer thing
+

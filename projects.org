@@ -70,6 +70,8 @@ electronics stuff: [0/4]
     - events from our calendars in the next few days
     - bin pickup & which bins need to be put out
     - weather & temperature?
+
+[[https://githubmemory.com/repo/esjmorales/ABCs-with-MagTag?utm_source=pocket_mylist][resource]]      
       
 ** Slack display
 - use rpi screen to make something for setting status easier in slack
@@ -127,8 +129,94 @@ electronics stuff: [0/4]
 - so that we can control stuff with our voice again
 
 * Project Ideas
+** story idea
+smoke that breaks reality
+- smoke from forest fires that causes strange things to happen
+- after it leaves the sky is wrong
+Added: [2020-09-14 Mon 21:13]
+** diy scanner
+build something with a usb sdr and a screen that scans ham & cb freqs and plays
+what it finds
+
+need a screen for waveform output, a few buttons for input
+
+** shank drone
+make a drone that looks like a drone from destiny
+model: https://sketchfab.com/3d-models/destiny-fallen-shank-test-cfb74697d746421998a5517ab7f81ffe
+Added: [2020-08-25 Tue 21:40]
+** TODO ocean/river table                             :@personal:code:build:
+Added: [2021-04-14 Wed 15:16]
+[[https://www.youtube.com/watch?v=wWkldrESy3Q][SmoothOn instructions]]
+[[https://www.youtube.com/watch?v=DNRxlQVKf1U][more instructions]]
+[[https://thatpainter.com/best-epoxy-resins-for-wood/][other resins to look at]]
+[[https://www.totalboat.com/product/high-performance-21-epoxy-kits/][more resins to look at]]
+
+[[https://vancityliveedge.ca/product-category/inventory/][local live edge wood supply]]
+
+** recording videos of working on projects
+need:
+ - lapel mic for phone [[https://www.amazon.ca/dp/B00EO4A7L0][rode smartlav+]]
+ - tripod for camera
+
+[[https://play.google.com/store/apps/details?id=com.nchsoftware.pocketwavepad_free][android audio recorder]]
+
+nice to have:
+ - recorder that isn't my phone - [[https://www.amazon.ca/Zoom-Digital-Multitrack-Recorder-F1-LP/dp/B0797DCMGM/][zoom  digital recorder]]
+
+** Stuff To Sell                                                :sell:
+*** ttrpg themed soap
+[[https://www.wholesalesuppliesplus.com/soap-making-supplies/melt-pour-soap-base.aspx][soap supplies]] ( wholesale )
+
+two things that can be used to style the soap:
+
+- shape
+-- dice ( small hand soap, literally shaped like dice )
+-- dice-inspired ( normal bar-sized soap, but themed to look like dice )
+-- weapons ( swords, shields, fireball )
+-- armor ( plate mail, etc )
+
+- smell
+-- d&d classes (wizard, rogue, barbarian, etc)
+-- enemies (goblin, dragon, owlbear, etc)
+
+need non-D&D themed stuff too
+*** dice whiskey stones
+[[https://twitter.com/KatVHarris/status/1387476640175824898][tweet]]
+- apparently there are d6's and d20's out there
+- learn how to make them, then make a full set
+- determine how much effort that is, and if it's worth it to sell them
+*** tabletop accessories
+**** resin dice trays
+easier to make once i've got a mold, way more fun color options -- including
+glow in the dark!
+**** custom dice
+tricky, requires the dice molds and probably a vacuum chamber & pressure pot &
+slower curing resin ( or at least more pot time )
+**** dice rolling trays
+*** ttrpg candles
+- maybe focus on the non-fantasy side of ttrpgs ( sci-fi, cyberpunk, etc )
+- for fantasy candles, do novelty candles ( swords, etc )
+- can do novelty candles for other ones ( ray guns! ) -- especially if there's a
+  wax that is super clear when it's hard
+*** live edge wood furniture
+- smaller things to start ( side tables, nightstands, etc )
+- tables on comission only though
+
+** better streaming setup
+- key lights
+ - [[https://www.amazon.ca/Cahot-Conference-Adjustable-Conferencing-Broadcast/dp/B08SQH19HK/ref=sr_1_20_sspa?dchild=1&keywords=Zoom&qid=1618444543&sr=8-20-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyU0VaVEYwQVk0STMyJmVuY3J5cHRlZElkPUEwODAwNzQwM1VOUFZOMklFRUlNUCZlbmNyeXB0ZWRBZElkPUEwMTUxMDU0SkpLTUcwT1gzUlBWJndpZGdldE5hbWU9c3BfbXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==][maybe these]]
+
+** home automation ideas
+*** humidity sensor to turn on bathroom fan
+and turn it off when no longer humid
+*** lights activated via security camera motion
+
+** some woodworking project ideas
+[[https://www.bobvila.com/slideshow/15-surprisingly-simple-woodworking-projects-for-beginners-46626][list of 15 projects]]
 ** LoRa On A Mountain
 - get a good antenna, see what kind of reception I get from Alouette Mountain
+** Raspberry Pi Projects
+[[https://www.tomshardware.com/features/best-raspberry-pi-projects?utm_source=pocket_mylist][list]]
 ** pocket to org sync
 - use the [[https://getpocket.com/developer/docs/overview][Pocket API]] to pull articles into an Org mode file
 - pocket tags -> org tags

@@ -3,3 +3,28 @@
 This is a repo for all my [[https://orgmode.org/][Emacs Org Mode]] files. I used to use Dropbox, but
 Dropbox & Manjaro don't seem to play nicely together. So rather than continue to
 deal with that hassle here we are.
+
+
+* The Files, The Directories, And What They're For
+** Directories
+*** Root
+**** archive.org
+**** code.org
+**** endless-stream.org
+**** journal.org
+**** mygtd.org
+**** network.org
+**** personal.org
+**** projects.org
+**** tasks.or
+*** Agenda
+*** Notes
+**** hacking.org
+**** radio.org
+**** shopping.org
+**** switch.org
+*** Pocket
+*** Work
+**** time-report.org
+**** work.org
+**** work-taskdiary.org
