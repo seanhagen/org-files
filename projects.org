@@ -700,8 +700,6 @@ backs:
   $100
 
 lowes total: $335.90
-
-
   
 **  Home Automation / Security
  - [[https://konnected.io/collections/shop-now/products/konnected-alarm-panel-pro-12-zone-kit?variant=31677817552969][Konnected 12-zone alarm kit]] ( $289 USD )

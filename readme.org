@@ -9,22 +9,97 @@ deal with that hassle here we are.
 ** Directories
 *** Root
 **** archive.org
+Where everything gets put when I use `org-archive-subtree`.
 **** code.org
+Currently empty
 **** endless-stream.org
+Trello board in Org form
 **** journal.org
+Notes and lists? 
 **** mygtd.org
+tasks, clipboard... and camping?
 **** network.org
+- todo list for home network
+- list of old machines
+- todo list for pfsense/router (should be part of other todo list, honestly)
+- vpn stuff
+- machines (list of machines with stats)
+- vlan setup
 **** personal.org
+- reminders (scratch pad, or stuff that i need to be reminded of in a specific
+  number of days -- ie, agenda stuff)
+- todos (should be elsewhere, or better named?)
+- meetings (non-work meetings & phone calls)
+- ttrpg stuff (could probably be it's own file?)
 **** projects.org
-**** tasks.or
+- project resources
+- projects i'm working on (needs to be better expanded with todo lists and all that)
+- project ideas
+- house projects (can probably be cleaned up or better organized)
+**** tasks.org
+- todo list
+
+this file can definitely be merged into another  
 *** Agenda
 *** Notes
 **** hacking.org
+- radio -- supposed to be a list of radio stuff to read, resources, etc; has
+  other stuff in here
+- cyberdeck -- supposed to be list of parts & resources, should be moved to projects
+- hacking -- ?? lsit of parts, items, other stuff, can probably be put elsewhere
+  (project resources?)
+- testing thing -- was for testing out some other org stuff, should be in
+  dedicated "scratch" org file
 **** radio.org
+- nets -- list of nets i want to remember, have programmed into radios, etc
+- gear -- places to get gear
+- other stuff -- just a link to weather radio canada right now
+- scheduled nets -- supposed to be a list of scheduled nets, so i can have
+  repeating items in org agenda
 **** shopping.org
+- tools -- list of stuff to build, cnc stuff, and power tools
+- garage workshop setup -- can probably be trimmed down to just the stuff i want
+  to keep
+- home automation stuff
+- house upgrades
+- neat subscription boxes
+- grooming stuff
+- clothes
+- purchase plans
+- wood supply places
 **** switch.org
+literally just a list of what each port is connected to and what vlan it's
+configured with
 *** Pocket
 *** Work
 **** time-report.org
+when i'm doing good at tracking my time on tasks in org, this is where i put the
+clock table outputs for each week
 **** work.org
+- day off tracking -- so that the time report for a week can add up to 40 hours
+  if i had a vacation or sick day
+- code todos -- currently empty, should turn into a place for project specific
+  code todos, maybe?
+- work todos -- just general "stuff that needs doing for work", not necessarily
+  project related ( or for todos before there's an "official" project )
+- email todos -- capture target for when creating a todo that points to a
+  specific email
+- research todos -- general purpose "hey look into this stuff more"
 **** work-taskdiary.org
+- meetings (by year -> month -> day ) -- place for me to take notes during work
+  meetings, checkbox lists of "do this stuff" and link to specific todo
+  headings, etc
+- tasks -- meant to be quick "hey can you do a thing" tasks ( stuff like "find
+  the latest report for playground x" or "get errors from latest mailout" ),
+  here so i can track time against these small tasks
+* Plans
+** Organize Things
+Need to better organize all the org files ( as well as capture targets ).
+
+Need a few "areas" to keep stuff:
+- stuff that needs to be in the agenda (schedules, deadlines, etc)
+- work stuff (non-agenda)
+- personal stuff (non-project stuff)
+- personal stuff (project stuff)
+- note taking / getpocket-style "stuff to look at when i've got more time"
+- "live capture" stuff -- meeting notes, etc

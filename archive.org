@@ -3434,8 +3434,115 @@ Not electric:
 - [ ] hard drive screws ( assorted box of 500pcs )
 - [ ] hard drive screws ( m3x4.8mm 200pcs )
 
+** Horus Heresy Books [59/59]
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-11-20 Sat 18:00
+:ARCHIVE_FILE: ~/Documents/Org/notes/shopping.org
+:ARCHIVE_CATEGORY: shopping
+:END:
+- [X] Horus Rising
+- [X] False Gods
+- [X] Galaxy in Flames
+- [X] The Flight of the Eisenstein
+- [X] Fulgrim
+- [X] Descent of Angels
+- [X] Legion
+- [X] Battle for the Abyss
+- [X] Mechanicum
+- [X] Tales of Heresy
+- [X] Fallen Angels
+- [X] A Thousand Sons
+- [X] Nemesis
+- [X] The First Heretic
+- [X] Prospero Burns
+- [X] Age of Darkness
+- [X] The Outcast Dead
+- [X] Deliverance Lost
+- [X] Know No Fear
+- [X] The Primarchs
+- [X] Fear to Tread
+- [X] Shadows of Treachery
+- [X] Angel Exterminatus
+- [X] Betrayer
+- [X] Mark of Calth
+- [X] Vulkan Lives
+- [X] The Unremembered Empire
+- [X] Scars (ordered)
+- [X] Vengeful Spirit
+- [X] The Damnation of Pythos
+- [X] Legacies of Betrayal
+- [X] Deathfire
+- [X] War Without End
+- [X] Pharos
+- [X] Eye of Terra
+- [X] The Path of Heaven
+- [X] The Silent War
+- [X] Angels of Caliban
+- [X] Praetorian of Dorn
+- [X] Corax
+- [X] The Master of Mankind
+- [X] Garro
+- [X] Shattered Legions
+- [X] The Crimson King
+- [X] Tallarn
+- [X] Ruinstorm
+- [X] Old Earth
+- [X] The Burden of Loyalty
+- [X] Wolfsbane
+- [X] Born of Flame
+- [X] Slaves to Darkness
+- [X] Heralds of the Siege
+- [X] Titandeath
+- [X] The Buried Dagger
+- [X] The Solar War
+- [X] The Lost and the Damned
+- [X] The First Wall
+- [X] Saturnine
+- [X] Mortis (ordered)
+
+** Aeroplan Stuff
+:PROPERTIES:
+:ARCHIVE_TIME: 2021-11-20 Sat 18:00
+:ARCHIVE_FILE: ~/Documents/Org/notes/shopping.org
+:ARCHIVE_CATEGORY: shopping
+:END:
+Points: 226,380
+
+| Product                                                                                       | Points  | MSRP  | Link |
+|-----------------------------------------------------------------------------------------------+---------+-------+------|
+| Eufy by Anker Smart Video Doorbell 2K Battery or Wired with HomeBase                          | 37,700  | $280  | [[https://aeroplan.rewardops.com/en-CA/product-details/137362?src=category&category=Electronics][link]] |
+| IK Multimedia iRig Keys I/O 49 MIDI Controller and Audio Interface                            | 50,300  | $400  | [[https://aeroplan.rewardops.com/en-CA/product-details/134566?src=category&category=Electronics][link]] |
+| Best Buy $500 eGift Card                                                                      | 70,000  | $500  | [[https://aeroplan.rewardops.com/en-CA/product-details/128439?src=category&category=Electronics][link]] |
+| House of Marley® Stir It Up Wireless - Bamboo Turn table                                      | 35,400  | $350  | [[https://aeroplan.rewardops.com/en-CA/product-details/128023?src=category&category=Electronics][link]] |
+| RICOH WG-6                                                                                    | 73,000  | $570  | [[https://aeroplan.rewardops.com/en-CA/product-details/126631?src=category&category=Electronics][link]] |
+| Bose Soundbar 700 - Black                                                                     | 120,600 | $1000 | [[https://aeroplan.rewardops.com/en-CA/product-details/126732?src=category&category=Electronics][link]] |
+| Apple iPad Mini Wifi + Cellular 256 GB, Space Grey                                            | 117,800 | $900  | [[https://aeroplan.rewardops.com/en-CA/product-details/127639?src=search&q=ipad&sourceFilter=all][link]] |
+| Amazon $500 Gift Card                                                                         | 70,000  | $500  | [[https://aeroplan.rewardops.com/en-CA/product-details/128653?src=brand&brand=amazon][link]] |
+| iRobot Roomba® i7+ 7550 Wi-Fi® Connected Robot Vacuum with Automatic Dirt Disposal - Charcoal | 125,000 | $1000 | [[https://aeroplan.rewardops.com/en-CA/product-details/136339][link]] |
+| Escali Smart Connect Kitchen Scale with Bluetooth                                             | 11,200  | $120  | [[https://aeroplan.rewardops.com/en-CA/product-details/127116][link]] |
 
 
+210,000
+left with 16,380
+
+ stuff to get from amazon:
+ - ryobi cordless heat gun [[https://www.amazon.ca/Ryobi-18-Volt-Lithium-Ion-Cordless-P3150/dp/B07SGYWXRY][link]]                    $145
+ - ryobi airstrike cordless brad nailer [[https://www.amazon.ca/Ryobi-P320-Airstrike-Cordless-Included/dp/B00CRFEZFC/][link]]       $160
+ - craftsman 6 gallon air compressor [[https://www.amazon.ca/CRAFTSMAN-Compressor-Oil-Free-Accessory-CMEC6150K][link]]          $200
+ - stanley wet/dry vac 12 gallon [[https://www.amazon.ca/Stanley-Wet-Vacuum-Gallon-Horsepower/dp/B00IS94BW8/][link]]              $100
+ - ryobi cordless random orbit sander [[https://www.amazon.ca/Ryobi-P411-Cordless-Operated-Included/dp/B017POA9R2][link]]          $60
+ - dewalt plunge router [[https://www.amazon.ca/DEWALT-DW618PKB-Fixed-Plunge-Router/dp/B00D8WJDC8/][link]]                       $260
+ - 3M Full Facepiece Reusable Respirator 6800 [[https://www.amazon.ca/dp/B007JZ1LG6/][link]] $170
+ - 3m worktunes [[https://www.amazon.ca/3M-WorkTunes-Protector-Bluetooth-Technology/dp/B07N6XXCWM/][link]]                               $100
+   
+subtotal --------------------------------------   $1195
+
+
+ 
+get the ryobi 6-tool kit from home depot ( it's in stock and like $200 cheaper )
+
+home depot for the table saw?
+ - dewalt 8-1/4in table saw [[https://www.amazon.ca/Dewalt-DWE7485-Compact-Jobsite-Table/dp/B0842QDW95][link]]                   $350
 * From hacking.org
 
 ** DONE computer desk

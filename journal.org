@@ -3,12 +3,6 @@
 # Local Variables:
 # eval: (auto-revert-mode)
 # End:
-* Next Edible Order
- - https://thecompassionclub.biz/product/sativa-shatter-brownies-60-mg-euphoria-extractions/
- - https://thecompassionclub.biz/product/sativa-milk-chocolate-shatter-bar-500mg-thc-euphoria-extractions/
- - https://thecompassionclub.biz/product/sativa-milk-chocolate-shatter-bar-250mg-thc-euphoria-extractions/
- - https://thecompassionclub.biz/product/raspberry-chocolate-bar-200mg-thc-2/
- - https://thecompassionclub.biz/product/milk-chocolate-fruit-nut-bar-140mg-thc-caution-subject-to-melting/
 * Media To Consume
 ** Movies
 *** Insidious 2
