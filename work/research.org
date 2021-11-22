@@ -1,4 +1,3 @@
-
 * Research Tasks
 ** ideation for new music-based game                   :@work:research:game:
 burke has partnered with [[https://www.percussionplay.com][Percussion Play]] to add musical equipment to playgrounds
