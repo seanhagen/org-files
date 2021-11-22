@@ -1,5 +1,5 @@
 #+FILETAGS: @personal
-#+CATEGORY: Hacking
+#+CATEGORY: inbox
 # Local Variables:
 # eval: (auto-revert-mode)
 # End:
@@ -90,29 +90,7 @@ https://www.amazon.ca/Xiegu-Amateur-Transceiver-0-5-30MHz-Structure/dp/B07PQQVPD
 bladerf
 https://www.nuand.com/product/bladerf-xa4/
 costs $480 though, don't get until deep into sdr
-* Cyberdeck
-** ALFA Network AWUS036AC Long-Range Wide-Coverage Dual-Band AC1200 USB Wireless Wi-Fi Adapte
-https://www.amazon.com/gp/product/B01B33WU82
-** touch pad
-https://www.ergonomictouchpad.com/
-** pi zero battery hat
-https://www.tindie.com/products/pisugar/pisugar2-battery-for-raspberry-pi-zero/
-** noise generator to prevent listening in on conversation
-https://www.kjbsecurity.com/products/detail/rabbler-noise-generator/857/
-** battery bank for rpi
-https://www.buyapi.ca/product/compact-rechargeable-battery-for-raspberry-pi/
-** rpi ups board
-https://sixfab.com/product/raspberry-pi-power-management-ups-hat/
-** rpi lte cell board
-https://sixfab.com/product/raspberry-pi-4g-lte-modem-kit/
-** e-ink display
-https://elmwoodelectronics.ca/products/adafruit-1-54-tri-color-eink-epaper-display-with-sram-red-black-white?pr_prod_strat=copurchase&pr_rec_pid=1203750142004&pr_ref_pid=905318826036&pr_seq=uniform
-** trackball breakout
-https://elmwoodelectronics.ca/products/pim447?variant=28620994052148&currency=CAD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&utm_campaign=gs-2019-02-19&utm_source=google&utm_medium=smart_campaign
-** trackball with replaceable buttons
-https://shop.xgaming.com/products/x-arcade-trackball-assembly-usb
-** wifi module for older rpis
-https://www.amazon.com/gp/product/B01B33WU82/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=sl1&tag=ilumi03-20&linkId=a3499681456797b8c95856d1af279cd0&language=en_US
+
 * Hacking
 ** shark jack
 https://shop.hak5.org/collections/sale/products/shark-jack

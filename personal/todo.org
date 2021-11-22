@@ -1,0 +1,231 @@
+#+FILETAGS: @personal
+#+CATEGORY: todo
+# Local Variables:
+# eval: (auto-revert-mode)
+# End:
+* Tasks
+** DONE let's encrypt update ssl certs for l10n service
+   CLOSED: [2021-03-29 Mon 12:13] DEADLINE: <2021-04-28 Wed>
+ [[notmuch:id:20210319T062146.1507343864615732575.expiry@letsencrypt.org][Mail: Let's Encrypt certificate expiration notice for domain "localization.bibabots.com"]]
+ Added: [2021-03-22 Mon 11:42]
+** DONE let's encrypt update for games.bibabots.com
+   CLOSED: [2021-03-29 Mon 12:13] DEADLINE: <2021-04-28 Wed>
+ [[notmuch:id:20210319T064019.2541558921159907309.expiry@letsencrypt.org][Mail: Let's Encrypt certificate expiration notice for domain "games.bibabots.com"]]
+ Added: [2021-03-22 Mon 11:42]
+** TODO games to register on steam
+This is the Police - D5CPV-6EZAL-06JR9
+Added: [2017-05-08 Mon 12:27]
+** TODO download all comics & books from the humble bundles to a hard drive (portable, probably)
+or figure out how to transfer them to google play or something
+Added: [2017-04-19 Wed 10:20]
+** TODO look into setting default handlers for emails
+https://notmuchmail.org/emacstips/#index2h2
+Added: [2017-02-21 Tue 16:37]
+** TODO set up signatures for different email accounts
+https://notmuchmail.org/emacstips/#index16h2
+Added: [2017-02-21 Tue 16:38]
+** TODO look into writing mode for interacting with pocket
+get articles, save articles, etc.
+Added: [2017-02-22 Wed 10:54]
+** TODO make a cutting board
+[[https://fixthisbuildthat.com/how-to-make-end-grain-cutting-board-plans/][link]]
+** TODO numenera cards app
+- make an app that comes with like 10 cards from each deck, with each full deck
+  being purchasable
+** TODO build a numenera tablet app
+to make it easier to handle some stuff while running a game
+- combat
+- ruin generator
+- philesthis saying generator
+- other things?
+** TODO games to register on steam
+This is the Police - D5CPV-6EZAL-06JR9
+Added: [2017-05-08 Mon 12:27]
+** TODO download all comics & books from the humble bundles to a hard drive (portable, probably)
+DEADLINE: <2021-03-31 Wed>
+or figure out how to transfer them to google play or something
+Added: [2017-04-19 Wed 10:20]
+** TODO look into setting default handlers for emails
+https://notmuchmail.org/emacstips/#index2h2
+Added: [2017-02-21 Tue 16:37]
+** TODO set up signatures for different email accounts
+https://notmuchmail.org/emacstips/#index16h2
+Added: [2017-02-21 Tue 16:38]
+** TODO look into writing mode for interacting with pocket
+get articles, save articles, etc.
+Added: [2017-02-22 Wed 10:54]
+** DONE Update Firmware in EAP245
+CLOSED: [2021-06-08 Tue 12:06]
+[[https://www.tp-link.com/us/support/download/eap245/#Firmware][Get from here]]
+
+Might have to power cycle the AP to have the web interface come back up
+
+** TODO write post                                     :@personal:task:blog:
+SCHEDULED: <2021-07-17 Sat>
+https://hackernoon.com/open-source-effect-on-build-vs-buy-az1l35xl
+
+open source doesn't change anything, build yourself has more than a person-cost,
+there's infrastructure cost as well
+Added: [2021-06-24 Thu 12:51]
+** DONE weekend plan                              :@personal:task:townhouse:
+CLOSED: [2021-09-11 Sat 12:13] SCHEDULED: <2021-07-17 Sat>
+Added: [2021-05-27 Thu 18:17]
+
+stuff to get done this weekend [28/31]:
+
+buy:
+- [X] buy vents, fan, and tube stuff for server closet
+- [X] buy lag bolts for putting up 2x4s
+
+server closet:
+- [X] install vents
+- [X] try to install outlet in server closet
+- [X] remove network panel on outside of server closet
+- [X] wire up outlet for server closet
+- [X] re-route network into server closet
+- [X] get ethernet couplers for pre-wired ethernet cables
+- [X] get and install keystones to hook pre-wired ethernet to patch panel
+- [X] get and install keystones for security cameras
+- [X] wire up ethernet keystones to switch
+- [ ] wire up ethernet keystones for servers 
+- [X] cut 2x4 for network rack
+- [X] drill and install 2x4 pieces for network rack
+- [X] mount network rack
+- [X] install patch panel
+- [X] install cisco switch
+- [X] install mini-itx rackmounts
+- [X] put hass.io rpi into server closet
+- [X] attach fan to heat out, use wire strip to secure to ceiling/wall
+
+garage/workshop:
+- [ ] make organzier for drill bits
+- [X] organize screws/nails/fasteners
+- [X] organize tools into drawers ( waiting on bin of tools from parents )
+- [X] finish emptying out old bins into garage shelf
+
+electrical:  
+- [X] install zwave dimmer switch in living room
+- [ ] install other zwave dimmer switch in bedroom
+
+house stuff:
+- [X] install spring/chain on garage back door
+- [X] install hinge door-stop on pantry door
+- [X] wall mount guest bathroom cabinet
+- [X] scotchgard couch & blue cushions
+- [X] mount power bar in entertainment unit
+  
+** DONE buy and install protective cover for wall behind bins in garage
+CLOSED: [2021-09-11 Sat 12:13]
+need to get some vinyl or something from home depot/lowes to put up behind the
+bins so the wall doesn't get dinged up, and to also protect the wall from
+backspray from the hose
+
+- also look into slotboard for above the bins for organizing stuff like hoses, etc
+
+** DONE build and install desk
+CLOSED: [2021-07-08 Thu 09:11]
+- need to design in sketchup
+- buy wood
+- install thing  
+
+** DONE build and install bookshelves in office
+CLOSED: [2021-07-08 Thu 09:11]
+- use plans Xanthea created for me
+  
+** DONE build balcony table for eating
+CLOSED: [2021-07-08 Thu 09:11]
+
+** TODO move everything out of flickr so i can cancel that account :@personal:task:cancel:
+SCHEDULED: <2021-08-01 Sun 23:15>
+
+paying $7 a month ( no more 2 year plan for some reason ), and i don't really
+use it any more, but still want the photos up somewhere
+
+options:
+- move everything to my own site, under a photography section
+- just use google photos?
+- put the good stuff on redbubble or something ( passive income baybee )    
+Added: [2021-04-27 Tue 23:15]
+** TODO lastpass replacement to look into          :@personal:task:security:
+:PROPERTIES:
+SCHEDULED: <2021-03-30 Tue>
+:END:
+- https://www.passwordstore.org/
+Added: [2021-03-29 Mon 21:48]
+** TODO more emacs stuff to look at                   :@personal:task:emacs:
+:PROPERTIES:
+SCHEDULED: <2021-04-03 Sat>
+:END:
+- https://github.com/mads-hartmann/.emacs.d/blob/master/init.el
+- https://www.masteringemacs.org/article/polymode-multiple-major-modes-how-to-use-sql-python-in-one-buffer
+- https://so.nwalsh.com/2020/02/29/dot-emacs
+Added: [2021-03-29 Mon 18:08]
+** TODO emacs sql stuff to look into / setup          :@personal:task:emacs:
+:PROPERTIES:
+SCHEDULED: <2021-04-03 Sat>
+:END:
+- generic stuff: https://www.emacswiki.org/emacs/SqlMode
+- https://www.reddit.com/r/emacs/comments/bb5mnv/sql_workflows_inside_emacs_anyone_have_a_nice/
+- https://www.reddit.com/r/emacs/comments/cyexjy/use_emacs_as_a_database_client/
+- https://arjanvandergaag.nl/blog/using-emacs-as-a-database-client.html
+- https://www.reddit.com/r/emacs/comments/9o449c/complete_sql_development_layer/
+- https://emacsredux.com/blog/2013/06/13/using-emacs-as-a-database-client/
+  
+Added: [2021-03-29 Mon 18:07]
+** TODO emacs configs to check out                    :@personal:task:emacs:
+:PROPERTIES:
+SCHEDULED: <2021-04-30 Fri>
+:END:
+ - https://github.com/Atman50/emacs-config
+ - http://martinowen.net/blog/2010/02/03/tips-for-emacs-ibuffer.html
+ - https://github.com/ag91/code-compass - https://ag91.github.io/blog/2021/03/26/emacs-as-your-code-compass-a-gentle-trigger-for-maintenance/
+ - https://muto.ca/posts/my-emacs-configuration.html
+ - https://blog.lambda.cx/posts/wip-emacs-align-columns/
+ - https://www.reddit.com/r/emacs/
+Added: [2021-03-26 Fri 18:07]
+** TODO org capture from browser                      :@personal:task:emacs:
+:PROPERTIES:
+SCHEDULED: <2021-04-05 Mon>
+:END:
+thing to look into: https://github.com/sprig/org-capture-extension
+Added: [2021-03-26 Fri 17:59]
+** TODO more emacs stuff to setup                     :@personal:task:emacs:
+:PROPERTIES:
+SCHEDULED: <2021-04-05 Mon>
+:END:
+more org stuff:
+https://www.rousette.org.uk/archives/doom-emacs-tweaks-org-journal-and-org-super-agenda/
+even more org stuff: https://hugocisneros.com/org-config/
+EVEN MORE org stuff: http://doc.norang.ca/org-mode.html#HowToUseThisDocument --
+specifically stuff on task estimates
+Added: [2021-03-26 Fri 17:58]
+** TODO look into org-roam some more                  :emacs:
+SCHEDULED: <2021-07-26 Mon>
+look into this: https://github.com/org-roam/org-roam
+Added: [2021-03-26 Fri 17:13]
+** TODO GRPC stuff to look into                       :@personal:task:@work:
+:PROPERTIES:
+SCHEDULED: <2021-04-05 Mon>
+:END:
+- https://github.com/grpc/grpc/blob/master/doc/http-grpc-status-mapping.md
+- https://github.com/grpc/grpc/blob/master/doc/statuscodes.md
+- https://github.com/avinassh/grpc-errors
+- https://cloud.google.com/apis/design/
+- https://github.com/seamia/protodot
+- https://github.com/bojand/ghz
+- https://github.com/grpc-swagger/grpc-swagger
+- https://github.com/bradleyjkemp/grpc-tools
+- https://github.com/ericbets/danby
+- https://github.com/moul/protoc-gen-gotemplate
+- https://github.com/asim/go-micro
+- https://github.com/go-kit/kit/tree/master/transport/grpc
+- https://github.com/improbable-eng/grpc-web
+- https://github.com/google/go-microservice-helpers
+- https://github.com/lileio/lile
+- https://github.com/fiorix/protoc-gen-cobra
+- https://github.com/fullstorydev/grpchan
+- https://github.com/fullstorydev/grpcui
+- https://github.com/izumin5210/grapi
+Added: [2021-03-29 Mon 18:09]
+
+

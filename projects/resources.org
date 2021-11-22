@@ -1,0 +1,28 @@
+#+FILETAGS: @personal
+#+CATEGORY: projects
+# Local Variables:
+# eval: (auto-revert-mode)
+# End:
+
+* Project Resources
+** lvgl
+[[https://lvgl.io/][site]] - [[https://github.com/lvgl/lvgl][repo]]
+
+it's a "light and versatile embedded graphics library", ie: make nice looking
+displays with microcontrollers and small displays
+
+- works on raspberry pi, arduino, esp32
+- site has tools for converting fonts & images
+- looks like it works with lots of different boards & displays
+
+[[https://github.com/yangyongzhen/golvgl][old go library]] -- 17 months old, so may not be fully up-to-date; but maybe can
+use as jumping off point to make go pkg for latest version of lvgl  
+
+** [[https://www.aliexpress.com/item/32954180664.html?spm=a2g0o.cart.0.0.344f3c00egahUK&mp=1][ups lite]]
+it's the recommended battery solution for the pwnagotchi, so it's probably a
+good bet it's a good piece to use when i need a portable pi zero
+
+** potentially useful project bits
+not something that's the seed of a project on it's own, but could be useful in
+various projects
+- [[https://elmwoodelectronics.ca/collections/adafruit/products/adafruit-i2c-non-volatile-fram-breakout-256kbit-32kbyte][fram breakout]] -- 256Kbits of storage over i2c

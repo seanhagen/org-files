@@ -1,5 +1,38 @@
 #+FILETAGS: @work
 #+CATEGORY: Work
+# Local Variables:
+# eval: (auto-revert-mode)
+# End:
+
+* Day Off Tracking
+*** 2021-04-19 - all day
+:LOGBOOK:
+CLOCK: [2021-04-19 Mon 09:00]--[2021-04-19 Mon 17:00] =>  8:00
+:END:
+*** 2021-05-07 - all day
+:LOGBOOK:
+CLOCK: [2021-05-07 Fri 09:00]--[2021-05-07 Fri 17:00] =>  8:00
+:END:
+*** 2021-05-10 - all week
+:LOGBOOK:
+CLOCK: [2021-05-10 Mon 09:00]--[2021-05-10 Mon 17:00] =>  8:00
+CLOCK: [2021-05-11 Tue 09:00]--[2021-05-11 Tue 17:00] =>  8:00
+CLOCK: [2021-05-12 Wed 09:00]--[2021-05-12 Wed 17:00] =>  8:00
+CLOCK: [2021-05-13 Thu 09:00]--[2021-05-13 Thu 17:00] =>  8:00
+CLOCK: [2021-05-14 Fri 09:00]--[2021-05-14 Fri 17:00] =>  8:00
+:END:
+*** 2021-05-24 - long weekend monday
+:LOGBOOK:
+CLOCK: [2021-05-24 Mon 09:00]--[2021-05-24 Mon 17:00] =>  8:00
+:END:
+*** 2021-07-01
+:LOGBOOK:
+CLOCK: [2021-07-01 Thu 09:00]--[2021-07-01 Thu 17:00] =>  8:00
+:END:
+*** 2021-07-02
+:LOGBOOK:
+CLOCK: [2021-07-02 Fri 09:00]--[2021-07-02 Fri 17:00] =>  8:00
+:END:
 * Time Reporting 
 ** Time Reports For 2021-03
 *** Time Report For Week of 2021-03-29

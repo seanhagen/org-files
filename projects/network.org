@@ -1,25 +1,10 @@
-* Other Things To Do
-** DONE Update Firmware in EAP245
-CLOSED: [2021-06-08 Tue 12:06]
-[[https://www.tp-link.com/us/support/download/eap245/#Firmware][Get from here]]
-
-Might have to power cycle the AP to have the web interface come back up
-
-* Old Machines
-** Gigabyte GA-P55-USB3
-[[https://www.gigabyte.com/ca/Motherboard/GA-P55-USB3-rev-20/sp#sp][specs]]
-- 30.5cm x 24.4cm ( 12" x 9.6" )
-- 8gb ram ( max 16gb, 4 slots -- supports DDR3 2200/1333/1066/800 Mhz)
-- Intel i7 @ 2.93ghz ( 4 cores, 8 threads )
-  - lga1156 socket
-
-verdict: keep, use as proxmox virtualization server to test stuff?
-- upgrades:
-  - [X] [[https://www.newegg.ca/nemix-ram-16gb-240-pin-ddr3-sdram/p/0RN-004P-005G1?Description=DDR3&cm_re=DDR3-_-9SIA8X67KX2838-_-Product][16gb ram]] (4 x 4gb modules)
-  - [X] [[https://www.newegg.ca/rosewill-rocc-17001/p/N82E16835200120?Description=low%20profile%20heat%20sink&cm_re=low_profile%20heat%20sink-_-35-200-120-_-Product][low profile cpu cooler]]
-- [X] [[https://www.newegg.ca/black-supermicro-cse-512l-200b/p/N82E16811152222?Item=N82E16811152222][rackmount case]] ( [[https://www.supermicro.com/en/products/chassis/1U/512/SC512L-200B][specs]] )
-
-* PFSense Stuff [1/5]
+#+FILETAGS: @personal
+#+CATEGORY: network
+# Local Variables:
+# eval: (auto-revert-mode)
+# End:
+* Network TODO
+** PFSense [/]
 - [X] setup the interfaces properly [4/4]
   - [X] igb0 -- wan
   - [X] igb1 -- all VLANs ( via bridge )
@@ -33,45 +18,15 @@ verdict: keep, use as proxmox virtualization server to test stuff?
 - [ ] allow stream to access other vlans via firewall
 - [ ] allow access to homelab from home & stream, but not the other way (
   connection based )
-  
-* VPN Stuff
+** VPN 
 - [[https://security.stackexchange.com/questions/90467/can-i-vpn-a-phones-connection-to-my-home-network-and-then-apply-my-home-firewa][security stackexchange thread]]
 - [[https://www.reddit.com/r/HomeNetworking/comments/b2ob89/how_to_access_home_network_remotely_via_vpn/][reddit thread]]
 - [[https://openvpn.net/community-resources/how-to/#expanding-the-scope-of-the-vpn-to-include-additional-machines-on-either-the-client-or-server-subnet][openvpn setup]]
 - [[https://zerotier.com/pricing/][zerotier]]
 - [[https://www.wireguard.com/][wireguard]]
 - [[https://www.howtogeek.com/221001/how-to-set-up-your-own-home-vpn-server/][setup guide]]
-
-* Machines
-** Network Rack -- 6U [6/6]
-- [X] 1U patch panel
-- [X] 1U Cisco 3560G 48port switch (P)
-- [X] 1U ASROCK QM77 Core i3-3120M 2.5ghz 8gb ram (P)
-- [X] 1U AMD E350 1.6ghz / 2cores, 8gb ram (P)
-- [X] 1U APC AP9319 Environmental Monitoring Unit (P)
-- [X] Gigabyte GA-P55-USB3 ? (P)
-  
-** Vertical Server Rack -- 6U [5/6]
-- [X] 1u Dell PowerEdge R310 (P)
-- [X] 2U Dell PowerEdge R720XD (P)
-- [X] ^-----------------------
-- [X] 2u Dell PowerEdge R810 (P)
-- [X] ^---------------------
-- [ ] 
-
-** Machine Uses
-*** ASROCK IMG-170
-*** AMD E350
-*** Gigabyte GA-P55-USB3
-*** R310
-- zoneminder
-*** R720XD
-- freenas ( or upgrade to truenas )
-*** R810
-- proxmox virtualization
-
-* VLAN Setup
-** Default ( No Access )
+** VLAN Setup
+*** Default ( No Access )
 VLAN: 1
 IP: 10.0.0.1/24
 NAME: DEFAULT
@@ -84,7 +39,7 @@ DOMAIN: hagendef
 
 - what you get when plugged into an unconfigured port on the switch
 
-** Management VLAN
+*** Management VLAN
 VLAN: 10
 IP: 10.10.0.1/24
 NAME: HLABMNG
@@ -98,7 +53,7 @@ DOMAIN: hlabmanage
 - for accessing any router/switch stuff, as well as any management interfaces on
   servers ( if they exist -- idrac, etc )
   
-** Homelab Access
+*** Homelab Access
 VLAN: 20
 IP: 10.20.0.1/24
 NAME: HLAB
@@ -111,7 +66,7 @@ DOMAIN: hagenlab
 
 - for usage of stuff in the homelab -- getting to sabnzbd, etc
   
-** Stream Optimized 
+*** Stream Optimized 
 VLAN: 30
 IP: 10.30.0.1/24
 NAME: HSTREAM
@@ -124,7 +79,7 @@ DOMAIN: hstream
 
 - for my stuff ( work computer, fun computer, laptop, phone )
   
-** Home 
+*** Home 
 VLAN: 40
 IP: 10.40.0.1/24
 NAME: HHOME
@@ -137,7 +92,7 @@ DOMAIN: hagenhome
 
 - for marie's stuff ( phone, laptop )
   
-** Media Network
+*** Media Network
 VLAN: 50
 IP: 10.50.0.1/24
 NAME: HMEDIA
@@ -150,7 +105,7 @@ DOMAIN: hagenmedia
 
 - for chromecast, roku tv, etc  
 
-** Work Machines
+*** Work Machines
 VLAN: 60
 IP: 10.60.0.1/24
 NAME: HWORK
@@ -163,7 +118,7 @@ DOMAIN: hagenwork
 
 - for any work devices we bring home ( marie's work laptop & phone )
   
-** Internet of Things
+*** Internet of Things
 VLAN: 500
 IP: 10.100.0.1/24
 NAME: HIOT
@@ -176,7 +131,7 @@ DOMAIN: hageniot
 
 - for any internet of things devices ( shelly, wemo, etc )
   
-** Security
+*** Security
 VLAN: 600
 IP: 10.200.0.1/24
 NAME: HSEC
@@ -189,7 +144,7 @@ DOMAIN: hagensecurity
 
 - for any security devices ( cameras, konnected, etc )
 
-** Guest Access
+*** Guest Access
 VLAN: 1000
 IP: 10.250.0.1/24
 NAME: HGUEST
@@ -202,5 +157,92 @@ DOMAIN: hagenguest
 
 - for anybody who visits
 - will be heeeeeavily throttled
+** Server Use
+*** ASROCK IMG-170
+*** AMD E350
+*** Gigabyte GA-P55-USB3
+*** R310
+- zoneminder
+*** R720XD
+- freenas ( or upgrade to truenas )
+*** R810
+- proxmox virtualization
+** Ports
+*** 1 - trunk
+router
+*** 2 - vlan 500
+home assistant
+*** 3 -  trunk
+wifi ap
+*** 4 - DC
+*** 5 - trunk
+office
+*** 6 - DC
+*** 7 - vlan 50
+media center
+*** 8 - DC
+*** 9 - vlan 1000
+*** 10 - DC
+*** 11 - vlan 1000
+*** 12 - DC
+*** 13 - vlan 1000
+*** 14 - DC
+*** 15 - DC
+*** 16 - DC
+*** 17 - vlan 10
+r810 idrac
+*** 18 - vlan 20
+r810
+*** 19 - vlan 10
+r710 idrac
+*** 20 - vlan 500
+r810
+*** 21 - vlan 10
+r410 idrac
+*** 22 - vlan 30
+r810
+*** 23 - vlan 20
+r720xd
+*** 24 - vlan 600
+r810
+*** 25 - vlan 30
+r710
+*** 26 - vlan 20
+mini 1 or 2
+*** 27 - vlan 40
+r710
+*** 28 - vlan 20
+mini 1 or 2
+*** 29 - vlan 50
+r710
+*** 30 - vlan 10
+mini 1 or 2 ( second port )
+*** 31 - vlan 20
+r710
+*** 32 - vlan 600
+r410
+*** 33 - DC
+*** 34 - DC
+*** 35 - DC
+*** 36 - DC
+*** 37 - DC
+*** 38 - DC
+*** 39 - DC
+*** 40 - DC
+*** 41 - DC
+*** 42 - DC
+*** 43 - DC
+*** 44 - DC
+*** 45 - DC
+*** 46 - vlan 20
+micro 1
+*** 47 - DC
+*** 48 - vlan 20
+micro 2
+*** 49 - DC
+*** 50 - DC
+*** 51 - DC
+*** 52 - DC
+
 
 

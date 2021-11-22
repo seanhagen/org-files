@@ -1,7 +1,0 @@
-#+FILETAGS: @personal
-#+CATEGORY: Code
-# Local Variables:
-# eval: (auto-revert-mode)
-# End:
-* Code
-* To-Do

@@ -4,38 +4,8 @@
 # eval: (auto-revert-mode)
 # End:
 
-* Day Off Tracking
-*** 2021-04-19 - all day
-:LOGBOOK:
-CLOCK: [2021-04-19 Mon 09:00]--[2021-04-19 Mon 17:00] =>  8:00
-:END:
-*** 2021-05-07 - all day
-:LOGBOOK:
-CLOCK: [2021-05-07 Fri 09:00]--[2021-05-07 Fri 17:00] =>  8:00
-:END:
-*** 2021-05-10 - all week
-:LOGBOOK:
-CLOCK: [2021-05-10 Mon 09:00]--[2021-05-10 Mon 17:00] =>  8:00
-CLOCK: [2021-05-11 Tue 09:00]--[2021-05-11 Tue 17:00] =>  8:00
-CLOCK: [2021-05-12 Wed 09:00]--[2021-05-12 Wed 17:00] =>  8:00
-CLOCK: [2021-05-13 Thu 09:00]--[2021-05-13 Thu 17:00] =>  8:00
-CLOCK: [2021-05-14 Fri 09:00]--[2021-05-14 Fri 17:00] =>  8:00
-:END:
-*** 2021-05-24 - long weekend monday
-:LOGBOOK:
-CLOCK: [2021-05-24 Mon 09:00]--[2021-05-24 Mon 17:00] =>  8:00
-:END:
-*** 2021-07-01
-:LOGBOOK:
-CLOCK: [2021-07-01 Thu 09:00]--[2021-07-01 Thu 17:00] =>  8:00
-:END:
-*** 2021-07-02
-:LOGBOOK:
-CLOCK: [2021-07-02 Fri 09:00]--[2021-07-02 Fri 17:00] =>  8:00
-:END:
 
-* Code TODOs
-* Work TODOs
+* Todo List
 ** DONE generate list of burke playgrounds generating reports [#A] :@work:task:biba:
 CLOSED: [2021-08-23 Mon 11:22] SCHEDULED: <2021-08-23 Mon 10:39>
 :LOGBOOK:
@@ -290,54 +260,3 @@ Added: <2020-06-05 Fri 14:20>
   - [ ] biba-services [0/2]
     - [ ] maps api
     - [ ] places api
-* Email TODOs
-* Research TODOs
-** ideation for new music-based game                   :@work:research:game:
-burke has partnered with [[https://www.percussionplay.com][Percussion Play]] to add musical equipment to playgrounds
-and matt wants to think about building a music-themed Biba game in the same vein
-as [[https://play.google.com/store/apps/details?id=com.naturalmotion.clumsyninja&hl=en_CA&gl=US][Clumsy Ninja]]
-
-  - start with one Biba robot
-  - play music on the per.play equipment to train them to get better
-    - level them up?
-  - after a certain point, you get access to another robot
-  - keep going, repeating until you've got a whole band
-
-goal: ????
-
-
-things to look into:
-
- - microphone sensitivity -- how easy is it to have the game pick up that you're
-   playing one of the instruments
- - recognizing tones -- can the game (with or without a data connection)
-   recognize what notes someone has played
-   - does this require an ML model?
-   - if it does require an ML model, what is required to train it?
-   - how big would the model be?
- - have the robot remember what you played
-   - how long?
-   - can you share the 'songs' you make?
-
-other gameplay features to think about:
-
- - how to integrate ar?
-   - record kid playing with robots?
-  
-Added: [2021-04-01 Thu 17:33]
-** check out Pinterest's Querybook                     :@work:research:tool:
-- https://www.querybook.org/
-neat tool that works with bigquery ( and plenty of other data sources ) to do
-collaborative editing on stuff
-Added: [2021-03-31 Wed 11:56]
-** go packages to look at                            :@work:research:golang:
-- [ ] https://github.com/src-d/go-kallax
-- [ ] https://github.com/grpc-ecosystem/awesome-grpc#lang-go
-- [ ] https://github.com/rivo/tview
-- [ ] https://github.com/tal-tech/go-zero
-- [ ] https://github.com/gosuri/uiprogress
-Added: [2021-03-30 Tue 16:59]
-** graphql in grpc                                     :@work:research:grpc:
-- [ ] https://medium.com/@svengau/when-graphql-meets-grpc-3e9729d32e05
-- [ ] https://github.com/google/rejoiner
-Added: [2021-03-30 Tue 16:57]

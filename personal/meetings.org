@@ -1,0 +1,13 @@
+* Meetings
+** DONE Zoom Interview with Jane CTO      :@personal:meeting:jane:interview:
+CLOSED: [2021-11-20 Sat 17:38]
+Added: [2021-11-15 Mon 10:30]
+
+- no ego => how i want to run code reviews (story on github stuff)
+- 
+** DONE phone call to setup meeting            :@personal:meeting:townhouse:
+CLOSED: [2021-05-18 Tue 14:13]
+:LOGBOOK:
+CLOCK: [2021-04-28 Wed 16:00]--[2021-04-28 Wed 16:25] =>  0:25
+:END:
+Added: [2021-04-28 Wed 16:59]

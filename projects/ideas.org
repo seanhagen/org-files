@@ -1,133 +1,8 @@
-* Project Resources
-** lvgl
-[[https://lvgl.io/][site]] - [[https://github.com/lvgl/lvgl][repo]]
-
-it's a "light and versatile embedded graphics library", ie: make nice looking
-displays with microcontrollers and small displays
-
-- works on raspberry pi, arduino, esp32
-- site has tools for converting fonts & images
-- looks like it works with lots of different boards & displays
-
-[[https://github.com/yangyongzhen/golvgl][old go library]] -- 17 months old, so may not be fully up-to-date; but maybe can
-use as jumping off point to make go pkg for latest version of lvgl  
-
-** [[https://www.aliexpress.com/item/32954180664.html?spm=a2g0o.cart.0.0.344f3c00egahUK&mp=1][ups lite]]
-it's the recommended battery solution for the pwnagotchi, so it's probably a
-good bet it's a good piece to use when i need a portable pi zero
-
-** potentially useful project bits
-not something that's the seed of a project on it's own, but could be useful in
-various projects
-- [[https://elmwoodelectronics.ca/collections/adafruit/products/adafruit-i2c-non-volatile-fram-breakout-256kbit-32kbyte][fram breakout]] -- 256Kbits of storage over i2c
-  
-* Projects I'm Working On
-** weather station [0/8]
-- almost done, stuff left to do
-- [ ] fix code so wind direction & speed is reported
-- [ ] fix code so rainfall is reported
-- [ ] do a bit more testing to see how much power it needs
-- [ ] figure out what sized battery & solar panel to get
-- [ ] figure out enclosure
-- [ ] figure out if going with external uva/uvb sensor ( over qwicc connector,
-  probably )
-- [ ] figure out how everything gets mounted on long pole
-- [ ] install!
-
-** halloween display [0/2]
-- [ ] design ship
-- [ ] determine what electronics are needed
-  
-*** list of parts needed
-electronics stuff: [0/4]
-- [ ] rgb led strip
-- [ ] way to make sounds
-- [ ] way to control fan
-- [ ] way to control fog machine
-
-** wedding photo booth for erin
-- bought the thermal printer, need to play around with that to learn how it works
-- using thermal printer for qr code/website for photos? or for printing out
-  low-res versions of the photos taken?
-- plan out how the project will work
-  - photos just on device, or uploaded to cloud? ( probably uploaded )
-  - interface -- screen, or just a lcd character display? countdown to photos?
-
-** LoRa
-- have some lora boards, should do something with them
-  
-*** lora gps tracker
-- build small LoRa transmitter that can transmit GPS coordinates so I can see
-  what kind of reception I get from LoRa
-  
-*** mountain top test
-- just wanna see if i can get a connection from up on a mountain to a lora
-  transceiver running at home
-  
-** MagTag
-- build a small display for the fridge
-  - what to display?
-    - events from our calendars in the next few days
-    - bin pickup & which bins need to be put out
-    - weather & temperature?
-
-[[https://githubmemory.com/repo/esjmorales/ABCs-with-MagTag?utm_source=pocket_mylist][resource]]      
-      
-** Slack display
-- use rpi screen to make something for setting status easier in slack
-  
-** macro keyboards
-- have 3 ( adafruit, kickstarter, and one yet to be built )
-- need to figure out what to do with them
-*** adafruit rp2040 macro pad
-- 12 keys + rotary encoder w/button + small oled display
-*** 6-key macro pad
-- just 6 keys
-*** promico macro keyboard
-- has to be assembled
-- not sure i've got all the parts yet
-- has 13 keys ( or 12 + 1 rotary encoder or 11 + 2 rotary encoder )
-- can potentially have lcd display
-  
-** pycam
-- have little camera board with wifi shield
-- could make little camera for... something?
-  
-** micro-bit & adafruit clue
-- right now planning to use them as little sub-controllers for cyberdeck
-
-  
-** circuit playground express
-- have two now, came with orders for free
-- look ideal for cosplay with conductive thread, maybe?
-
-** adafruit neo trinkey
-- little programmable usb key with 4 neo-pixel, 2 touch buttons
-
-** espruino pico
-- another usb form-factor, by default can be programmed with javascript ( neat? )
-
-** fomu
-- little fpga usb key, could be used for something neat
-
-** 8bitcade xl
-- should make a game for it
-
-** raspberry pi 1B
-- could potentially do something neat with the composite video and an old tv
-
-** raspberry pi 4B
-- set up as steam link to play games downstairs on couch
-
-** raspberry pi zero - smart speakers
-- have the pimoroni hat for speakers, just need to set up
-
-** raspberry pi zero - mobile audio
-- have pimoroni hat for headphones, just need to set up
-
-** home automation smart speaker
-- so that we can control stuff with our voice again
-
+#+FILETAGS: @personal
+#+CATEGORY: projects
+# Local Variables:
+# eval: (auto-revert-mode)
+# End:
 * Project Ideas
 ** story idea
 smoke that breaks reality
@@ -337,7 +212,6 @@ purchsed a ups lite, we'll see how it works once it arrives
   reflash the device! And if you prefer MicroPython, you can access an open
   source library that you can use to make your own games (or whatever else
   you’re into)."
-
 
 ** custom ebook reader
 - [[https://www.crowdsupply.com/e-radionica/inkplate-10][inkplate 10]] -- 9.7" epaper display
@@ -603,6 +477,29 @@ need 61 keys for 60% keyboard
 *** wifi
 *** bluetooth
 *** other wireless
+*** resources/notes
+**** ALFA Network AWUS036AC Long-Range Wide-Coverage Dual-Band AC1200 USB Wireless Wi-Fi Adapte
+https://www.amazon.com/gp/product/B01B33WU82
+**** touch pad
+https://www.ergonomictouchpad.com/
+**** pi zero battery hat
+https://www.tindie.com/products/pisugar/pisugar2-battery-for-raspberry-pi-zero/
+**** noise generator to prevent listening in on conversation
+https://www.kjbsecurity.com/products/detail/rabbler-noise-generator/857/
+**** battery bank for rpi
+https://www.buyapi.ca/product/compact-rechargeable-battery-for-raspberry-pi/
+**** rpi ups board
+https://sixfab.com/product/raspberry-pi-power-management-ups-hat/
+**** rpi lte cell board
+https://sixfab.com/product/raspberry-pi-4g-lte-modem-kit/
+**** e-ink display
+https://elmwoodelectronics.ca/products/adafruit-1-54-tri-color-eink-epaper-display-with-sram-red-black-white?pr_prod_strat=copurchase&pr_rec_pid=1203750142004&pr_ref_pid=905318826036&pr_seq=uniform
+**** trackball breakout
+https://elmwoodelectronics.ca/products/pim447?variant=28620994052148&currency=CAD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&utm_campaign=gs-2019-02-19&utm_source=google&utm_medium=smart_campaign
+**** trackball with replaceable buttons
+https://shop.xgaming.com/products/x-arcade-trackball-assembly-usb
+**** wifi module for older rpis
+https://www.amazon.com/gp/product/B01B33WU82/ref=as_li_ss_tl?ie=UTF8&psc=1&linkCode=sl1&tag=ilumi03-20&linkId=a3499681456797b8c95856d1af279cd0&language=en_US
 ** card identifier
 been wanting to do this for a while, build something that can automatically go
 through cards and identify them, and save the identified cards to a database for
@@ -634,107 +531,3 @@ to figure out:
 - need to get [0/2]
  - [ ] usb audio capture device
  - [ ] turntable
-* House Projects
-** Office
-- [[https://www.amazon.ca/PWAY-Extender-Single-Ethernet-Function/dp/B08LR2PM93/ref=sr_1_6?dchild=1&keywords=usb+hdmi+extender&qid=1622675119&sr=8-6][hdmi & usb extender]] -- maybe put computers in closet?
-
-*** Desk
-lumber:
-
-1 x 2x12 x 16' -> $45.99
-1 x 2x8  x 16' -> $64.99
-
-lumber total: $110.98
-
-plywood:
-
-3 x 4'x8'
-
-1/2" top choice birch @ $79.99/ea x 3  => $239.97
-3/4" maple paint grade @ $89.99/ea x 3 => $269.97
-
-
-3.5 desk pieces + 1.5 bookcase pieces:
-lowes 1/2" 4'x8' spruce @ $70.99/ea x 5 => $354.95
-
-*** Bookcase
- 
-sides:
-
-8'
-3A    -> 1'x7.5' x 2 ( 2x pine 1x10x8 -- $19.50/ea )
-
-
-4'
-1A    -> 1'x4'   x 2 ( 1x pine 1x10x8 -- $19.50/ea )
-2B    -> 1'x3'   x 4 ( 2x pine 1x10x8 -- $19.50/ea )
-3B+3C -> 1'x2'5' x 3 ( 1x pine 1x10x8 -- $19.50/ea )
-
-2'
-1C+1B -> 1'x2'   x 3 ( 1x pine 1x10x8 -- $19.50/ea )
-2A    -> 1'x1.5' x 4 ( 1x pine 1x10x8 -- $19.50/ea )
-
-9 x pine 1x10x8 @ $19.50/ea => $175.90
-
-
-
-OR 
-3x 5/8 plywood:
-
-- standard building supplies -> 5/8" std fir 4x8 @ $120.05/sheet => $360.15
-- griff building supplies    -> 5/8" std fir 4x8 @ $105.60/sheet => $316.80
-- poco building supplies     -> 5/8" (??)    4x8 @ $104.15/sheet => $312.45
-- lowes                      -> 3/4" fir     4x8 @ $99.99/sheet  => $299.97
-
-
-lowes
-- 2 x 3/4" 4'x8' top choice red oak @ $101/each => $202
-- 2 x 3/4" 4'x8' maple paint grade  @ $90/each  => $180
-
-
-
-backs:
-- lowes                   -> 2 x 1/2" 4'x8' top choice birch   @ $80/each  => $160
-- poco building supplies  -> 2 x 1/2" 4'x8' fir                @ $88.64/ea => $177.28
-- windsor                 -> 2 x 1/2" 4'x8' birch              @ $50/ea    =>
-  $100
-
-lowes total: $335.90
-  
-**  Home Automation / Security
- - [[https://konnected.io/collections/shop-now/products/konnected-alarm-panel-pro-12-zone-kit?variant=31677817552969][Konnected 12-zone alarm kit]] ( $289 USD )
- - [[https://www.amazon.ca/Konnected-Alarm-12-Zone-System-Retrofit/dp/B08RJZPPYR/ref=sr_1_5?dchild=1&keywords=konnected&qid=1622100013&sr=8-5][Amazon - $299 CAD]]
- - [[https://help.konnected.io/support/solutions/articles/32000022627-using-a-tablet-as-a-keypad-replacement][using tablet for konnected]]
- - [[https://play.google.com/store/apps/details?id=de.ozerov.fully&referrer=utm_source%3D/fully-home-en%26utm_content%3Dtext-link][fully kiosk browser app for google]]
- - [[https://konnected.io/products/12v-to-5v-usb-power-converter?variant=828080488468][12v to 5v usb power converter]] - for using security wires to power tablet
- - [[https://www.vidabox.com/kiosks/vidamount-on-wall-ipad-tablet-enclosure-mount.html][wall-mount tablet]] -- for making tablet wall mounted and look nice
-   - for [[https://www.vidabox.com/kiosks/vidamount-on-wall-tablet-mount-amazon-fire-7th-generation-2017-7-inch-black.html][amazon fire 7" 7th gen]]
-   - [[https://www.amazon.ca/fire-7-tablet/dp/B07JQP2C3X/ref=sr_1_2_sspa?dchild=1&keywords=android%2Btablet&qid=1621464824&sr=8-2-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzOFM0SFhWS05ISlhFJmVuY3J5cHRlZElkPUEwMjYzODA0M1RIUzhESVRNREE1QSZlbmNyeXB0ZWRBZElkPUEwNjM3NTA0Wk8xMzdMMlhKTzFTJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1][amazon fire 7 tablet, $70 CAD]]
- - [[https://www.home-assistant.io/integrations/lannouncer/][lannouncer]] - spoken alerts & messages on android
- -
-
-** Server Room
-*** KVM
- - [[https://github.com/pikvm/pikvm#diy-getting-started][pikvm]]
- - [[https://github.com/pikvm/pikvm#hardware-for-v2][pikvm hardware]]
- - [[https://pikvm.org/][pikvm site]]
- - [[https://github.com/pikvm/pikvm/blob/master/pages/tailscale.md][pikvm using tailscale vpn]]
- - [[https://github.com/pikvm/pikvm#the-future-v3-platform-work-in-progress][pikvm v3]]
- - [[https://www.pishop.us/product/usb-c-pwr-splitter/][pi4 usb c power splitter]]
- - [[https://www.amazon.ca/GREATHTEK-Switch-HDMI-Port-HDCP2-2/dp/B0921NX43B/ref=sr_1_3_sspa?dchild=1&keywords=HDMI2.0+Switch+4X1+with+USB3.0+KVM&qid=1621961824&sr=8-3-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyRUwxRVJIQUcwVjBQJmVuY3J5cHRlZElkPUEwMTMwMTI0MlZaMVFHSkw1SzMxNCZlbmNyeXB0ZWRBZElkPUEwNjQ3OTA0MzZZSEI2MVVYS0Q4TCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=][4 port usb & hdmi switch]] - $100 CAD
- - [[https://www.amazon.ca/PW-S7402H-HDMI-Switch-Port-60Hz/dp/B088WKZRQ9/ref=sr_1_21_sspa?dchild=1&keywords=HDMI2.0%2BSwitch%2B4X1%2Bwith%2BUSB3.0%2BKVM&qid=1621961824&sr=8-21-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyRUwxRVJIQUcwVjBQJmVuY3J5cHRlZElkPUEwMTMwMTI0MlZaMVFHSkw1SzMxNCZlbmNyeXB0ZWRBZElkPUEwNTUxNDAzMVJCMlRGWk5FSEJKUiZ3aWRnZXROYW1lPXNwX210ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1][another 4 port usb & hdmi switch]]
- - [[https://www.easycoolav.com/products/hdmi20-switch-4x1-with-usb30-kvm-4-port-usbsupport-4k60hz-444-and-hdr-audio-breakout][ezcoo hdmi2 & usb 3.0 kvm]] -- i think this is the one used in the demo video
-
-*** Raspberry Pi
-- [[https://www.myelectronics.nl/us/raspberry-pi-19-inch-rack-mount/raspberry-pi-19-inch-rack-mount-frames/][rack mounts]] ( & [[https://www.myelectronics.nl/us/raspberry-pi-19-inch-rack-mount/raspberry-pi-19-inch-rack-mount-accessories/][accessories]] )
-- 
-
-** Balcony/Patio
-*** Build Patio Furniture
-- woods to use:
-  - cypress
-  - cedar
-  - white oak
-  - redwood
-
-

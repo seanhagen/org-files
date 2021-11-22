@@ -1,0 +1,111 @@
+#+FILETAGS: @personal
+#+CATEGORY: projects
+# Local Variables:
+# eval: (auto-revert-mode)
+# End:
+* Current Projects
+** weather station [0/8]
+- almost done, stuff left to do
+- [ ] fix code so wind direction & speed is reported
+- [ ] fix code so rainfall is reported
+- [ ] do a bit more testing to see how much power it needs
+- [ ] figure out what sized battery & solar panel to get
+- [ ] figure out enclosure
+- [ ] figure out if going with external uva/uvb sensor ( over qwicc connector,
+  probably )
+- [ ] figure out how everything gets mounted on long pole
+- [ ] install!
+
+** halloween display [0/2]
+- [ ] design ship
+- [ ] determine what electronics are needed
+  
+*** list of parts needed
+electronics stuff: [0/4]
+- [ ] rgb led strip
+- [ ] way to make sounds
+- [ ] way to control fan
+- [ ] way to control fog machine
+
+** wedding photo booth for erin
+- bought the thermal printer, need to play around with that to learn how it works
+- using thermal printer for qr code/website for photos? or for printing out
+  low-res versions of the photos taken?
+- plan out how the project will work
+  - photos just on device, or uploaded to cloud? ( probably uploaded )
+  - interface -- screen, or just a lcd character display? countdown to photos?
+
+** LoRa
+- have some lora boards, should do something with them
+  
+*** lora gps tracker
+- build small LoRa transmitter that can transmit GPS coordinates so I can see
+  what kind of reception I get from LoRa
+  
+*** mountain top test
+- just wanna see if i can get a connection from up on a mountain to a lora
+  transceiver running at home
+  
+** MagTag
+- build a small display for the fridge
+  - what to display?
+    - events from our calendars in the next few days
+    - bin pickup & which bins need to be put out
+    - weather & temperature?
+
+[[https://githubmemory.com/repo/esjmorales/ABCs-with-MagTag?utm_source=pocket_mylist][resource]]      
+      
+** Slack display
+- use rpi screen to make something for setting status easier in slack
+  
+** macro keyboards
+- have 3 ( adafruit, kickstarter, and one yet to be built )
+- need to figure out what to do with them
+*** adafruit rp2040 macro pad
+- 12 keys + rotary encoder w/button + small oled display
+*** 6-key macro pad
+- just 6 keys
+*** promico macro keyboard
+- has to be assembled
+- not sure i've got all the parts yet
+- has 13 keys ( or 12 + 1 rotary encoder or 11 + 2 rotary encoder )
+- can potentially have lcd display
+  
+** pycam
+- have little camera board with wifi shield
+- could make little camera for... something?
+  
+** micro-bit & adafruit clue
+- right now planning to use them as little sub-controllers for cyberdeck
+
+  
+** circuit playground express
+- have two now, came with orders for free
+- look ideal for cosplay with conductive thread, maybe?
+
+** adafruit neo trinkey
+- little programmable usb key with 4 neo-pixel, 2 touch buttons
+
+** espruino pico
+- another usb form-factor, by default can be programmed with javascript ( neat? )
+
+** fomu
+- little fpga usb key, could be used for something neat
+
+** 8bitcade xl
+- should make a game for it
+
+** raspberry pi 1B
+- could potentially do something neat with the composite video and an old tv
+
+** raspberry pi 4B
+- set up as steam link to play games downstairs on couch
+
+** raspberry pi zero - smart speakers
+- have the pimoroni hat for speakers, just need to set up
+
+** raspberry pi zero - mobile audio
+- have pimoroni hat for headphones, just need to set up
+
+** home automation smart speaker
+- so that we can control stuff with our voice again

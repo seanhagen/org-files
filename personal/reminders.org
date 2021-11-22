@@ -1,0 +1,7 @@
+# Local Variables:
+# eval: (auto-revert-mode)
+# End:
+* Reminders
+** vacination confirmation number :@personal:reminder:vaccine:
+Added: [2021-04-06 Tue 11:46]
+confirmation number: R - M 7 6 Y M 8 Q N
