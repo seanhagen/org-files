@@ -232,7 +232,6 @@ Added: [2021-08-04 Wed 13:06]
 external id: MR00107876
 
 *** 2021-09 September
-
 **** 2021-09-12 Sunday
 ***** TODO playground address update [#A]               :@work:other:ask:
 SCHEDULED: <2021-09-12 Sun 18:58>
@@ -253,3 +252,31 @@ Added: [2021-09-12 Sun 18:58]
 SCHEDULED: <2021-09-20 Mon 17:44>
 
 Added: [2021-09-20 Mon 17:44]
+
+*** 2021-11 November
+**** 2021-11-22 Monday
+***** TODO list of countries with biba playgrounds        :@work:ask:ask:
+:LOGBOOK:
+CLOCK: [2021-11-22 Mon 11:20]--[2021-11-22 Mon 11:30] =>  0:10
+:END:
+Added: [2021-11-22 Mon 11:20]
+for mike
+
+results
+
+| Country     | # of Playgrounds |
+|-------------+------------------|
+| USA         |             3587 |
+| Canda       |              566 |
+| UK          |               35 |
+| Mexico      |                2 |
+| Singapore   |                7 |
+| Australia   |                8 |
+| Puerto Rico |                1 |
+| Ireland     |                4 |
+| Croatia     |                5 |
+| New Zealand |                7 |
+| Germany     |                1 |
+| Israel      |                4 |
+
+

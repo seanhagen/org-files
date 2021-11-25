@@ -15,18 +15,7 @@
   probably )
 - [ ] figure out how everything gets mounted on long pole
 - [ ] install!
-
-** halloween display [0/2]
-- [ ] design ship
-- [ ] determine what electronics are needed
-  
-*** list of parts needed
-electronics stuff: [0/4]
-- [ ] rgb led strip
-- [ ] way to make sounds
-- [ ] way to control fan
-- [ ] way to control fog machine
-
+ 
 ** wedding photo booth for erin
 - bought the thermal printer, need to play around with that to learn how it works
 - using thermal printer for qr code/website for photos? or for printing out
