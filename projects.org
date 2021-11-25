@@ -1,0 +1,10 @@
+* [[elisp:(org-projectile-open-project "dotfiles")][dotfiles]] [0/1]
+:PROPERTIES:
+:CATEGORY: dotfiles
+:END:
+** TODO set up conky for desktop / laptop [#B]
+File: [[file:///home/sean/Code/Misc/dotfiles/desktop/conky/config::16][config<conky>]]
+
+[[https://github.com/brndnmtthws/conky/wiki/Configs][examples]]
+
+Added: [2021-11-24 Wed 18:20]
