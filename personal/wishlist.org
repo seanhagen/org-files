@@ -79,3 +79,73 @@
 [[https://inprint.com/gallery/devektiv/the-dune/][link]] - $15.00
 ** Buffalo Girl
 [[https://inprint.com/gallery/robertsammelin/buffalo-girl/][link]] - $15.00
+* The Dudes
+** Till The End
+denim vest with printed and embroidered graphic -- [[https://dudes-factory.com/world/black-friday-deals/tilltheend-vest][link]] - $45
+** Temple
+hawaiin shirt with graphic -- [[https://dudes-factory.com/world/black-friday-deals/temple-hawaiinshirt][link]] - $64
+** Game Over
+comfy jersey sweatpants -- [[https://dudes-factory.com/world/black-friday-deals/gameover-sweatpantsshort][link]] - $30
+** Game Over Socks
+socks with "game over" graphic -- [[https://dudes-factory.com/world/black-friday-deals/gameover-socks][link]] - $8
+** Cereals
+hawaiin shirt with graphic [[https://dudes-factory.com/world/black-friday-deals/cereals-hawaiinshirt][link]] - $48
+** Major High
+long-sleeved button-up shirt with graphic -- [[https://dudes-factory.com/world/black-friday-deals/majorhigh-overshirt][link]] - $50
+* CrowdSupply
+** Split Single-Phase Energy Meter
+the 'energy meter kit' [[https://www.crowdsupply.com/circuitsetup/split-single-phase-energy-meter][link]] - $79
+** CaribouLite RPi Hat
+[[https://www.crowdsupply.com/cariboulabs/cariboulite-rpi-hat][link]] - $119
+** Home Assistant Yellow
+[[https://www.crowdsupply.com/nabu-casa/home-assistant-yellow][link]] - $169
+** ATtiny Flasher
+[[https://www.crowdsupply.com/sonocotta/attiny-flasher][link]] - ATtiny Flasher - $25
+** PiMod Zero
+[[https://www.crowdsupply.com/isotope-engineering/pimod-zero][link]] - $65
+** Piunora
+[[https://www.crowdsupply.com/diodes-delight/piunora][link]] - $39
+** uChip Simple VGA Console
+[[https://www.crowdsupply.com/itaca-innovation/usvc][link]] $32
+(wouldn't say no to the 3d-printed enclosure, $14)
+** Gameduino 3X Dazzler
+[[https://www.crowdsupply.com/excamera/gameduino-3x-dazzler][link]] $43 ( or really wow me with the game pack, $99 )
+** PoE FeatherWing
+[[https://www.crowdsupply.com/silicognition/poe-featherwing][link]] - $29
+** BreadShield
+[[https://www.crowdsupply.com/loser/breadshield][link]] - $7
+* Tindie
+** Bat Listener
+[[https://www.tindie.com/products/curiouselectric/bat-listener/][link]] - $35
+** Perfbox
+[[https://www.tindie.com/products/cachen/perfbox/][link]] - $20
+** Joule Thief Cat Kit
+[[https://www.tindie.com/products/tilde/joule-thief-cat-kit/][link]] - just the cat, no hats, with AAA adapter - $25.25
+** T-Wristband DIY Prgrammable Smart Bracelet
+[[https://www.tindie.com/products/lilygo/t-wristband-diy-programmable-smart-bracelet/][link]] - $25.24
+** Video Experimenter Shield Kit
+[[https://www.tindie.com/products/nootropicdesign/video-experimenter-shield-kit/][link]] - $25
+** Audio Hacker Shield Kit
+[[https://www.tindie.com/products/nootropicdesign/audio-hacker-shield-kit/][link]] - $33
+** NavKey
+[[https://www.tindie.com/products/saimon/i2c-navkey-7-functions-joypad-on-the-i2c-bus/][link]] - $16
+** Video/Audio Cap for Raspberry Pi Zero
+[[https://www.tindie.com/products/Clacktronics/video-audio-cap-for-raspberry-pi-zero/][link]]
+** RS232 Serial Wifi Modem for Vintage Computers V3
+[[https://www.tindie.com/products/theoldnet/rs232-serial-wifi-modem-for-vintage-computers-v3/][link]] - ( 3d printed case, no for all other options ) - $45
+** Wifi Led Driver
+[[https://www.tindie.com/products/gumslone/esp8266-esp-01-wifi-ws2812sk6812-neopixel-driver/][link]] - add ESP-01 module -- $10.40
+** Slow Motion Frame DIY Kit
+[[https://www.tindie.com/products/nick64/jf-slomo-slow-motion-frame-diy-kit/][link]] - ( with add-on #1 & #3 ) - $48.93
+** W.O.P.R Missile Launch Code Display Kit
+[[https://www.tindie.com/products/seonr/wopr-missile-launch-code-display-kit-haxorz/][link]] - (include usb-c tinypico & audio shield) - $72
+** LilyGo T-Watch-2020 V3
+[[https://www.tindie.com/products/lilygo/lilygo-t-watch-2020-v3-microphone-ips-touchable/][link]] - "gun" color - $35.53
+** DSP Radio Multi-Band
+[[https://www.tindie.com/products/jasonkits/dsp-radio-multi-band-ammwlwsw-ssbfm-with-rds/#specs][link]] - option: "Kit - PCB with all parts excluding Battery, Speaker" - $35
+** PICoRNG Random Number Generator
+[[https://www.tindie.com/products/sudomaker/picorng-random-number-generator/][link]] - $16
+** ESP32 Trinity
+[[https://www.tindie.com/products/brianlough/esp32-trinity/][link]] - $40
+** 2pc All-in-One walkie talkie module
+[[https://www.tindie.com/products/nicerf/2pc-all-in-one-walkie-talkie-module/][link]] - $32.40
