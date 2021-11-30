@@ -189,6 +189,18 @@ CLOCK: [2021-08-23 Mon 10:05]--[2021-08-23 Mon 10:15] =>  0:10
 Added: <2021-08-23 Mon 10:05>
 - [ ] get list of new burke playgrounds that have generated report for byron -> [[file:work.org::*generate list of burke playgrounds generating reports \[#A\]][task]]
 - [X] run import of burke playgrounds -> [[file:work.org::*import burke playgrounds into nutshell & backend \[#A\]][task]]
+
+*** 2021-11 November
+
+**** 2021-11-25 Thursday
+***** reports and stuff                           :@work:meeting:reports:
+:LOGBOOK:
+CLOCK: [2021-11-25 Thu 14:10]--[2021-11-25 Thu 14:30] =>  0:20
+CLOCK: [2021-11-25 Thu 14:00]--[2021-11-25 Thu 14:10] =>  0:10
+:END:
+Added: <2021-11-25 Thu 14:05>
+- [X] invite for matt on dec 6th to tell him to write the end-of-year deep dive
+- [ ] whitepaper for next year?
 * Tasks
 ** 2021
 *** 2021-06 June

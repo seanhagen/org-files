@@ -93,3 +93,47 @@ lowes total: $335.90
 - [[https://www.myelectronics.nl/us/raspberry-pi-19-inch-rack-mount/raspberry-pi-19-inch-rack-mount-frames/][rack mounts]] ( & [[https://www.myelectronics.nl/us/raspberry-pi-19-inch-rack-mount/raspberry-pi-19-inch-rack-mount-accessories/][accessories]] )
 - 
 
+** Better Thermostat
+- have relays in heater closet
+- "thermostat" is split into two parts, relay & thermometer
+- temperature goes to home assistant, hass tells relay what to do
+
+
+pros:
+- thermometer can go anywhere, or have multiple
+- no worrying about batteries, as can plug into power in heater closet
+
+cons:
+- have to put panel up over old thermostat locations
+
+*** Things To Build
+**** Remote Thermometer
+just needs to be something small that can send temp info wirelessly to a hub
+
+- zwave/zigbee could send directly to home assistant
+- wifi could use mqtt
+- lora would go to "hub", then mqtt ( or direct via api )
+
+wall-wart enclosure enclosures:
+- [[https://www.polycase.com/pm2414][PM2414]] - 4.11x2.23x1.40" box, black, 3 poles    $4.83/unit
+- [[https://www.polycase.com/pm2425][PM2425]] - 4.11x2.23x2.5"  box, black, 3 poles    $5.54/unit 
+  (can have hole pre-cut in front)
+
+alternatively, just have the electronics in a small enclosure, with a usb port
+for power.
+
+power conversion (120vac to 5vdc)
+- [[https://www.amazon.ca/dp/B07SB2RDBY][power transformer]] - 100-240vac to 12vdc  7.5x3.8x2.2cm    $20
+- [[https://www.amazon.ca/dp/B08YDCL87G][transformer 2pack]] - 120vac to 12vdc      6.6x3x2cm        $24
+- [[https://www.amazon.ca/dp/B08YXHR5GY?th=1][buck converter]]    - 8-40vdc to 5vdc      12.4x8.2x1.8cm   $19
+
+**** Relay Control
+just need a small wireless device with two relays ( one for each floor )
+
+- feather with relay
+
+**** New Control
+use the old thermostat control wires as power lines for new displays
+
+- upstairs can be nice with screen and everything
+- main floor should maybe be more subdued.

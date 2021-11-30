@@ -680,4 +680,108 @@ Clipboard: https://www.tomshardware.com/news/raspberry-pi-pico-powered-keypad-ha
 Clipboard: https://www.tomshardware.com/news/raspberry-pi-pico-temperature-pcb
 ** pi zero professional camera
 Clipboard: https://www.tomshardware.com/news/raspberry-pi-camera-zero-project
+** usb copier
+Clipboard: https://www.tomshardware.com/news/raspberry-pi-usb-copier
+** rpi stream deck thing
+Clipboard: https://www.tomshardware.com/news/raspberry-pi-stream-deck
+** rpi lisp machine
+Clipboard: https://www.tomshardware.com/news/lisperati1000-raspberry-pi-project
+
+
+more: http://www.lisperaticomputers.com/
+** rpi dev board thing
+Clipboard: https://01001000.xyz/2021-02-13-Raspberry-Pi-Pico-dev-board-Kiwikit/
+** rpi power monitoring
+Clipboard: https://www.tomshardware.com/news/raspberry-pi-power-monitoring-system
+** rpi custom tablet
+Clipboard: https://www.tomshardware.com/news/raspberry-pi-cm4-tablet-pcb
+*
+** rpi photo negative scanner
+Clipboard: https://www.tomshardware.com/news/raspberry-pi-analog-film-roll-scanner-project
+** rpi server rack mount
+Clipboard: https://www.tomshardware.com/news/raspberry-pi-server-rack-14-pis
+** dual-boot cyberdeck
+Clipboard: https://www.tomshardware.com/news/raspberry-pi-cyberdeck-shares-space-with-intel-nuc
+** rpi 400 mechanical key mod
+Clipboard: https://www.tomshardware.com/news/raspberry-pi-400-mod-uses-mechanical-keys
+** rpi as custom nes cartridge
+Clipboard: https://www.tomshardware.com/news/custom-raspberry-pi-pcb-lets-you-play-doom-on-an-nes
+** slow wedding video player
+Clipboard: https://www.tomshardware.com/news/raspberry-pi-wedding-video-picture-frame
+** bullet-time rig with rpi
+Clipboard: https://www.tomshardware.com/news/freeze-time-using-15-raspberry-pis-to-create-a-bullet-time-effect
+** rpi and go gpio
+Clipboard: https://youngkin.github.io/post/sunfoundergpionotesrgbled/
+** eink paper display kits
+Clipboard: https://thingpulse.com/shop/?utm_source=pocket_mylist
+** kitchen display
+[[https://www.canakit.com/raspberry-pi-4-lcd-display-case-pi4.html][this case]] with [[https://www.canakit.com/raspberry-pi-lcd-display-touchscreen.html][this screen]] & a raspberry pi 4 == nice little display for the
+kitchen for recipes and whatnot
+** wireless led shields
+[[https://www.tindie.com/products/serg74/esp-01-wled-shield/][esp-01 wled shield]]
+could maybe be used to have led strips on the house that are controlled via some
+other process ( hass, custom program, etc )
+** at tiny 85 dev board
+Clipboard: https://www.rpelectronics.com/vma108.html
+useful for using the attiny85 on a breadboard to see what it can dod
+** node mcu v2 -- lua based
+Clipboard: https://www.rpelectronics.com/vma107.html
+use lua to do iot stuff
+** some shields to check out from rp electronics [0/12]
+- [ ] [[https://www.rpelectronics.com/vma338.html][wireless shield for uno]]
+- [ ] [[https://www.rpelectronics.com/vma211.html][nfc/rfid shield]]
+- [ ] [[https://www.rpelectronics.com/vma209.html][multi-function shield]]
+- [ ] [[https://www.rpelectronics.com/vma207.html][motor drive expansion shsield]]
+- [ ] [[https://www.rpelectronics.com/vma04.html][ethernet shield]]
+- [ ] [[https://www.rpelectronics.com/vma03.html][motor & power shield]]
+- [ ] [[https://www.rpelectronics.com/vma203.html][lcd + keypad shield]]
+- [ ] [[https://www.rpelectronics.com/vma11.html][stereo fm radio shield]]
+- [ ] [[https://www.rpelectronics.com/senshd-01.html][sensor shield]]
+- [ ] [[https://www.rpelectronics.com/se-103990057-camera-shield-640x480-pixels.html][camera shield -- 640x480 vga camera]]
+- [ ] [[https://www.rpelectronics.com/sld01097p-near-field-communication-shield-v2-0.html][nfc shield]]
+- [ ] [[https://www.rpelectronics.com/se-ard105b1p.html][danger shield]]
+** raspberry pi stuff to check out from rp electronics [0/20]
+hats:
+- [ ] [[https://www.rpelectronics.com/raspberry-pi-sense-hat.html][sense hat]]
+- [ ] [[https://www.rpelectronics.com/dc-and-stepper-motor-hat-for-raspberry-pi-mini-kit.html][dc & stepper motor hat]]
+- [ ] [[https://www.rpelectronics.com/pwm-servo-hat-for-raspberry-pi-16ch.html][pwm servo hat]]
+- [ ] [[https://www.rpelectronics.com/piface-relay-piface-relay-expansion-board.html][piface relay+ expansion board]]
+- [ ] [[https://www.rpelectronics.com/se-114990169-raspberry-pi-gpio-expansion-module.html][rpi gpio expansion module]]
+- [ ] [[https://www.rpelectronics.com/se-ard10251p-alamode-arduino-compatible-raspberry-pi-plate.html][alamode - arduino compatible rpi plate]]
+- [ ] [[https://www.rpelectronics.com/gertboard-gertboard-raspberry-pi-expansion-board.html][gertboard - rpi expansion board]]
+screens:
+- [ ] [[https://www.rpelectronics.com/vmp402.html][7", 800x480 rpi touchscreen]]
+- [ ] [[https://www.rpelectronics.com/vmp400.html][3.5", 320x480 rpi touchscreen]]
+- [ ] [[https://www.rpelectronics.com/pi-display-raspberry-pi-display-7-capacitive-multitouch.html][7", 800x480 rpi capacitive multi-touch screen]]
+raspberry pis
+- [ ] [[https://www.rpelectronics.com/rpi4-modbp-4gb.html][rpi 4, 4gb, poe enabled]]
+- [ ] [[https://www.rpelectronics.com/pi4-8gb-max-sta.html][rpi 4, 8gb, starter kit]]
+- [ ] [[https://www.rpelectronics.com/raspberry-pi-400-kit.html][rpi 400 computer]]
+cameras
+- [ ] [[https://www.rpelectronics.com/rpi-hq-camera.html][12.3mp 12-22 focus camera]]
+- [ ] [[https://www.rpelectronics.com/rpi-8mp.html][8mp 1080p camera]]
+- [ ] [[https://www.rpelectronics.com/rpi-noir-raspberry-pi-noir-camera-board.html][noir camera]]
+cases
+- [ ] [[https://www.rpelectronics.com/pibow-zero-case.html][pibow zero case]]
+- [ ] [[https://www.rpelectronics.com/smartipi-raspberry-pi-case-kit1.html][smartipi case, lego compatible]]
+- [ ] [[https://www.rpelectronics.com/smartipi-raspberry-pi-camera-case-kit2.html][smartipi case, lego compatible, with camera]]
+- [ ] [[https://www.rpelectronics.com/pi4-case-blk-ck.html][rpi 4 enclosure, black]]
+** rp2040 pico querty dev kit
+[[https://www.tindie.com/products/bobricius/picomputer-rp2040-raspbbery-pico-qwerty-devkit/][tindie page]]
+need to wait for the gold front panel ( not the pre-assembled kit ) is back in stock
+** potatopi pico24 dev board
+[[https://www.tindie.com/products/sudomaker/potatopi-pico24-development-board/][tindie page]]
+
+it's a PIC24 dev board with Raspberry Pi 40 pin compatible header
+** lora arduino shield
+[[https://www.tindie.com/products/edwin/arduino-shield-featuring-lora-technology/][tindie link]]
+** rpi hat for programming microcontrollers
+[[https://www.tindie.com/products/roey/rpi-hat-for-programming-micro-controllers/][tindie page]]
+** rpi atx power supply hats
+[[https://www.tindie.com/products/tomtibbetts/mini-atx-psu-ii-desktop-atx-power-supply/][basic version]]
+[[https://www.tindie.com/products/tomtibbetts/atx-watchdog-for-compute-module-4/][for compute module 4]]
+[[https://www.tindie.com/products/tomtibbetts/mini-atx-psu-ii-cool-desktop-atx-power-supply/][fan version]]
+[[https://www.tindie.com/products/tomtibbetts/mini-atx-psu-hp-high-power-for-raspberry-pi/][high power version]]
+** altera cyclone iv fpga dev board
+ [[https://www.aliexpress.com/item/32691369830.html?spm=a2g0o.detail.0.0.4fd34abfyKf5OZ&gps-id=pcDetailCartBuyAlsoBuy&scm=1007.12908.232710.0&scm_id=1007.12908.232710.0&scm-url=1007.12908.232710.0&pvid=0a101b78-e103-4056-ab77-d41812ad23d4&_t=gps-id:pcDetailCartBuyAlsoBuy,scm-url:1007.12908.232710.0,pvid:0a101b78-e103-4056-ab77-d41812ad23d4,tpp_buckets:668%232846%238114%231999&&pdp_ext_f=%7B%22sku_id%22:%2265268630249%22,%22sceneId%22:%222908%22%7D][aliexpress]]
 
