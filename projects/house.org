@@ -137,3 +137,35 @@ use the old thermostat control wires as power lines for new displays
 
 - upstairs can be nice with screen and everything
 - main floor should maybe be more subdued.
+
+** Exterior LED Strips
+[[https://www.youtube.com/watch?v=N5Ln_3Ygv9I][the hook up 2021 video]] - lots of info on strips, power supplies, controllers
+
+*** Parts
+- [[https://www.aliexpress.com/item/1005003539828886.html?spm=a2g0o.productlist.0.0.48512553PwBVI5&algo_pvid=5906143e-5533-4b09-88d2-eb6ba4737e67&algo_exp_id=5906143e-5533-4b09-88d2-eb6ba4737e67-0&pdp_ext_f=%7B%22sku_id%22%3A%2212000026283091688%22%7D][led strip]] - 30m, waterproof, ws2811 -- $101.28
+comes with wifi controller, don't need to use it
+
+- [[https://www.aliexpress.com/item/32682015405.html?spm=a2g0o.productlist.0.0.48512553PwBVI5&algo_pvid=5906143e-5533-4b09-88d2-eb6ba4737e67&algo_exp_id=5906143e-5533-4b09-88d2-eb6ba4737e67-2&pdp_ext_f=%7B%22sku_id%22%3A%2212000025393371173%22%7D][led strip]] - 5m 30 ip65, $17.63
+
+- [[https://www.aliexpress.com/item/4000875413944.html?spm=a2g0o.productlist.0.0.48512553PwBVI5&algo_pvid=5906143e-5533-4b09-88d2-eb6ba4737e67&algo_exp_id=5906143e-5533-4b09-88d2-eb6ba4737e67-3&pdp_ext_f=%7B%22sku_id%22%3A%2212000026300136449%22%7D][led strip]] - 5m 30 ip65, $17.06
+
+[[https://www.amazon.com/shop/thehookup?listId=A9GQ1CZ78A6U&linkCode=sl2&tag=thehookup00-20&linkId=8dbb8d520884fe5908cca7e7a981ec6d&language=en_US&ref_=as_li_ss_tl][the hookup amazon shopping list]]
+
+[[https://drzzs.com/shop/][dr zzs led controllers]]
+
+[[https://kno.wled.ge/][wled homepage]]
+
+** Bias Lighting
+hyperion on raspberry pi for ambilight
+
+[[https://www.youtube.com/watch?v=KgUVGvFRCsk][the hook up video]] - uses [[https://www.amazon.com/gp/product/B08W9T6DTW?ie=UTF8&psc=1&linkCode=sl1&tag=thehookup00-20&linkId=a36e8dcf05aaefc0b8573ba98d320ffd&language=en_US&ref_=as_li_ss_tl][gofanco hdmi capture]], uses 12v sk6812 rgbw strips
+
+[[https://www.reddit.com/r/led/comments/i7mm2u/bias_lighting_done_in_a_weekend/][reddit guide]]
+
+[[https://peyanski.com/tv-ambient-light-with-raspberry-pi-and-hyperion/][another guide]]
+
+[[https://www.aliexpress.com/item/1005001266503369.html?aff_fcid=98e395a862604b49bf43808ee6182264-1638300077705-05435-_AA3ToC&aff_fsk=_AA3ToC&aff_platform=shareComponent-detail&sk=_AA3ToC&aff_trace_key=98e395a862604b49bf43808ee6182264-1638300077705-05435-_AA3ToC&terminal_id=91a5e78996ec47dc994cd1cc6a820500][hdmi capture]]
+
+
+
+

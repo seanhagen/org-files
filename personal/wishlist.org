@@ -149,3 +149,7 @@ the 'energy meter kit' [[https://www.crowdsupply.com/circuitsetup/split-single-p
 [[https://www.tindie.com/products/brianlough/esp32-trinity/][link]] - $40
 ** 2pc All-in-One walkie talkie module
 [[https://www.tindie.com/products/nicerf/2pc-all-in-one-walkie-talkie-module/][link]] - $32.40
+** LoRa Private Texting
+[[https://www.tindie.com/products/dlspectrum/lora-private-texting/][link]] - external antenna, 915Mhz, no built-in flash drive - $74.99
+** Radio Receiver Module
+[[https://www.tindie.com/products/icstation/dc-37v-fm-mw-sw-radio-receiver-modulegy19732/][link]] - $11

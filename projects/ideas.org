@@ -784,4 +784,6 @@ it's a PIC24 dev board with Raspberry Pi 40 pin compatible header
 [[https://www.tindie.com/products/tomtibbetts/mini-atx-psu-hp-high-power-for-raspberry-pi/][high power version]]
 ** altera cyclone iv fpga dev board
  [[https://www.aliexpress.com/item/32691369830.html?spm=a2g0o.detail.0.0.4fd34abfyKf5OZ&gps-id=pcDetailCartBuyAlsoBuy&scm=1007.12908.232710.0&scm_id=1007.12908.232710.0&scm-url=1007.12908.232710.0&pvid=0a101b78-e103-4056-ab77-d41812ad23d4&_t=gps-id:pcDetailCartBuyAlsoBuy,scm-url:1007.12908.232710.0,pvid:0a101b78-e103-4056-ab77-d41812ad23d4,tpp_buckets:668%232846%238114%231999&&pdp_ext_f=%7B%22sku_id%22:%2265268630249%22,%22sceneId%22:%222908%22%7D][aliexpress]]
+** 4-relay esp32 control board
+[[https://www.aliexpress.com/item/1005003161500835.html?ug_edm_item_id=1005003161500835&edm_click_module=alg_products&tracelog=rowan&rowan_id1=aeug_edm_24684_1_en_US_2021-11-28&rowan_msg_id=9701biz_add_cart:0:0_5594175$1fdc34b72f7c480093196bfe9a6b8e26&ck=in_edm_other][link]]
 
